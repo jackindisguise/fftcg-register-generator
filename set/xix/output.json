@@ -1,0 +1,3138 @@
+{
+   "cards": [
+      {
+         "product_name": "Yuna",
+         "rarity": "Legend",
+         "set": 6,
+         "number": 124,
+         "localID": "6-124L",
+         "isLegacy": true,
+         "originalSetData": {
+            "rarity": "Legend",
+            "set": 6,
+            "number": 124,
+            "localID": "6-124L"
+         },
+         "variation": [
+            {
+               "type": "Full Art",
+               "marketPriceLow": 19.73,
+               "marketPriceHigh": 19.73,
+               "marketPriceAvg": 19.73
+            }
+         ]
+      },
+      {
+         "product_name": "Lenna",
+         "rarity": "Legend",
+         "set": 12,
+         "number": 109,
+         "localID": "12-109L",
+         "isLegacy": true,
+         "originalSetData": {
+            "rarity": "Legend",
+            "set": 12,
+            "number": 109,
+            "localID": "12-109L"
+         },
+         "variation": [
+            {
+               "type": "Full Art",
+               "marketPriceLow": 11.92,
+               "marketPriceHigh": 11.92,
+               "marketPriceAvg": 11.92
+            }
+         ]
+      },
+      {
+         "product_name": "Locke",
+         "rarity": "Legend",
+         "set": 12,
+         "number": 116,
+         "localID": "12-116L",
+         "isLegacy": true,
+         "originalSetData": {
+            "rarity": "Legend",
+            "set": 12,
+            "number": 116,
+            "localID": "12-116L"
+         },
+         "variation": [
+            {
+               "type": "Full Art",
+               "marketPriceLow": 2.2,
+               "marketPriceHigh": 3.36,
+               "marketPriceAvg": 2.78
+            }
+         ]
+      },
+      {
+         "product_name": "Susano, Lord of the Revel (January 2023)",
+         "rarity": "Promo",
+         "set": 14,
+         "number": 11,
+         "localID": "14-011H",
+         "isPromo": true,
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.54,
+               "marketPriceHigh": 0.54,
+               "marketPriceAvg": 0.54
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 2.93,
+               "marketPriceHigh": 2.93,
+               "marketPriceAvg": 2.93
+            }
+         ]
+      },
+      {
+         "product_name": "Ifrit",
+         "rarity": "Rare",
+         "set": 19,
+         "number": 1,
+         "localID": "19-001R",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.11,
+               "marketPriceHigh": 0.11,
+               "marketPriceAvg": 0.11
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.92,
+               "marketPriceHigh": 0.92,
+               "marketPriceAvg": 0.92
+            }
+         ]
+      },
+      {
+         "product_name": "Ace",
+         "rarity": "Legend",
+         "set": 19,
+         "number": 2,
+         "localID": "19-002L",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.89,
+               "marketPriceHigh": 0.89,
+               "marketPriceAvg": 0.89
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 1.32,
+               "marketPriceHigh": 1.32,
+               "marketPriceAvg": 1.32
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 4.79,
+               "marketPriceHigh": 4.79,
+               "marketPriceAvg": 4.79
+            }
+         ]
+      },
+      {
+         "product_name": "Edgar",
+         "rarity": "Rare",
+         "set": 19,
+         "number": 3,
+         "localID": "19-003R",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.13,
+               "marketPriceHigh": 0.13,
+               "marketPriceAvg": 0.13
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.54,
+               "marketPriceHigh": 0.54,
+               "marketPriceAvg": 0.54
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 5.84,
+               "marketPriceHigh": 5.84,
+               "marketPriceAvg": 5.84
+            }
+         ]
+      },
+      {
+         "product_name": "Kukki-Chebukki",
+         "rarity": "Rare",
+         "set": 19,
+         "number": 4,
+         "localID": "19-004R",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.06,
+               "marketPriceHigh": 0.06,
+               "marketPriceAvg": 0.06
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.25,
+               "marketPriceHigh": 0.25,
+               "marketPriceAvg": 0.25
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 2.54,
+               "marketPriceHigh": 2.54,
+               "marketPriceAvg": 2.54
+            }
+         ]
+      },
+      {
+         "product_name": "Sazh",
+         "rarity": "Common",
+         "set": 19,
+         "number": 5,
+         "localID": "19-005C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.08,
+               "marketPriceHigh": 0.08,
+               "marketPriceAvg": 0.08
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.76,
+               "marketPriceHigh": 0.76,
+               "marketPriceAvg": 0.76
+            }
+         ]
+      },
+      {
+         "product_name": "Tifa",
+         "rarity": "Common",
+         "set": 19,
+         "number": 6,
+         "localID": "19-006C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.13,
+               "marketPriceHigh": 0.13,
+               "marketPriceAvg": 0.13
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.57,
+               "marketPriceHigh": 0.57,
+               "marketPriceAvg": 0.57
+            }
+         ]
+      },
+      {
+         "product_name": "Dajh EX",
+         "rarity": "Common",
+         "set": 19,
+         "number": 7,
+         "localID": "19-007C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.09,
+               "marketPriceHigh": 0.09,
+               "marketPriceAvg": 0.09
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.45,
+               "marketPriceHigh": 0.45,
+               "marketPriceAvg": 0.45
+            }
+         ]
+      },
+      {
+         "product_name": "Buffasaur",
+         "rarity": "Rare",
+         "set": 19,
+         "number": 8,
+         "localID": "19-008R",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.08,
+               "marketPriceHigh": 0.08,
+               "marketPriceAvg": 0.08
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.26,
+               "marketPriceHigh": 0.26,
+               "marketPriceAvg": 0.26
+            }
+         ]
+      },
+      {
+         "product_name": "Bomb",
+         "rarity": "Common",
+         "set": 19,
+         "number": 9,
+         "localID": "19-009C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.05,
+               "marketPriceHigh": 0.05,
+               "marketPriceAvg": 0.05
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.31,
+               "marketPriceHigh": 0.31,
+               "marketPriceAvg": 0.31
+            }
+         ]
+      },
+      {
+         "product_name": "Sabin",
+         "rarity": "Hero",
+         "set": 19,
+         "number": 10,
+         "localID": "19-010H",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.33,
+               "marketPriceHigh": 0.33,
+               "marketPriceAvg": 0.33
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.83,
+               "marketPriceHigh": 0.83,
+               "marketPriceAvg": 0.83
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 8.51,
+               "marketPriceHigh": 8.51,
+               "marketPriceAvg": 8.51
+            }
+         ]
+      },
+      {
+         "product_name": "Miyu",
+         "rarity": "Common",
+         "set": 19,
+         "number": 11,
+         "localID": "19-011C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.08,
+               "marketPriceHigh": 0.08,
+               "marketPriceAvg": 0.08
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.78,
+               "marketPriceHigh": 0.78,
+               "marketPriceAvg": 0.78
+            }
+         ]
+      },
+      {
+         "product_name": "Monk (19-012C)",
+         "rarity": "Common",
+         "set": 19,
+         "number": 12,
+         "localID": "19-012C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.05,
+               "marketPriceHigh": 0.05,
+               "marketPriceAvg": 0.05
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.21,
+               "marketPriceHigh": 0.21,
+               "marketPriceAvg": 0.21
+            }
+         ]
+      },
+      {
+         "product_name": "Lilty",
+         "rarity": "Common",
+         "set": 19,
+         "number": 13,
+         "localID": "19-013C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.04,
+               "marketPriceHigh": 0.04,
+               "marketPriceAvg": 0.04
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.24,
+               "marketPriceHigh": 0.24,
+               "marketPriceAvg": 0.24
+            }
+         ]
+      },
+      {
+         "product_name": "Luneth",
+         "rarity": "Common",
+         "set": 19,
+         "number": 14,
+         "localID": "19-014C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.07,
+               "marketPriceHigh": 0.07,
+               "marketPriceAvg": 0.07
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.22,
+               "marketPriceHigh": 0.25,
+               "marketPriceAvg": 0.24
+            }
+         ]
+      },
+      {
+         "product_name": "Ruby Weapon",
+         "rarity": "Rare",
+         "set": 19,
+         "number": 15,
+         "localID": "19-015R",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.1,
+               "marketPriceHigh": 0.1,
+               "marketPriceAvg": 0.1
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.37,
+               "marketPriceHigh": 0.37,
+               "marketPriceAvg": 0.37
+            }
+         ]
+      },
+      {
+         "product_name": "Laragorn",
+         "rarity": "Hero",
+         "set": 19,
+         "number": 16,
+         "localID": "19-016H",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.17,
+               "marketPriceHigh": 0.17,
+               "marketPriceAvg": 0.17
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.66,
+               "marketPriceHigh": 0.66,
+               "marketPriceAvg": 0.66
+            }
+         ]
+      },
+      {
+         "product_name": "Leon",
+         "rarity": "Rare",
+         "set": 19,
+         "number": 17,
+         "localID": "19-017R",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.07,
+               "marketPriceHigh": 0.07,
+               "marketPriceAvg": 0.07
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.23,
+               "marketPriceHigh": 0.23,
+               "marketPriceAvg": 0.23
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 3.49,
+               "marketPriceHigh": 3.49,
+               "marketPriceAvg": 3.49
+            }
+         ]
+      },
+      {
+         "product_name": "Waltrill",
+         "rarity": "Rare",
+         "set": 19,
+         "number": 18,
+         "localID": "19-018R",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.08,
+               "marketPriceHigh": 0.08,
+               "marketPriceAvg": 0.08
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.43,
+               "marketPriceHigh": 0.43,
+               "marketPriceAvg": 0.43
+            }
+         ]
+      },
+      {
+         "product_name": "Vincent (19-019R)",
+         "rarity": "Rare",
+         "set": 19,
+         "number": 19,
+         "localID": "19-019R",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.14,
+               "marketPriceHigh": 0.14,
+               "marketPriceAvg": 0.14
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.91,
+               "marketPriceHigh": 0.91,
+               "marketPriceAvg": 0.91
+            }
+         ]
+      },
+      {
+         "product_name": "Umaro",
+         "rarity": "Hero",
+         "set": 19,
+         "number": 20,
+         "localID": "19-020H",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.29,
+               "marketPriceHigh": 0.29,
+               "marketPriceAvg": 0.29
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.75,
+               "marketPriceHigh": 0.75,
+               "marketPriceAvg": 0.75
+            }
+         ]
+      },
+      {
+         "product_name": "Cloud of Darkness",
+         "rarity": "Common",
+         "set": 19,
+         "number": 21,
+         "localID": "19-021C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.1,
+               "marketPriceHigh": 0.1,
+               "marketPriceAvg": 0.1
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.27,
+               "marketPriceHigh": 0.27,
+               "marketPriceAvg": 0.27
+            }
+         ]
+      },
+      {
+         "product_name": "Shiva",
+         "rarity": "Rare",
+         "set": 19,
+         "number": 22,
+         "localID": "19-022R",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.16,
+               "marketPriceHigh": 0.16,
+               "marketPriceAvg": 0.16
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 1.77,
+               "marketPriceHigh": 2,
+               "marketPriceAvg": 1.89
+            }
+         ]
+      },
+      {
+         "product_name": "Snow (19-023C)",
+         "rarity": "Common",
+         "set": 19,
+         "number": 23,
+         "localID": "19-023C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.11,
+               "marketPriceHigh": 0.11,
+               "marketPriceAvg": 0.11
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.27,
+               "marketPriceHigh": 0.27,
+               "marketPriceAvg": 0.27
+            }
+         ]
+      },
+      {
+         "product_name": "Sarah (MOBIUS) (19-024L)",
+         "rarity": "Legend",
+         "set": 19,
+         "number": 24,
+         "localID": "19-024L",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 1.79,
+               "marketPriceHigh": 1.79,
+               "marketPriceAvg": 1.79
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 2.31,
+               "marketPriceHigh": 2.31,
+               "marketPriceAvg": 2.31
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 18.93,
+               "marketPriceHigh": 18.93,
+               "marketPriceAvg": 18.93
+            }
+         ]
+      },
+      {
+         "product_name": "Sephiroth",
+         "rarity": "Rare",
+         "set": 19,
+         "number": 25,
+         "localID": "19-025R",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.15,
+               "marketPriceHigh": 0.15,
+               "marketPriceAvg": 0.15
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.74,
+               "marketPriceHigh": 0.74,
+               "marketPriceAvg": 0.74
+            }
+         ]
+      },
+      {
+         "product_name": "Curlax",
+         "rarity": "Hero",
+         "set": 19,
+         "number": 26,
+         "localID": "19-026H",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.2,
+               "marketPriceHigh": 0.2,
+               "marketPriceAvg": 0.2
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.61,
+               "marketPriceHigh": 0.61,
+               "marketPriceAvg": 0.61
+            }
+         ]
+      },
+      {
+         "product_name": "Chocobo Eater",
+         "rarity": "Rare",
+         "set": 19,
+         "number": 27,
+         "localID": "19-027R",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.12,
+               "marketPriceHigh": 0.12,
+               "marketPriceAvg": 0.12
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.43,
+               "marketPriceHigh": 0.43,
+               "marketPriceAvg": 0.43
+            }
+         ]
+      },
+      {
+         "product_name": "Terra EX",
+         "rarity": "Common",
+         "set": 19,
+         "number": 28,
+         "localID": "19-028C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.12,
+               "marketPriceHigh": 0.12,
+               "marketPriceAvg": 0.12
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.5,
+               "marketPriceHigh": 0.5,
+               "marketPriceAvg": 0.5
+            }
+         ]
+      },
+      {
+         "product_name": "Tohno",
+         "rarity": "Common",
+         "set": 19,
+         "number": 29,
+         "localID": "19-029C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.07,
+               "marketPriceHigh": 0.07,
+               "marketPriceAvg": 0.07
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.48,
+               "marketPriceHigh": 0.48,
+               "marketPriceAvg": 0.48
+            }
+         ]
+      },
+      {
+         "product_name": "Norschtalen",
+         "rarity": "Rare",
+         "set": 19,
+         "number": 30,
+         "localID": "19-030R",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.16,
+               "marketPriceHigh": 0.16,
+               "marketPriceAvg": 0.16
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.41,
+               "marketPriceHigh": 0.41,
+               "marketPriceAvg": 0.41
+            }
+         ]
+      },
+      {
+         "product_name": "Flan",
+         "rarity": "Common",
+         "set": 19,
+         "number": 31,
+         "localID": "19-031C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.12,
+               "marketPriceHigh": 0.12,
+               "marketPriceAvg": 0.12
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.75,
+               "marketPriceHigh": 0.75,
+               "marketPriceAvg": 0.75
+            }
+         ]
+      },
+      {
+         "product_name": "Yuke",
+         "rarity": "Common",
+         "set": 19,
+         "number": 32,
+         "localID": "19-032C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.05,
+               "marketPriceHigh": 0.05,
+               "marketPriceAvg": 0.05
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.57,
+               "marketPriceHigh": 0.57,
+               "marketPriceAvg": 0.57
+            }
+         ]
+      },
+      {
+         "product_name": "Lean",
+         "rarity": "Common",
+         "set": 19,
+         "number": 33,
+         "localID": "19-033C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.05,
+               "marketPriceHigh": 0.05,
+               "marketPriceAvg": 0.05
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.21,
+               "marketPriceHigh": 0.21,
+               "marketPriceAvg": 0.21
+            }
+         ]
+      },
+      {
+         "product_name": "Nu Mou",
+         "rarity": "Common",
+         "set": 19,
+         "number": 34,
+         "localID": "19-034C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.03,
+               "marketPriceHigh": 0.03,
+               "marketPriceAvg": 0.03
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.25,
+               "marketPriceHigh": 0.25,
+               "marketPriceAvg": 0.25
+            }
+         ]
+      },
+      {
+         "product_name": "Alexander",
+         "rarity": "Rare",
+         "set": 19,
+         "number": 35,
+         "localID": "19-035R",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.2,
+               "marketPriceHigh": 0.2,
+               "marketPriceAvg": 0.2
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 1.94,
+               "marketPriceHigh": 1.94,
+               "marketPriceAvg": 1.94
+            }
+         ]
+      },
+      {
+         "product_name": "Vayne",
+         "rarity": "Legend",
+         "set": 19,
+         "number": 36,
+         "localID": "19-036L",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 1.18,
+               "marketPriceHigh": 1.18,
+               "marketPriceAvg": 1.18
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 1.37,
+               "marketPriceHigh": 1.37,
+               "marketPriceAvg": 1.37
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 4.99,
+               "marketPriceHigh": 6.69,
+               "marketPriceAvg": 5.84
+            }
+         ]
+      },
+      {
+         "product_name": "Wol (19-037R)",
+         "rarity": "Rare",
+         "set": 19,
+         "number": 37,
+         "localID": "19-037R",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.06,
+               "marketPriceHigh": 0.06,
+               "marketPriceAvg": 0.06
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.28,
+               "marketPriceHigh": 0.28,
+               "marketPriceAvg": 0.28
+            }
+         ]
+      },
+      {
+         "product_name": "Evrae",
+         "rarity": "Rare",
+         "set": 19,
+         "number": 38,
+         "localID": "19-038R",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.22,
+               "marketPriceHigh": 0.22,
+               "marketPriceAvg": 0.22
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 7.29,
+               "marketPriceHigh": 7.29,
+               "marketPriceAvg": 7.29
+            }
+         ]
+      },
+      {
+         "product_name": "Emerald Weapon",
+         "rarity": "Rare",
+         "set": 19,
+         "number": 39,
+         "localID": "19-039R",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.07,
+               "marketPriceHigh": 0.07,
+               "marketPriceAvg": 0.07
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.42,
+               "marketPriceHigh": 0.42,
+               "marketPriceAvg": 0.42
+            }
+         ]
+      },
+      {
+         "product_name": "Thief",
+         "rarity": "Common",
+         "set": 19,
+         "number": 40,
+         "localID": "19-040C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.05,
+               "marketPriceHigh": 0.05,
+               "marketPriceAvg": 0.05
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.16,
+               "marketPriceHigh": 0.25,
+               "marketPriceAvg": 0.21
+            }
+         ]
+      },
+      {
+         "product_name": "Cid Highwind",
+         "rarity": "Hero",
+         "set": 19,
+         "number": 41,
+         "localID": "19-041H",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.21,
+               "marketPriceHigh": 0.21,
+               "marketPriceAvg": 0.21
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.51,
+               "marketPriceHigh": 0.51,
+               "marketPriceAvg": 0.51
+            }
+         ]
+      },
+      {
+         "product_name": "White Mage (19-042C)",
+         "rarity": "Common",
+         "set": 19,
+         "number": 42,
+         "localID": "19-042C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.05,
+               "marketPriceHigh": 0.05,
+               "marketPriceAvg": 0.05
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.14,
+               "marketPriceHigh": 0.14,
+               "marketPriceAvg": 0.14
+            }
+         ]
+      },
+      {
+         "product_name": "Zu",
+         "rarity": "Common",
+         "set": 19,
+         "number": 43,
+         "localID": "19-043C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.06,
+               "marketPriceHigh": 0.06,
+               "marketPriceAvg": 0.06
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.22,
+               "marketPriceHigh": 0.22,
+               "marketPriceAvg": 0.22
+            }
+         ]
+      },
+      {
+         "product_name": "Sarah (MOBIUS) (19-044R)",
+         "rarity": "Rare",
+         "set": 19,
+         "number": 44,
+         "localID": "19-044R",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.08,
+               "marketPriceHigh": 0.08,
+               "marketPriceAvg": 0.08
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.25,
+               "marketPriceHigh": 0.25,
+               "marketPriceAvg": 0.25
+            }
+         ]
+      },
+      {
+         "product_name": "Sophie",
+         "rarity": "Hero",
+         "set": 19,
+         "number": 45,
+         "localID": "19-045H",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.16,
+               "marketPriceHigh": 0.16,
+               "marketPriceAvg": 0.16
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.55,
+               "marketPriceHigh": 0.55,
+               "marketPriceAvg": 0.55
+            }
+         ]
+      },
+      {
+         "product_name": "Buddy",
+         "rarity": "Common",
+         "set": 19,
+         "number": 46,
+         "localID": "19-046C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.09,
+               "marketPriceHigh": 0.09,
+               "marketPriceAvg": 0.09
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.85,
+               "marketPriceHigh": 0.85,
+               "marketPriceAvg": 0.85
+            }
+         ]
+      },
+      {
+         "product_name": "Gramps EX",
+         "rarity": "Common",
+         "set": 19,
+         "number": 47,
+         "localID": "19-047C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.04,
+               "marketPriceHigh": 0.04,
+               "marketPriceAvg": 0.04
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.19,
+               "marketPriceHigh": 0.19,
+               "marketPriceAvg": 0.19
+            }
+         ]
+      },
+      {
+         "product_name": "Bartz",
+         "rarity": "Common",
+         "set": 19,
+         "number": 48,
+         "localID": "19-048C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.04,
+               "marketPriceHigh": 0.04,
+               "marketPriceAvg": 0.04
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.19,
+               "marketPriceHigh": 0.19,
+               "marketPriceAvg": 0.19
+            }
+         ]
+      },
+      {
+         "product_name": "Makki-Chebukki",
+         "rarity": "Rare",
+         "set": 19,
+         "number": 49,
+         "localID": "19-049R",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.09,
+               "marketPriceHigh": 0.09,
+               "marketPriceAvg": 0.09
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.16,
+               "marketPriceHigh": 0.16,
+               "marketPriceAvg": 0.16
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 2.52,
+               "marketPriceHigh": 2.52,
+               "marketPriceAvg": 2.52
+            }
+         ]
+      },
+      {
+         "product_name": "Matoya",
+         "rarity": "Common",
+         "set": 19,
+         "number": 50,
+         "localID": "19-050C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.05,
+               "marketPriceHigh": 0.05,
+               "marketPriceAvg": 0.05
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.25,
+               "marketPriceHigh": 0.67,
+               "marketPriceAvg": 0.46
+            }
+         ]
+      },
+      {
+         "product_name": "Rikku",
+         "rarity": "Common",
+         "set": 19,
+         "number": 51,
+         "localID": "19-051C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.08,
+               "marketPriceHigh": 0.08,
+               "marketPriceAvg": 0.08
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.6,
+               "marketPriceHigh": 0.6,
+               "marketPriceAvg": 0.6
+            }
+         ]
+      },
+      {
+         "product_name": "Undead Princess",
+         "rarity": "Common",
+         "set": 19,
+         "number": 52,
+         "localID": "19-052C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.05,
+               "marketPriceHigh": 0.05,
+               "marketPriceAvg": 0.05
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.45,
+               "marketPriceHigh": 0.45,
+               "marketPriceAvg": 0.45
+            }
+         ]
+      },
+      {
+         "product_name": "Vanille",
+         "rarity": "Common",
+         "set": 19,
+         "number": 53,
+         "localID": "19-053C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.08,
+               "marketPriceHigh": 0.08,
+               "marketPriceAvg": 0.08
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.31,
+               "marketPriceHigh": 0.31,
+               "marketPriceAvg": 0.31
+            }
+         ]
+      },
+      {
+         "product_name": "Vincent (19-054C)",
+         "rarity": "Common",
+         "set": 19,
+         "number": 54,
+         "localID": "19-054C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.1,
+               "marketPriceHigh": 0.1,
+               "marketPriceAvg": 0.1
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.62,
+               "marketPriceHigh": 0.62,
+               "marketPriceAvg": 0.62
+            }
+         ]
+      },
+      {
+         "product_name": "Eiko",
+         "rarity": "Rare",
+         "set": 19,
+         "number": 55,
+         "localID": "19-055R",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.05,
+               "marketPriceHigh": 0.05,
+               "marketPriceAvg": 0.05
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.37,
+               "marketPriceHigh": 0.37,
+               "marketPriceAvg": 0.37
+            }
+         ]
+      },
+      {
+         "product_name": "Graff",
+         "rarity": "Common",
+         "set": 19,
+         "number": 56,
+         "localID": "19-056C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.06,
+               "marketPriceHigh": 0.06,
+               "marketPriceAvg": 0.06
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.17,
+               "marketPriceHigh": 0.17,
+               "marketPriceAvg": 0.17
+            }
+         ]
+      },
+      {
+         "product_name": "Kefka",
+         "rarity": "Legend",
+         "set": 19,
+         "number": 57,
+         "localID": "19-057L",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.71,
+               "marketPriceHigh": 0.71,
+               "marketPriceAvg": 0.71
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 1.55,
+               "marketPriceHigh": 1.55,
+               "marketPriceAvg": 1.55
+            }
+         ]
+      },
+      {
+         "product_name": "Jenova SYNTHESIS",
+         "rarity": "Rare",
+         "set": 19,
+         "number": 58,
+         "localID": "19-058R",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.11,
+               "marketPriceHigh": 0.11,
+               "marketPriceAvg": 0.11
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.57,
+               "marketPriceHigh": 0.57,
+               "marketPriceAvg": 0.57
+            }
+         ]
+      },
+      {
+         "product_name": "Aster Protoflorian",
+         "rarity": "Rare",
+         "set": 19,
+         "number": 59,
+         "localID": "19-059R",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.06,
+               "marketPriceHigh": 0.06,
+               "marketPriceAvg": 0.06
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.2,
+               "marketPriceHigh": 0.2,
+               "marketPriceAvg": 0.2
+            }
+         ]
+      },
+      {
+         "product_name": "Animist",
+         "rarity": "Common",
+         "set": 19,
+         "number": 60,
+         "localID": "19-060C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.06,
+               "marketPriceHigh": 0.06,
+               "marketPriceAvg": 0.06
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.46,
+               "marketPriceHigh": 0.46,
+               "marketPriceAvg": 0.46
+            }
+         ]
+      },
+      {
+         "product_name": "Doga",
+         "rarity": "Hero",
+         "set": 19,
+         "number": 61,
+         "localID": "19-061H",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.09,
+               "marketPriceHigh": 0.09,
+               "marketPriceAvg": 0.09
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.43,
+               "marketPriceHigh": 0.43,
+               "marketPriceAvg": 0.43
+            }
+         ]
+      },
+      {
+         "product_name": "Nacht EX",
+         "rarity": "Rare",
+         "set": 19,
+         "number": 62,
+         "localID": "19-062R",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.09,
+               "marketPriceHigh": 0.09,
+               "marketPriceAvg": 0.09
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.39,
+               "marketPriceHigh": 0.39,
+               "marketPriceAvg": 0.39
+            }
+         ]
+      },
+      {
+         "product_name": "Barret",
+         "rarity": "Hero",
+         "set": 19,
+         "number": 63,
+         "localID": "19-063H",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.16,
+               "marketPriceHigh": 0.16,
+               "marketPriceAvg": 0.16
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.48,
+               "marketPriceHigh": 0.48,
+               "marketPriceAvg": 0.48
+            }
+         ]
+      },
+      {
+         "product_name": "Fenrir",
+         "rarity": "Rare",
+         "set": 19,
+         "number": 64,
+         "localID": "19-064R",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.06,
+               "marketPriceHigh": 0.06,
+               "marketPriceAvg": 0.06
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.5,
+               "marketPriceHigh": 0.5,
+               "marketPriceAvg": 0.5
+            }
+         ]
+      },
+      {
+         "product_name": "The Deathlord",
+         "rarity": "Common",
+         "set": 19,
+         "number": 65,
+         "localID": "19-065C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.07,
+               "marketPriceHigh": 0.07,
+               "marketPriceAvg": 0.07
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.16,
+               "marketPriceHigh": 0.16,
+               "marketPriceAvg": 0.16
+            }
+         ]
+      },
+      {
+         "product_name": "Behemoth (19-066C)",
+         "rarity": "Common",
+         "set": 19,
+         "number": 66,
+         "localID": "19-066C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.05,
+               "marketPriceHigh": 0.05,
+               "marketPriceAvg": 0.05
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.34,
+               "marketPriceHigh": 0.34,
+               "marketPriceAvg": 0.34
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 2.42,
+               "marketPriceHigh": 2.42,
+               "marketPriceAvg": 2.42
+            }
+         ]
+      },
+      {
+         "product_name": "Monk (19-067C)",
+         "rarity": "Common",
+         "set": 19,
+         "number": 67,
+         "localID": "19-067C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.04,
+               "marketPriceHigh": 0.04,
+               "marketPriceAvg": 0.04
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.56,
+               "marketPriceHigh": 0.56,
+               "marketPriceAvg": 0.56
+            }
+         ]
+      },
+      {
+         "product_name": "Rydia",
+         "rarity": "Rare",
+         "set": 19,
+         "number": 68,
+         "localID": "19-068R",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.16,
+               "marketPriceHigh": 0.16,
+               "marketPriceAvg": 0.16
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.64,
+               "marketPriceHigh": 0.64,
+               "marketPriceAvg": 0.64
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 39.78,
+               "marketPriceHigh": 39.78,
+               "marketPriceAvg": 39.78
+            }
+         ]
+      },
+      {
+         "product_name": "Emperor (FFL)",
+         "rarity": "Rare",
+         "set": 19,
+         "number": 69,
+         "localID": "19-069R",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.07,
+               "marketPriceHigh": 0.07,
+               "marketPriceAvg": 0.07
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.3,
+               "marketPriceHigh": 0.3,
+               "marketPriceAvg": 0.3
+            }
+         ]
+      },
+      {
+         "product_name": "Edge",
+         "rarity": "Common",
+         "set": 19,
+         "number": 70,
+         "localID": "19-070C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.03,
+               "marketPriceHigh": 0.03,
+               "marketPriceAvg": 0.03
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.29,
+               "marketPriceHigh": 0.29,
+               "marketPriceAvg": 0.29
+            }
+         ]
+      },
+      {
+         "product_name": "Elgo EX",
+         "rarity": "Common",
+         "set": 19,
+         "number": 71,
+         "localID": "19-071C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.04,
+               "marketPriceHigh": 0.04,
+               "marketPriceAvg": 0.04
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.15,
+               "marketPriceHigh": 0.15,
+               "marketPriceAvg": 0.15
+            }
+         ]
+      },
+      {
+         "product_name": "Eald'narche",
+         "rarity": "Common",
+         "set": 19,
+         "number": 72,
+         "localID": "19-072C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.03,
+               "marketPriceHigh": 0.03,
+               "marketPriceAvg": 0.03
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.2,
+               "marketPriceHigh": 0.2,
+               "marketPriceAvg": 0.2
+            }
+         ]
+      },
+      {
+         "product_name": "Kain",
+         "rarity": "Common",
+         "set": 19,
+         "number": 73,
+         "localID": "19-073C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.05,
+               "marketPriceHigh": 0.05,
+               "marketPriceAvg": 0.05
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.29,
+               "marketPriceHigh": 0.29,
+               "marketPriceAvg": 0.29
+            }
+         ]
+      },
+      {
+         "product_name": "Scholar",
+         "rarity": "Common",
+         "set": 19,
+         "number": 74,
+         "localID": "19-074C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.05,
+               "marketPriceHigh": 0.05,
+               "marketPriceAvg": 0.05
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.32,
+               "marketPriceHigh": 0.32,
+               "marketPriceAvg": 0.32
+            }
+         ]
+      },
+      {
+         "product_name": "Chimera",
+         "rarity": "Common",
+         "set": 19,
+         "number": 75,
+         "localID": "19-075C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.07,
+               "marketPriceHigh": 0.07,
+               "marketPriceAvg": 0.07
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.28,
+               "marketPriceHigh": 0.28,
+               "marketPriceAvg": 0.28
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 3.33,
+               "marketPriceHigh": 3.33,
+               "marketPriceAvg": 3.33
+            }
+         ]
+      },
+      {
+         "product_name": "Kuja EX",
+         "rarity": "Rare",
+         "set": 19,
+         "number": 76,
+         "localID": "19-076R",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.14,
+               "marketPriceHigh": 0.14,
+               "marketPriceAvg": 0.14
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.66,
+               "marketPriceHigh": 0.66,
+               "marketPriceAvg": 0.66
+            }
+         ]
+      },
+      {
+         "product_name": "Golbez",
+         "rarity": "Legend",
+         "set": 19,
+         "number": 77,
+         "localID": "19-077L",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.89,
+               "marketPriceHigh": 0.89,
+               "marketPriceAvg": 0.89
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.97,
+               "marketPriceHigh": 0.97,
+               "marketPriceAvg": 0.97
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 18.98,
+               "marketPriceHigh": 18.98,
+               "marketPriceAvg": 18.98
+            }
+         ]
+      },
+      {
+         "product_name": "Jinnai",
+         "rarity": "Common",
+         "set": 19,
+         "number": 78,
+         "localID": "19-078C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.07,
+               "marketPriceHigh": 0.07,
+               "marketPriceAvg": 0.07
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.15,
+               "marketPriceHigh": 0.15,
+               "marketPriceAvg": 0.15
+            }
+         ]
+      },
+      {
+         "product_name": "Moebius",
+         "rarity": "Hero",
+         "set": 19,
+         "number": 79,
+         "localID": "19-079H",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.18,
+               "marketPriceHigh": 0.18,
+               "marketPriceAvg": 0.18
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.68,
+               "marketPriceHigh": 0.68,
+               "marketPriceAvg": 0.68
+            }
+         ]
+      },
+      {
+         "product_name": "Vivi",
+         "rarity": "Rare",
+         "set": 19,
+         "number": 80,
+         "localID": "19-080R",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.1,
+               "marketPriceHigh": 0.1,
+               "marketPriceAvg": 0.1
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.29,
+               "marketPriceHigh": 0.29,
+               "marketPriceAvg": 0.29
+            }
+         ]
+      },
+      {
+         "product_name": "Behemoth (19-081R)",
+         "rarity": "Rare",
+         "set": 19,
+         "number": 81,
+         "localID": "19-081R",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.09,
+               "marketPriceHigh": 0.09,
+               "marketPriceAvg": 0.09
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.47,
+               "marketPriceHigh": 0.47,
+               "marketPriceAvg": 0.47
+            }
+         ]
+      },
+      {
+         "product_name": "Lightning (19-082H)",
+         "rarity": "Hero",
+         "set": 19,
+         "number": 82,
+         "localID": "19-082H",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.37,
+               "marketPriceHigh": 0.37,
+               "marketPriceAvg": 0.37
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.58,
+               "marketPriceHigh": 0.58,
+               "marketPriceAvg": 0.58
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 33.44,
+               "marketPriceHigh": 33.44,
+               "marketPriceAvg": 33.44
+            }
+         ]
+      },
+      {
+         "product_name": "Ramuh",
+         "rarity": "Rare",
+         "set": 19,
+         "number": 83,
+         "localID": "19-083R",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.12,
+               "marketPriceHigh": 0.12,
+               "marketPriceAvg": 0.12
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.39,
+               "marketPriceHigh": 0.39,
+               "marketPriceAvg": 0.39
+            }
+         ]
+      },
+      {
+         "product_name": "Ricard",
+         "rarity": "Rare",
+         "set": 19,
+         "number": 84,
+         "localID": "19-084R",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.14,
+               "marketPriceHigh": 0.14,
+               "marketPriceAvg": 0.14
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.88,
+               "marketPriceHigh": 0.88,
+               "marketPriceAvg": 0.88
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 12.57,
+               "marketPriceHigh": 12.57,
+               "marketPriceAvg": 12.57
+            }
+         ]
+      },
+      {
+         "product_name": "Dragoon",
+         "rarity": "Common",
+         "set": 19,
+         "number": 85,
+         "localID": "19-085C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.04,
+               "marketPriceHigh": 0.04,
+               "marketPriceAvg": 0.04
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.07,
+               "marketPriceHigh": 0.07,
+               "marketPriceAvg": 0.07
+            }
+         ]
+      },
+      {
+         "product_name": "Ashe EX",
+         "rarity": "Rare",
+         "set": 19,
+         "number": 86,
+         "localID": "19-086R",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.12,
+               "marketPriceHigh": 0.12,
+               "marketPriceAvg": 0.12
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.51,
+               "marketPriceHigh": 0.51,
+               "marketPriceAvg": 0.51
+            }
+         ]
+      },
+      {
+         "product_name": "Wol (19-087R)",
+         "rarity": "Rare",
+         "set": 19,
+         "number": 87,
+         "localID": "19-087R",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.08,
+               "marketPriceHigh": 0.08,
+               "marketPriceAvg": 0.08
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.43,
+               "marketPriceHigh": 0.43,
+               "marketPriceAvg": 0.43
+            }
+         ]
+      },
+      {
+         "product_name": "Aerith",
+         "rarity": "Common",
+         "set": 19,
+         "number": 88,
+         "localID": "19-088C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.09,
+               "marketPriceHigh": 0.09,
+               "marketPriceAvg": 0.09
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.35,
+               "marketPriceHigh": 0.35,
+               "marketPriceAvg": 0.35
+            }
+         ]
+      },
+      {
+         "product_name": "Gau",
+         "rarity": "Hero",
+         "set": 19,
+         "number": 89,
+         "localID": "19-089H",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.2,
+               "marketPriceHigh": 0.2,
+               "marketPriceAvg": 0.2
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.48,
+               "marketPriceHigh": 0.48,
+               "marketPriceAvg": 0.48
+            }
+         ]
+      },
+      {
+         "product_name": "Clavat",
+         "rarity": "Common",
+         "set": 19,
+         "number": 90,
+         "localID": "19-090C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.06,
+               "marketPriceHigh": 0.06,
+               "marketPriceAvg": 0.06
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.34,
+               "marketPriceHigh": 0.34,
+               "marketPriceAvg": 0.34
+            }
+         ]
+      },
+      {
+         "product_name": "Sapphire Weapon",
+         "rarity": "Rare",
+         "set": 19,
+         "number": 91,
+         "localID": "19-091R",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.09,
+               "marketPriceHigh": 0.09,
+               "marketPriceAvg": 0.09
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.34,
+               "marketPriceHigh": 0.34,
+               "marketPriceAvg": 0.34
+            }
+         ]
+      },
+      {
+         "product_name": "White Mage (19-092C)",
+         "rarity": "Common",
+         "set": 19,
+         "number": 92,
+         "localID": "19-092C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.11,
+               "marketPriceHigh": 0.11,
+               "marketPriceAvg": 0.11
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.19,
+               "marketPriceHigh": 0.19,
+               "marketPriceAvg": 0.19
+            }
+         ]
+      },
+      {
+         "product_name": "Strago EX",
+         "rarity": "Hero",
+         "set": 19,
+         "number": 93,
+         "localID": "19-093H",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.22,
+               "marketPriceHigh": 0.22,
+               "marketPriceAvg": 0.22
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.84,
+               "marketPriceHigh": 0.84,
+               "marketPriceAvg": 0.84
+            }
+         ]
+      },
+      {
+         "product_name": "Sanctuary Keeper",
+         "rarity": "Rare",
+         "set": 19,
+         "number": 94,
+         "localID": "19-094R",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.11,
+               "marketPriceHigh": 0.11,
+               "marketPriceAvg": 0.11
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.57,
+               "marketPriceHigh": 0.57,
+               "marketPriceAvg": 0.57
+            }
+         ]
+      },
+      {
+         "product_name": "Sophia",
+         "rarity": "Common",
+         "set": 19,
+         "number": 95,
+         "localID": "19-095C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.06,
+               "marketPriceHigh": 0.06,
+               "marketPriceAvg": 0.06
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.15,
+               "marketPriceHigh": 0.15,
+               "marketPriceAvg": 0.15
+            }
+         ]
+      },
+      {
+         "product_name": "Tidus EX (19-096C)",
+         "rarity": "Common",
+         "set": 19,
+         "number": 96,
+         "localID": "19-096C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.05,
+               "marketPriceHigh": 0.05,
+               "marketPriceAvg": 0.05
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.29,
+               "marketPriceHigh": 0.29,
+               "marketPriceAvg": 0.29
+            }
+         ]
+      },
+      {
+         "product_name": "Tonberry",
+         "rarity": "Common",
+         "set": 19,
+         "number": 97,
+         "localID": "19-097C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.14,
+               "marketPriceHigh": 0.14,
+               "marketPriceAvg": 0.14
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.99,
+               "marketPriceHigh": 0.99,
+               "marketPriceAvg": 0.99
+            }
+         ]
+      },
+      {
+         "product_name": "Yuna (19-098C)",
+         "rarity": "Common",
+         "set": 19,
+         "number": 98,
+         "localID": "19-098C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.09,
+               "marketPriceHigh": 0.09,
+               "marketPriceAvg": 0.09
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.23,
+               "marketPriceHigh": 0.23,
+               "marketPriceAvg": 0.23
+            }
+         ]
+      },
+      {
+         "product_name": "Josef",
+         "rarity": "Rare",
+         "set": 19,
+         "number": 99,
+         "localID": "19-099R",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.04,
+               "marketPriceHigh": 0.04,
+               "marketPriceAvg": 0.04
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.15,
+               "marketPriceHigh": 0.15,
+               "marketPriceAvg": 0.15
+            }
+         ]
+      },
+      {
+         "product_name": "Larsa",
+         "rarity": "Common",
+         "set": 19,
+         "number": 100,
+         "localID": "19-100C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.08,
+               "marketPriceHigh": 0.08,
+               "marketPriceAvg": 0.08
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.19,
+               "marketPriceHigh": 0.19,
+               "marketPriceAvg": 0.19
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 3.11,
+               "marketPriceHigh": 3.11,
+               "marketPriceAvg": 3.11
+            }
+         ]
+      },
+      {
+         "product_name": "Leviathan",
+         "rarity": "Rare",
+         "set": 19,
+         "number": 101,
+         "localID": "19-101R",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.15,
+               "marketPriceHigh": 0.15,
+               "marketPriceAvg": 0.15
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 1,
+               "marketPriceHigh": 1,
+               "marketPriceAvg": 1
+            }
+         ]
+      },
+      {
+         "product_name": "Refia",
+         "rarity": "Legend",
+         "set": 19,
+         "number": 102,
+         "localID": "19-102L",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 1.75,
+               "marketPriceHigh": 1.79,
+               "marketPriceAvg": 1.77
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 3.68,
+               "marketPriceHigh": 3.68,
+               "marketPriceAvg": 3.68
+            }
+         ]
+      },
+      {
+         "product_name": "Tidus EX (19-103H)",
+         "rarity": "Hero",
+         "set": 19,
+         "number": 103,
+         "localID": "19-103H",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.19,
+               "marketPriceHigh": 0.19,
+               "marketPriceAvg": 0.19
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.97,
+               "marketPriceHigh": 0.97,
+               "marketPriceAvg": 0.97
+            }
+         ]
+      },
+      {
+         "product_name": "Madeen",
+         "rarity": "Hero",
+         "set": 19,
+         "number": 104,
+         "localID": "19-104H",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.29,
+               "marketPriceHigh": 0.29,
+               "marketPriceAvg": 0.29
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.45,
+               "marketPriceHigh": 0.45,
+               "marketPriceAvg": 0.45
+            }
+         ]
+      },
+      {
+         "product_name": "Ark",
+         "rarity": "Hero",
+         "set": 19,
+         "number": 105,
+         "localID": "19-105H",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.22,
+               "marketPriceHigh": 0.22,
+               "marketPriceAvg": 0.22
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.43,
+               "marketPriceHigh": 0.43,
+               "marketPriceAvg": 0.43
+            }
+         ]
+      },
+      {
+         "product_name": "Sin",
+         "rarity": "Hero",
+         "set": 19,
+         "number": 106,
+         "localID": "19-106H",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.18,
+               "marketPriceHigh": 0.29,
+               "marketPriceAvg": 0.24
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.25,
+               "marketPriceHigh": 0.54,
+               "marketPriceAvg": 0.4
+            }
+         ]
+      },
+      {
+         "product_name": "Vaan EX",
+         "rarity": "Common",
+         "set": 19,
+         "number": 107,
+         "localID": "19-107C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.05,
+               "marketPriceHigh": 0.05,
+               "marketPriceAvg": 0.05
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.31,
+               "marketPriceHigh": 0.31,
+               "marketPriceAvg": 0.31
+            }
+         ]
+      },
+      {
+         "product_name": "Zidane",
+         "rarity": "Legend",
+         "set": 19,
+         "number": 108,
+         "localID": "19-108L",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 2.98,
+               "marketPriceHigh": 3.96,
+               "marketPriceAvg": 3.47
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 5.44,
+               "marketPriceHigh": 5.44,
+               "marketPriceAvg": 5.44
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 9.12,
+               "marketPriceHigh": 30.66,
+               "marketPriceAvg": 19.89
+            }
+         ]
+      },
+      {
+         "product_name": "Cherukiki",
+         "rarity": "Hero",
+         "set": 19,
+         "number": 109,
+         "localID": "19-109H",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.14,
+               "marketPriceHigh": 0.14,
+               "marketPriceAvg": 0.14
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.17,
+               "marketPriceHigh": 0.17,
+               "marketPriceAvg": 0.17
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 2.77,
+               "marketPriceHigh": 4.55,
+               "marketPriceAvg": 3.66
+            }
+         ]
+      },
+      {
+         "product_name": "The Emperor",
+         "rarity": "Hero",
+         "set": 19,
+         "number": 110,
+         "localID": "19-110H",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.27,
+               "marketPriceHigh": 0.27,
+               "marketPriceAvg": 0.27
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.44,
+               "marketPriceHigh": 0.44,
+               "marketPriceAvg": 0.44
+            }
+         ]
+      },
+      {
+         "product_name": "Prishe",
+         "rarity": "Legend",
+         "set": 19,
+         "number": 111,
+         "localID": "19-111L",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 1.93,
+               "marketPriceHigh": 1.93,
+               "marketPriceAvg": 1.93
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 2.39,
+               "marketPriceHigh": 2.39,
+               "marketPriceAvg": 2.39
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 14.71,
+               "marketPriceHigh": 14.71,
+               "marketPriceAvg": 14.71
+            }
+         ]
+      },
+      {
+         "product_name": "Larkeicus",
+         "rarity": "Common",
+         "set": 19,
+         "number": 112,
+         "localID": "19-112C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.06,
+               "marketPriceHigh": 0.06,
+               "marketPriceAvg": 0.06
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.4,
+               "marketPriceHigh": 0.4,
+               "marketPriceAvg": 0.4
+            }
+         ]
+      },
+      {
+         "product_name": "Gilgamesh",
+         "rarity": "Common",
+         "set": 19,
+         "number": 113,
+         "localID": "19-113C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.05,
+               "marketPriceHigh": 0.05,
+               "marketPriceAvg": 0.05
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.23,
+               "marketPriceHigh": 0.23,
+               "marketPriceAvg": 0.23
+            }
+         ]
+      },
+      {
+         "product_name": "Cloud",
+         "rarity": "Legend",
+         "set": 19,
+         "number": 114,
+         "localID": "19-114L",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 4.41,
+               "marketPriceHigh": 4.41,
+               "marketPriceAvg": 4.41
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 8.26,
+               "marketPriceHigh": 8.26,
+               "marketPriceAvg": 8.26
+            }
+         ]
+      },
+      {
+         "product_name": "Veriaulde",
+         "rarity": "Hero",
+         "set": 19,
+         "number": 115,
+         "localID": "19-115H",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.13,
+               "marketPriceHigh": 0.13,
+               "marketPriceAvg": 0.13
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.5,
+               "marketPriceHigh": 0.5,
+               "marketPriceAvg": 0.5
+            }
+         ]
+      },
+      {
+         "product_name": "Paine",
+         "rarity": "Common",
+         "set": 19,
+         "number": 116,
+         "localID": "19-116C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.06,
+               "marketPriceHigh": 0.06,
+               "marketPriceAvg": 0.06
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.3,
+               "marketPriceHigh": 0.3,
+               "marketPriceAvg": 0.3
+            }
+         ]
+      },
+      {
+         "product_name": "Hilda",
+         "rarity": "Hero",
+         "set": 19,
+         "number": 117,
+         "localID": "19-117H",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.23,
+               "marketPriceHigh": 0.23,
+               "marketPriceAvg": 0.23
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.55,
+               "marketPriceHigh": 0.55,
+               "marketPriceAvg": 0.55
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 5.74,
+               "marketPriceHigh": 5.74,
+               "marketPriceAvg": 5.74
+            }
+         ]
+      },
+      {
+         "product_name": "Yuna (19-118L)",
+         "rarity": "Legend",
+         "set": 19,
+         "number": 118,
+         "localID": "19-118L",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 2.37,
+               "marketPriceHigh": 2.37,
+               "marketPriceAvg": 2.37
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 1.4,
+               "marketPriceHigh": 3.28,
+               "marketPriceAvg": 2.34
+            }
+         ]
+      },
+      {
+         "product_name": "Unei",
+         "rarity": "Legend",
+         "set": 19,
+         "number": 119,
+         "localID": "19-119L",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 18.11,
+               "marketPriceHigh": 27.5,
+               "marketPriceAvg": 22.81
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 17.99,
+               "marketPriceHigh": 29.85,
+               "marketPriceAvg": 23.92
+            }
+         ]
+      },
+      {
+         "product_name": "Garnet",
+         "rarity": "Common",
+         "set": 19,
+         "number": 120,
+         "localID": "19-120C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.14,
+               "marketPriceHigh": 0.14,
+               "marketPriceAvg": 0.14
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 1,
+               "marketPriceHigh": 1,
+               "marketPriceAvg": 1
+            }
+         ]
+      },
+      {
+         "product_name": "Meia",
+         "rarity": "Hero",
+         "set": 19,
+         "number": 121,
+         "localID": "19-121H",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.18,
+               "marketPriceHigh": 0.18,
+               "marketPriceAvg": 0.18
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.32,
+               "marketPriceHigh": 0.32,
+               "marketPriceAvg": 0.32
+            }
+         ]
+      },
+      {
+         "product_name": "Zack EX",
+         "rarity": "Common",
+         "set": 19,
+         "number": 122,
+         "localID": "19-122C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.09,
+               "marketPriceHigh": 0.09,
+               "marketPriceAvg": 0.09
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.54,
+               "marketPriceHigh": 0.54,
+               "marketPriceAvg": 0.54
+            }
+         ]
+      },
+      {
+         "product_name": "Anima",
+         "rarity": "Hero",
+         "set": 19,
+         "number": 123,
+         "localID": "19-123H",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.24,
+               "marketPriceHigh": 0.24,
+               "marketPriceAvg": 0.24
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.62,
+               "marketPriceHigh": 0.62,
+               "marketPriceAvg": 0.62
+            }
+         ]
+      },
+      {
+         "product_name": "Y'shtola",
+         "rarity": "Legend",
+         "set": 19,
+         "number": 124,
+         "localID": "19-124L",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 19.34,
+               "marketPriceHigh": 19.34,
+               "marketPriceAvg": 19.34
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 25.82,
+               "marketPriceHigh": 25.82,
+               "marketPriceAvg": 25.82
+            }
+         ]
+      },
+      {
+         "product_name": "Mog (VI)",
+         "rarity": "Hero",
+         "set": 19,
+         "number": 125,
+         "localID": "19-125H",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.32,
+               "marketPriceHigh": 0.32,
+               "marketPriceAvg": 0.32
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.68,
+               "marketPriceHigh": 0.68,
+               "marketPriceAvg": 0.68
+            }
+         ]
+      },
+      {
+         "product_name": "Shadow Lord",
+         "rarity": "Common",
+         "set": 19,
+         "number": 126,
+         "localID": "19-126C",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.05,
+               "marketPriceHigh": 0.05,
+               "marketPriceAvg": 0.05
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.5,
+               "marketPriceHigh": 0.5,
+               "marketPriceAvg": 0.5
+            }
+         ]
+      },
+      {
+         "product_name": "Relm",
+         "rarity": "Legend",
+         "set": 19,
+         "number": 127,
+         "localID": "19-127L",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 1.26,
+               "marketPriceHigh": 1.26,
+               "marketPriceAvg": 1.26
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 1.75,
+               "marketPriceHigh": 1.75,
+               "marketPriceAvg": 1.75
+            }
+         ]
+      },
+      {
+         "product_name": "Warrior of Light",
+         "rarity": "Legend",
+         "set": 19,
+         "number": 128,
+         "localID": "19-128L",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 2,
+               "marketPriceHigh": 8.84,
+               "marketPriceAvg": 5.42
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 19.62,
+               "marketPriceHigh": 19.62,
+               "marketPriceAvg": 19.62
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 56.69,
+               "marketPriceHigh": 56.69,
+               "marketPriceAvg": 56.69
+            }
+         ]
+      },
+      {
+         "product_name": "Vanille EX",
+         "rarity": "Starter",
+         "set": 19,
+         "number": 129,
+         "localID": "19-129S",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.85,
+               "marketPriceHigh": 1.02,
+               "marketPriceAvg": 0.94
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 1.23,
+               "marketPriceHigh": 1.48,
+               "marketPriceAvg": 1.36
+            }
+         ]
+      },
+      {
+         "product_name": "Bahamut",
+         "rarity": "Starter",
+         "set": 19,
+         "number": 130,
+         "localID": "19-130S",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 1.98,
+               "marketPriceHigh": 1.98,
+               "marketPriceAvg": 1.98
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 2.13,
+               "marketPriceHigh": 2.13,
+               "marketPriceAvg": 2.13
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 9.46,
+               "marketPriceHigh": 9.46,
+               "marketPriceAvg": 9.46
+            }
+         ]
+      },
+      {
+         "product_name": "Fang",
+         "rarity": "Starter",
+         "set": 19,
+         "number": 131,
+         "localID": "19-131S",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 1.09,
+               "marketPriceHigh": 1.09,
+               "marketPriceAvg": 1.09
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 1.09,
+               "marketPriceHigh": 1.09,
+               "marketPriceAvg": 1.09
+            }
+         ]
+      },
+      {
+         "product_name": "Snow (19-132S)",
+         "rarity": "Starter",
+         "set": 19,
+         "number": 132,
+         "localID": "19-132S",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.78,
+               "marketPriceHigh": 0.78,
+               "marketPriceAvg": 0.78
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 1.47,
+               "marketPriceHigh": 1.47,
+               "marketPriceAvg": 1.47
+            }
+         ]
+      },
+      {
+         "product_name": "Serah EX",
+         "rarity": "Starter",
+         "set": 19,
+         "number": 133,
+         "localID": "19-133S",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 1.1,
+               "marketPriceHigh": 1.1,
+               "marketPriceAvg": 1.1
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 1.87,
+               "marketPriceHigh": 1.87,
+               "marketPriceAvg": 1.87
+            }
+         ]
+      },
+      {
+         "product_name": "Mog (XIII-2)",
+         "rarity": "Starter",
+         "set": 19,
+         "number": 134,
+         "localID": "19-134S",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.7,
+               "marketPriceHigh": 0.7,
+               "marketPriceAvg": 0.7
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.89,
+               "marketPriceHigh": 0.89,
+               "marketPriceAvg": 0.89
+            }
+         ]
+      },
+      {
+         "product_name": "Cid Raines",
+         "rarity": "Starter",
+         "set": 19,
+         "number": 135,
+         "localID": "19-135S",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 1.13,
+               "marketPriceHigh": 1.13,
+               "marketPriceAvg": 1.13
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 1.29,
+               "marketPriceHigh": 1.29,
+               "marketPriceAvg": 1.29
+            }
+         ]
+      },
+      {
+         "product_name": "Noel",
+         "rarity": "Starter",
+         "set": 19,
+         "number": 136,
+         "localID": "19-136S",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 1.77,
+               "marketPriceHigh": 1.77,
+               "marketPriceAvg": 1.77
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 3.28,
+               "marketPriceHigh": 3.28,
+               "marketPriceAvg": 3.28
+            }
+         ]
+      },
+      {
+         "product_name": "Hope",
+         "rarity": "Starter",
+         "set": 19,
+         "number": 137,
+         "localID": "19-137S",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 4.23,
+               "marketPriceHigh": 4.23,
+               "marketPriceAvg": 4.23
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 5.85,
+               "marketPriceHigh": 5.85,
+               "marketPriceAvg": 5.85
+            }
+         ]
+      },
+      {
+         "product_name": "Lightning (19-138S)",
+         "rarity": "Starter",
+         "set": 19,
+         "number": 138,
+         "localID": "19-138S",
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 5.11,
+               "marketPriceHigh": 5.11,
+               "marketPriceAvg": 5.11
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 5.07,
+               "marketPriceHigh": 5.07,
+               "marketPriceAvg": 5.07
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 17.33,
+               "marketPriceHigh": 17.33,
+               "marketPriceAvg": 17.33
+            }
+         ]
+      },
+      {
+         "product_name": "Rufus (Road to Worlds 2024)",
+         "rarity": "Promo",
+         "set": 20,
+         "number": 40,
+         "localID": "PR-168/20-040L",
+         "isPromo": true,
+         "variation": [
+            {
+               "type": "Foil",
+               "marketPriceLow": 24.9,
+               "marketPriceHigh": 24.9,
+               "marketPriceAvg": 24.9
+            }
+         ]
+      }
+   ]
+}
