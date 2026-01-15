@@ -1,0 +1,6798 @@
+{
+   "cards": [
+      {
+         "product_name": "Amaterasu",
+         "rarity": "Hero",
+         "set": 0,
+         "number": 1,
+         "localID": "Re-001H/12-002H",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Hero",
+            "set": 12,
+            "number": 2,
+            "localID": "12-002H"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 3.15,
+               "marketPriceHigh": 3.15,
+               "marketPriceAvg": 3.15
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 4.31,
+               "marketPriceHigh": 4.31,
+               "marketPriceAvg": 4.31
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 10,
+               "marketPriceHigh": 13.83,
+               "marketPriceAvg": 11.92
+            }
+         ]
+      },
+      {
+         "product_name": "Alphinaud",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 2,
+         "localID": "Re-002C/12-004R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 12,
+            "number": 4,
+            "localID": "12-004R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.18,
+               "marketPriceHigh": 0.18,
+               "marketPriceAvg": 0.18
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.55,
+               "marketPriceHigh": 0.55,
+               "marketPriceAvg": 0.55
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 4.5,
+               "marketPriceHigh": 4.5,
+               "marketPriceAvg": 4.5
+            }
+         ]
+      },
+      {
+         "product_name": "Ifrit",
+         "rarity": "Hero",
+         "set": 0,
+         "number": 3,
+         "localID": "Re-003H/20-003H",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Hero",
+            "set": 20,
+            "number": 3,
+            "localID": "20-003H"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.38,
+               "marketPriceHigh": 0.38,
+               "marketPriceAvg": 0.38
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.64,
+               "marketPriceHigh": 0.64,
+               "marketPriceAvg": 0.64
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 7.11,
+               "marketPriceHigh": 8,
+               "marketPriceAvg": 7.56
+            }
+         ]
+      },
+      {
+         "product_name": "Iroha",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 4,
+         "localID": "Re-004C/8-004R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 8,
+            "number": 4,
+            "localID": "8-004R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.24,
+               "marketPriceHigh": 0.24,
+               "marketPriceAvg": 0.24
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.79,
+               "marketPriceHigh": 0.79,
+               "marketPriceAvg": 0.79
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 3.54,
+               "marketPriceHigh": 3.54,
+               "marketPriceAvg": 3.54
+            }
+         ]
+      },
+      {
+         "product_name": "Edgar",
+         "rarity": "Legend",
+         "set": 0,
+         "number": 5,
+         "localID": "Re-005L/17-002L",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Legend",
+            "set": 17,
+            "number": 2,
+            "localID": "17-002L"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.92,
+               "marketPriceHigh": 0.92,
+               "marketPriceAvg": 0.92
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 1.21,
+               "marketPriceHigh": 1.21,
+               "marketPriceAvg": 1.21
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 15.16,
+               "marketPriceHigh": 15.16,
+               "marketPriceAvg": 15.16
+            }
+         ]
+      },
+      {
+         "product_name": "Elbis EX",
+         "rarity": "Common",
+         "set": 0,
+         "number": 6,
+         "localID": "Re-006C/16-003C",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Common",
+            "set": 16,
+            "number": 3,
+            "localID": "16-003C"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.1,
+               "marketPriceHigh": 0.1,
+               "marketPriceAvg": 0.1
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.28,
+               "marketPriceHigh": 0.28,
+               "marketPriceAvg": 0.28
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 1.49,
+               "marketPriceHigh": 1.78,
+               "marketPriceAvg": 1.64
+            }
+         ]
+      },
+      {
+         "product_name": "Cyan EX",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 7,
+         "localID": "Re-007C/11-003R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 11,
+            "number": 3,
+            "localID": "11-003R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.18,
+               "marketPriceHigh": 0.18,
+               "marketPriceAvg": 0.18
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.39,
+               "marketPriceHigh": 0.39,
+               "marketPriceAvg": 0.39
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 2.67,
+               "marketPriceHigh": 2.67,
+               "marketPriceAvg": 2.67
+            }
+         ]
+      },
+      {
+         "product_name": "Gadot",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 8,
+         "localID": "Re-008C/1-007R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 1,
+            "number": 7,
+            "localID": "1-007R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.22,
+               "marketPriceHigh": 0.22,
+               "marketPriceAvg": 0.22
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.36,
+               "marketPriceHigh": 0.36,
+               "marketPriceAvg": 0.36
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 3.47,
+               "marketPriceHigh": 3.47,
+               "marketPriceAvg": 3.47
+            }
+         ]
+      },
+      {
+         "product_name": "Cater",
+         "rarity": "Common",
+         "set": 0,
+         "number": 9,
+         "localID": "Re-009C/3-009C",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Common",
+            "set": 3,
+            "number": 9,
+            "localID": "3-009C"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.13,
+               "marketPriceHigh": 0.13,
+               "marketPriceAvg": 0.13
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.59,
+               "marketPriceHigh": 0.59,
+               "marketPriceAvg": 0.59
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 3.3,
+               "marketPriceHigh": 3.3,
+               "marketPriceAvg": 3.3
+            }
+         ]
+      },
+      {
+         "product_name": "Goblin",
+         "rarity": "Common",
+         "set": 0,
+         "number": 10,
+         "localID": "Re-010C/4-012C",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Common",
+            "set": 4,
+            "number": 12,
+            "localID": "4-012C"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.12,
+               "marketPriceHigh": 0.12,
+               "marketPriceAvg": 0.12
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.67,
+               "marketPriceHigh": 0.67,
+               "marketPriceAvg": 0.67
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 10.35,
+               "marketPriceHigh": 10.35,
+               "marketPriceAvg": 10.35
+            }
+         ]
+      },
+      {
+         "product_name": "Goblin (Re-011C/17-007C)",
+         "rarity": "Common",
+         "set": 0,
+         "number": 11,
+         "localID": "Re-011C/17-007C",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Common",
+            "set": 17,
+            "number": 7,
+            "localID": "17-007C"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.12,
+               "marketPriceHigh": 0.12,
+               "marketPriceAvg": 0.12
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.43,
+               "marketPriceHigh": 0.43,
+               "marketPriceAvg": 0.43
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 20.42,
+               "marketPriceHigh": 20.42,
+               "marketPriceAvg": 20.42
+            }
+         ]
+      },
+      {
+         "product_name": "Princess Goblin",
+         "rarity": "Common",
+         "set": 0,
+         "number": 12,
+         "localID": "Re-012C/12-008R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 12,
+            "number": 8,
+            "localID": "12-008R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.17,
+               "marketPriceHigh": 0.17,
+               "marketPriceAvg": 0.17
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.78,
+               "marketPriceHigh": 0.78,
+               "marketPriceAvg": 0.78
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 9.28,
+               "marketPriceHigh": 9.28,
+               "marketPriceAvg": 9.28
+            }
+         ]
+      },
+      {
+         "product_name": "Sazh EX",
+         "rarity": "Common",
+         "set": 0,
+         "number": 13,
+         "localID": "Re-013C/7-008C",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Common",
+            "set": 7,
+            "number": 8,
+            "localID": "7-008C"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.15,
+               "marketPriceHigh": 0.15,
+               "marketPriceAvg": 0.15
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.43,
+               "marketPriceHigh": 0.43,
+               "marketPriceAvg": 0.43
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 7.39,
+               "marketPriceHigh": 7.39,
+               "marketPriceAvg": 7.39
+            }
+         ]
+      },
+      {
+         "product_name": "Zenos",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 15,
+         "localID": "Re-015C/14-015R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 14,
+            "number": 15,
+            "localID": "14-015R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.22,
+               "marketPriceHigh": 0.22,
+               "marketPriceAvg": 0.22
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.24,
+               "marketPriceHigh": 0.24,
+               "marketPriceAvg": 0.24
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 5.05,
+               "marketPriceHigh": 5.05,
+               "marketPriceAvg": 5.05
+            }
+         ]
+      },
+      {
+         "product_name": "Selphie EX",
+         "rarity": "Common",
+         "set": 0,
+         "number": 16,
+         "localID": "Re-016C/18-007C",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Common",
+            "set": 18,
+            "number": 7,
+            "localID": "18-007C"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.15,
+               "marketPriceHigh": 0.15,
+               "marketPriceAvg": 0.15
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.69,
+               "marketPriceHigh": 0.69,
+               "marketPriceAvg": 0.69
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 14.34,
+               "marketPriceHigh": 14.34,
+               "marketPriceAvg": 14.34
+            }
+         ]
+      },
+      {
+         "product_name": "Terra EX",
+         "rarity": "Starter",
+         "set": 0,
+         "number": 17,
+         "localID": "Re-017C/10-132S",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "S",
+            "set": 10,
+            "number": 132,
+            "localID": "10-132S"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.34,
+               "marketPriceHigh": 0.34,
+               "marketPriceAvg": 0.34
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.7,
+               "marketPriceHigh": 0.7,
+               "marketPriceAvg": 0.7
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 2.97,
+               "marketPriceHigh": 2.97,
+               "marketPriceAvg": 2.97
+            }
+         ]
+      },
+      {
+         "product_name": "Hien",
+         "rarity": "Legend",
+         "set": 0,
+         "number": 18,
+         "localID": "Re-018L/17-016L",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Legend",
+            "set": 17,
+            "number": 16,
+            "localID": "17-016L"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.83,
+               "marketPriceHigh": 0.83,
+               "marketPriceAvg": 0.83
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 1.2,
+               "marketPriceHigh": 1.2,
+               "marketPriceAvg": 1.2
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 14.74,
+               "marketPriceHigh": 14.74,
+               "marketPriceAvg": 14.74
+            }
+         ]
+      },
+      {
+         "product_name": "Faris",
+         "rarity": "Legend",
+         "set": 0,
+         "number": 19,
+         "localID": "Re-019L/18-012L",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Legend",
+            "set": 18,
+            "number": 12,
+            "localID": "18-012L"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.96,
+               "marketPriceHigh": 0.96,
+               "marketPriceAvg": 0.96
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 1.04,
+               "marketPriceHigh": 1.04,
+               "marketPriceAvg": 1.04
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 16.86,
+               "marketPriceHigh": 16.86,
+               "marketPriceAvg": 16.86
+            }
+         ]
+      },
+      {
+         "product_name": "Phoinix",
+         "rarity": "Hero",
+         "set": 0,
+         "number": 20,
+         "localID": "Re-020H/20-018H",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Hero",
+            "set": 20,
+            "number": 18,
+            "localID": "20-018H"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.28,
+               "marketPriceHigh": 0.28,
+               "marketPriceAvg": 0.28
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.36,
+               "marketPriceHigh": 0.36,
+               "marketPriceAvg": 0.36
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 9.65,
+               "marketPriceHigh": 9.65,
+               "marketPriceAvg": 9.65
+            }
+         ]
+      },
+      {
+         "product_name": "Firion",
+         "rarity": "Legend",
+         "set": 0,
+         "number": 21,
+         "localID": "Re-021H/6-019L",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Legend",
+            "set": 6,
+            "number": 19,
+            "localID": "6-019L"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.18,
+               "marketPriceHigh": 0.18,
+               "marketPriceAvg": 0.18
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.53,
+               "marketPriceHigh": 0.53,
+               "marketPriceAvg": 0.53
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 1.77,
+               "marketPriceHigh": 1.77,
+               "marketPriceAvg": 1.77
+            }
+         ]
+      },
+      {
+         "product_name": "Belias EX",
+         "rarity": "Common",
+         "set": 0,
+         "number": 22,
+         "localID": "Re-022C/9-017C",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Common",
+            "set": 9,
+            "number": 17,
+            "localID": "9-017C"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.11,
+               "marketPriceHigh": 0.11,
+               "marketPriceAvg": 0.11
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.49,
+               "marketPriceHigh": 0.49,
+               "marketPriceAvg": 0.49
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 3.2,
+               "marketPriceHigh": 3.2,
+               "marketPriceAvg": 3.2
+            }
+         ]
+      },
+      {
+         "product_name": "Bomb",
+         "rarity": "Common",
+         "set": 0,
+         "number": 23,
+         "localID": "Re-023C/7-016C",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Common",
+            "set": 7,
+            "number": 16,
+            "localID": "7-016C"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.1,
+               "marketPriceHigh": 0.12,
+               "marketPriceAvg": 0.11
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.59,
+               "marketPriceHigh": 0.59,
+               "marketPriceAvg": 0.59
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 5.37,
+               "marketPriceHigh": 5.37,
+               "marketPriceAvg": 5.37
+            }
+         ]
+      },
+      {
+         "product_name": "Marche EX",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 24,
+         "localID": "Re-024C/8-018R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 8,
+            "number": 18,
+            "localID": "8-018R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.17,
+               "marketPriceHigh": 0.17,
+               "marketPriceAvg": 0.17
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.81,
+               "marketPriceHigh": 0.81,
+               "marketPriceAvg": 0.81
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 3.53,
+               "marketPriceHigh": 3.53,
+               "marketPriceAvg": 3.53
+            }
+         ]
+      },
+      {
+         "product_name": "Magissa",
+         "rarity": "Hero",
+         "set": 0,
+         "number": 25,
+         "localID": "Re-025H/12-017H",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Hero",
+            "set": 12,
+            "number": 17,
+            "localID": "12-017H"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.5,
+               "marketPriceHigh": 0.5,
+               "marketPriceAvg": 0.5
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.54,
+               "marketPriceHigh": 0.54,
+               "marketPriceAvg": 0.54
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 11.5,
+               "marketPriceHigh": 11.5,
+               "marketPriceAvg": 11.5
+            }
+         ]
+      },
+      {
+         "product_name": "Sabin",
+         "rarity": "Hero",
+         "set": 0,
+         "number": 26,
+         "localID": "Re-026H/17-017H",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Hero",
+            "set": 17,
+            "number": 17,
+            "localID": "17-017H"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.29,
+               "marketPriceHigh": 0.29,
+               "marketPriceAvg": 0.29
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.82,
+               "marketPriceHigh": 0.82,
+               "marketPriceAvg": 0.82
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 4.47,
+               "marketPriceHigh": 5,
+               "marketPriceAvg": 4.73
+            }
+         ]
+      },
+      {
+         "product_name": "Meeth",
+         "rarity": "Hero",
+         "set": 0,
+         "number": 27,
+         "localID": "Re-027H/7-017H",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Hero",
+            "set": 7,
+            "number": 17,
+            "localID": "7-017H"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.39,
+               "marketPriceHigh": 0.39,
+               "marketPriceAvg": 0.39
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.58,
+               "marketPriceHigh": 0.58,
+               "marketPriceAvg": 0.58
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 11.36,
+               "marketPriceHigh": 11.36,
+               "marketPriceAvg": 11.36
+            }
+         ]
+      },
+      {
+         "product_name": "Ramza",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 28,
+         "localID": "Re-028C/18-015R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 18,
+            "number": 15,
+            "localID": "18-015R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.21,
+               "marketPriceHigh": 0.21,
+               "marketPriceAvg": 0.21
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.79,
+               "marketPriceHigh": 0.79,
+               "marketPriceAvg": 0.79
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 9.37,
+               "marketPriceHigh": 9.37,
+               "marketPriceAvg": 9.37
+            }
+         ]
+      },
+      {
+         "product_name": "Luneth",
+         "rarity": "Common",
+         "set": 0,
+         "number": 29,
+         "localID": "Re-029C/13-015C",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Common",
+            "set": 13,
+            "number": 15,
+            "localID": "13-015C"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.14,
+               "marketPriceHigh": 0.14,
+               "marketPriceAvg": 0.14
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 1.27,
+               "marketPriceHigh": 1.27,
+               "marketPriceAvg": 1.27
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 19.5,
+               "marketPriceHigh": 19.5,
+               "marketPriceAvg": 19.5
+            }
+         ]
+      },
+      {
+         "product_name": "Erwin",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 30,
+         "localID": "Re-030C/16-022R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 16,
+            "number": 22,
+            "localID": "16-022R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.16,
+               "marketPriceHigh": 0.16,
+               "marketPriceAvg": 0.16
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.89,
+               "marketPriceHigh": 0.89,
+               "marketPriceAvg": 0.89
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 4.47,
+               "marketPriceHigh": 4.47,
+               "marketPriceAvg": 4.47
+            }
+         ]
+      },
+      {
+         "product_name": "Agrias",
+         "rarity": "Hero",
+         "set": 0,
+         "number": 31,
+         "localID": "Re-031H/16-023H",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Hero",
+            "set": 16,
+            "number": 23,
+            "localID": "16-023H"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.47,
+               "marketPriceHigh": 0.47,
+               "marketPriceAvg": 0.47
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.94,
+               "marketPriceHigh": 0.94,
+               "marketPriceAvg": 0.94
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 2.99,
+               "marketPriceHigh": 3.73,
+               "marketPriceAvg": 3.36
+            }
+         ]
+      },
+      {
+         "product_name": "Ysayle",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 32,
+         "localID": "Re-032C/6-022R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 6,
+            "number": 22,
+            "localID": "6-022R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.17,
+               "marketPriceHigh": 0.17,
+               "marketPriceAvg": 0.17
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.98,
+               "marketPriceHigh": 0.98,
+               "marketPriceAvg": 0.98
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 10.2,
+               "marketPriceHigh": 10.2,
+               "marketPriceAvg": 10.2
+            }
+         ]
+      },
+      {
+         "product_name": "Weiss",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 33,
+         "localID": "Re-033C/18-019R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 18,
+            "number": 19,
+            "localID": "18-019R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.3,
+               "marketPriceHigh": 0.3,
+               "marketPriceAvg": 0.3
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.36,
+               "marketPriceHigh": 0.36,
+               "marketPriceAvg": 0.36
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 13.5,
+               "marketPriceHigh": 13.5,
+               "marketPriceAvg": 13.5
+            }
+         ]
+      },
+      {
+         "product_name": "Vincent",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 34,
+         "localID": "Re-034C/19-019R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 19,
+            "number": 19,
+            "localID": "19-019R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.24,
+               "marketPriceHigh": 0.24,
+               "marketPriceAvg": 0.24
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.44,
+               "marketPriceHigh": 0.44,
+               "marketPriceAvg": 0.44
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 4.36,
+               "marketPriceHigh": 6.98,
+               "marketPriceAvg": 5.67
+            }
+         ]
+      },
+      {
+         "product_name": "Unei",
+         "rarity": "Hero",
+         "set": 0,
+         "number": 35,
+         "localID": "Re-035H/10-023H",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Hero",
+            "set": 10,
+            "number": 23,
+            "localID": "10-023H"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.26,
+               "marketPriceHigh": 0.26,
+               "marketPriceAvg": 0.26
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.91,
+               "marketPriceHigh": 0.91,
+               "marketPriceAvg": 0.91
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 2.95,
+               "marketPriceHigh": 2.95,
+               "marketPriceAvg": 2.95
+            }
+         ]
+      },
+      {
+         "product_name": "Gestahlian Empire Cid",
+         "rarity": "Hero",
+         "set": 0,
+         "number": 36,
+         "localID": "Re-036H/4-026H",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Hero",
+            "set": 4,
+            "number": 26,
+            "localID": "4-026H"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.5,
+               "marketPriceHigh": 0.6,
+               "marketPriceAvg": 0.55
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.91,
+               "marketPriceHigh": 0.91,
+               "marketPriceAvg": 0.91
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 8.99,
+               "marketPriceHigh": 9.2,
+               "marketPriceAvg": 9.09
+            }
+         ]
+      },
+      {
+         "product_name": "Gilgamesh (FFBE)",
+         "rarity": "Legend",
+         "set": 0,
+         "number": 37,
+         "localID": "Re-037L/14-023L",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Legend",
+            "set": 14,
+            "number": 23,
+            "localID": "14-023L"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 2.98,
+               "marketPriceHigh": 2.98,
+               "marketPriceAvg": 2.98
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 4.18,
+               "marketPriceHigh": 4.18,
+               "marketPriceAvg": 4.18
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 32.4,
+               "marketPriceHigh": 32.4,
+               "marketPriceAvg": 32.4
+            }
+         ]
+      },
+      {
+         "product_name": "Cait Sith",
+         "rarity": "Starter",
+         "set": 0,
+         "number": 38,
+         "localID": "Re-038C/11-133S",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "S",
+            "set": 11,
+            "number": 133,
+            "localID": "11-133S"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.5,
+               "marketPriceHigh": 0.5,
+               "marketPriceAvg": 0.5
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.95,
+               "marketPriceHigh": 0.95,
+               "marketPriceAvg": 0.95
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 12,
+               "marketPriceHigh": 16.11,
+               "marketPriceAvg": 14.06
+            }
+         ]
+      },
+      {
+         "product_name": "Goblin (Re-039C/7-030C)",
+         "rarity": "Common",
+         "set": 0,
+         "number": 39,
+         "localID": "Re-039C/7-030C",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Common",
+            "set": 7,
+            "number": 30,
+            "localID": "7-030C"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.1,
+               "marketPriceHigh": 0.14,
+               "marketPriceAvg": 0.12
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.52,
+               "marketPriceHigh": 0.52,
+               "marketPriceAvg": 0.52
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 3.6,
+               "marketPriceHigh": 3.6,
+               "marketPriceAvg": 3.6
+            }
+         ]
+      },
+      {
+         "product_name": "Shiva",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 40,
+         "localID": "Re-040C/8-032R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 8,
+            "number": 32,
+            "localID": "8-032R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.23,
+               "marketPriceHigh": 0.23,
+               "marketPriceAvg": 0.23
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 1.24,
+               "marketPriceHigh": 1.24,
+               "marketPriceAvg": 1.24
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 16.09,
+               "marketPriceHigh": 16.09,
+               "marketPriceAvg": 16.09
+            }
+         ]
+      },
+      {
+         "product_name": "Cid Randell",
+         "rarity": "Hero",
+         "set": 0,
+         "number": 41,
+         "localID": "Re-041H/13-022H",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Hero",
+            "set": 13,
+            "number": 22,
+            "localID": "13-022H"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.93,
+               "marketPriceHigh": 0.93,
+               "marketPriceAvg": 0.93
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 1.59,
+               "marketPriceHigh": 1.59,
+               "marketPriceAvg": 1.59
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 8.22,
+               "marketPriceHigh": 8.22,
+               "marketPriceAvg": 8.22
+            }
+         ]
+      },
+      {
+         "product_name": "Charlotte",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 42,
+         "localID": "Re-042C/13-023R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 13,
+            "number": 23,
+            "localID": "13-023R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 1.08,
+               "marketPriceHigh": 1.08,
+               "marketPriceAvg": 1.08
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 1.33,
+               "marketPriceHigh": 1.33,
+               "marketPriceAvg": 1.33
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 15.7,
+               "marketPriceHigh": 15.7,
+               "marketPriceAvg": 15.7
+            }
+         ]
+      },
+      {
+         "product_name": "Shantotto",
+         "rarity": "Legend",
+         "set": 0,
+         "number": 43,
+         "localID": "Re-043L/16-030L",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Legend",
+            "set": 16,
+            "number": 30,
+            "localID": "16-030L"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.97,
+               "marketPriceHigh": 0.97,
+               "marketPriceAvg": 0.97
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.68,
+               "marketPriceHigh": 0.94,
+               "marketPriceAvg": 0.81
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 9.25,
+               "marketPriceHigh": 9.25,
+               "marketPriceAvg": 9.25
+            }
+         ]
+      },
+      {
+         "product_name": "Scale Toad",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 44,
+         "localID": "Re-044C/8-034R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 8,
+            "number": 34,
+            "localID": "8-034R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.17,
+               "marketPriceHigh": 0.17,
+               "marketPriceAvg": 0.17
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.28,
+               "marketPriceHigh": 0.28,
+               "marketPriceAvg": 0.28
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 4.68,
+               "marketPriceHigh": 4.68,
+               "marketPriceAvg": 4.68
+            }
+         ]
+      },
+      {
+         "product_name": "Setzer",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 45,
+         "localID": "Re-045C/20-030R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 20,
+            "number": 30,
+            "localID": "20-030R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.23,
+               "marketPriceHigh": 0.23,
+               "marketPriceAvg": 0.23
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.52,
+               "marketPriceHigh": 0.52,
+               "marketPriceAvg": 0.52
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 6.7,
+               "marketPriceHigh": 6.7,
+               "marketPriceAvg": 6.7
+            }
+         ]
+      },
+      {
+         "product_name": "Celes",
+         "rarity": "Hero",
+         "set": 0,
+         "number": 46,
+         "localID": "Re-046H/15-036H",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Hero",
+            "set": 15,
+            "number": 36,
+            "localID": "15-036H"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.58,
+               "marketPriceHigh": 0.58,
+               "marketPriceAvg": 0.58
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.7,
+               "marketPriceHigh": 0.7,
+               "marketPriceAvg": 0.7
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 15.86,
+               "marketPriceHigh": 15.86,
+               "marketPriceAvg": 15.86
+            }
+         ]
+      },
+      {
+         "product_name": "Don Corneo",
+         "rarity": "Starter",
+         "set": 0,
+         "number": 47,
+         "localID": "Re-047C/11-134S",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "S",
+            "set": 11,
+            "number": 134,
+            "localID": "11-134S"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.48,
+               "marketPriceHigh": 0.48,
+               "marketPriceAvg": 0.48
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.25,
+               "marketPriceHigh": 0.25,
+               "marketPriceAvg": 0.25
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 3.8,
+               "marketPriceHigh": 3.8,
+               "marketPriceAvg": 3.8
+            }
+         ]
+      },
+      {
+         "product_name": "Nag'molada",
+         "rarity": "Common",
+         "set": 0,
+         "number": 48,
+         "localID": "Re-048C/10-039C",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Common",
+            "set": 10,
+            "number": 39,
+            "localID": "10-039C"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.08,
+               "marketPriceHigh": 0.08,
+               "marketPriceAvg": 0.08
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.82,
+               "marketPriceHigh": 0.82,
+               "marketPriceAvg": 0.82
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 3.28,
+               "marketPriceHigh": 3.28,
+               "marketPriceAvg": 3.28
+            }
+         ]
+      },
+      {
+         "product_name": "Nero EX",
+         "rarity": "Common",
+         "set": 0,
+         "number": 49,
+         "localID": "Re-049C/18-028C",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Common",
+            "set": 18,
+            "number": 28,
+            "localID": "18-028C"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.17,
+               "marketPriceHigh": 0.17,
+               "marketPriceAvg": 0.17
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.41,
+               "marketPriceHigh": 0.41,
+               "marketPriceAvg": 0.41
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 10.88,
+               "marketPriceHigh": 10.88,
+               "marketPriceAvg": 10.88
+            }
+         ]
+      },
+      {
+         "product_name": "Byblos",
+         "rarity": "Hero",
+         "set": 0,
+         "number": 50,
+         "localID": "Re-050H/16-038H",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Hero",
+            "set": 16,
+            "number": 38,
+            "localID": "16-038H"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.52,
+               "marketPriceHigh": 0.52,
+               "marketPriceAvg": 0.52
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.77,
+               "marketPriceHigh": 0.77,
+               "marketPriceAvg": 0.77
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 12.41,
+               "marketPriceHigh": 12.41,
+               "marketPriceAvg": 12.41
+            }
+         ]
+      },
+      {
+         "product_name": "Physalis",
+         "rarity": "Hero",
+         "set": 0,
+         "number": 51,
+         "localID": "Re-051H/18-030H",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Hero",
+            "set": 18,
+            "number": 30,
+            "localID": "18-030H"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.34,
+               "marketPriceHigh": 0.34,
+               "marketPriceAvg": 0.34
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.66,
+               "marketPriceHigh": 0.66,
+               "marketPriceAvg": 0.66
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 9.66,
+               "marketPriceHigh": 9.66,
+               "marketPriceAvg": 9.66
+            }
+         ]
+      },
+      {
+         "product_name": "Flan",
+         "rarity": "Common",
+         "set": 0,
+         "number": 52,
+         "localID": "Re-052C/4-043C",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Common",
+            "set": 4,
+            "number": 43,
+            "localID": "4-043C"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.09,
+               "marketPriceHigh": 0.09,
+               "marketPriceAvg": 0.09
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.35,
+               "marketPriceHigh": 0.35,
+               "marketPriceAvg": 0.35
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 3.65,
+               "marketPriceHigh": 3.65,
+               "marketPriceAvg": 3.65
+            }
+         ]
+      },
+      {
+         "product_name": "Mewt EX",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 53,
+         "localID": "Re-053C/4-044R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 4,
+            "number": 44,
+            "localID": "4-044R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.21,
+               "marketPriceHigh": 0.21,
+               "marketPriceAvg": 0.21
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.8,
+               "marketPriceHigh": 0.8,
+               "marketPriceAvg": 0.8
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 5.53,
+               "marketPriceHigh": 5.53,
+               "marketPriceAvg": 5.53
+            }
+         ]
+      },
+      {
+         "product_name": "Lasswell",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 54,
+         "localID": "Re-054C/16-042R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 16,
+            "number": 42,
+            "localID": "16-042R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.21,
+               "marketPriceHigh": 0.21,
+               "marketPriceAvg": 0.21
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.94,
+               "marketPriceHigh": 0.94,
+               "marketPriceAvg": 0.94
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 18.44,
+               "marketPriceHigh": 18.44,
+               "marketPriceAvg": 18.44
+            }
+         ]
+      },
+      {
+         "product_name": "Rinoa (Rare)",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 55,
+         "localID": "Re-055C/2-048R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 2,
+            "number": 48,
+            "localID": "2-048R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.2,
+               "marketPriceHigh": 0.2,
+               "marketPriceAvg": 0.2
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.8,
+               "marketPriceHigh": 0.8,
+               "marketPriceAvg": 0.8
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 14.24,
+               "marketPriceHigh": 14.24,
+               "marketPriceAvg": 14.24
+            }
+         ]
+      },
+      {
+         "product_name": "Rinoa",
+         "rarity": "Legend",
+         "set": 0,
+         "number": 56,
+         "localID": "Re-056L/6-041L",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Legend",
+            "set": 6,
+            "number": 41,
+            "localID": "6-041L"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.9,
+               "marketPriceHigh": 0.9,
+               "marketPriceAvg": 0.9
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 1.54,
+               "marketPriceHigh": 1.54,
+               "marketPriceAvg": 1.54
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 34.13,
+               "marketPriceHigh": 34.13,
+               "marketPriceAvg": 34.13
+            }
+         ]
+      },
+      {
+         "product_name": "Remedi",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 57,
+         "localID": "Re-057C/4-047R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 4,
+            "number": 47,
+            "localID": "4-047R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.18,
+               "marketPriceHigh": 0.18,
+               "marketPriceAvg": 0.18
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 1.04,
+               "marketPriceHigh": 1.04,
+               "marketPriceAvg": 1.04
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 3.57,
+               "marketPriceHigh": 3.57,
+               "marketPriceAvg": 3.57
+            }
+         ]
+      },
+      {
+         "product_name": "Locke",
+         "rarity": "Legend",
+         "set": 0,
+         "number": 58,
+         "localID": "Re-058H/4-048L",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Legend",
+            "set": 4,
+            "number": 48,
+            "localID": "4-048L"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.23,
+               "marketPriceHigh": 0.23,
+               "marketPriceAvg": 0.23
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.26,
+               "marketPriceHigh": 0.26,
+               "marketPriceAvg": 0.26
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 3.51,
+               "marketPriceHigh": 3.51,
+               "marketPriceAvg": 3.51
+            }
+         ]
+      },
+      {
+         "product_name": "Asura",
+         "rarity": "Hero",
+         "set": 0,
+         "number": 59,
+         "localID": "Re-059H/2-049H",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Hero",
+            "set": 2,
+            "number": 49,
+            "localID": "2-049H"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.76,
+               "marketPriceHigh": 0.76,
+               "marketPriceAvg": 0.76
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 1.4,
+               "marketPriceHigh": 1.4,
+               "marketPriceAvg": 1.4
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 13.13,
+               "marketPriceHigh": 13.13,
+               "marketPriceAvg": 13.13
+            }
+         ]
+      },
+      {
+         "product_name": "Atomos",
+         "rarity": "Hero",
+         "set": 0,
+         "number": 60,
+         "localID": "Re-060H/16-043H",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Hero",
+            "set": 16,
+            "number": 43,
+            "localID": "16-043H"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.61,
+               "marketPriceHigh": 0.61,
+               "marketPriceAvg": 0.61
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 2.07,
+               "marketPriceHigh": 2.07,
+               "marketPriceAvg": 2.07
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 19.46,
+               "marketPriceHigh": 19.46,
+               "marketPriceAvg": 19.46
+            }
+         ]
+      },
+      {
+         "product_name": "Brother",
+         "rarity": "Starter",
+         "set": 0,
+         "number": 61,
+         "localID": "Re-061C/1-197S",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "S",
+            "set": 1,
+            "number": 197,
+            "localID": "1-197S"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.37,
+               "marketPriceHigh": 0.37,
+               "marketPriceAvg": 0.37
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.3,
+               "marketPriceHigh": 0.3,
+               "marketPriceAvg": 0.3
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 5.78,
+               "marketPriceHigh": 5.78,
+               "marketPriceAvg": 5.78
+            }
+         ]
+      },
+      {
+         "product_name": "Arc EX",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 62,
+         "localID": "Re-062C/18-035R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 18,
+            "number": 35,
+            "localID": "18-035R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.14,
+               "marketPriceHigh": 0.14,
+               "marketPriceAvg": 0.14
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.26,
+               "marketPriceHigh": 0.26,
+               "marketPriceAvg": 0.26
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 2.72,
+               "marketPriceHigh": 2.72,
+               "marketPriceAvg": 2.72
+            }
+         ]
+      },
+      {
+         "product_name": "Alexander",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 63,
+         "localID": "Re-063C/8-046R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 8,
+            "number": 46,
+            "localID": "8-046R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.24,
+               "marketPriceHigh": 0.24,
+               "marketPriceAvg": 0.24
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.51,
+               "marketPriceHigh": 0.51,
+               "marketPriceAvg": 0.51
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 4.04,
+               "marketPriceHigh": 4.04,
+               "marketPriceAvg": 4.04
+            }
+         ]
+      },
+      {
+         "product_name": "Waltrill",
+         "rarity": "Common",
+         "set": 0,
+         "number": 64,
+         "localID": "Re-064C/8-047C",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Common",
+            "set": 8,
+            "number": 47,
+            "localID": "8-047C"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.12,
+               "marketPriceHigh": 0.12,
+               "marketPriceAvg": 0.12
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.37,
+               "marketPriceHigh": 0.37,
+               "marketPriceAvg": 0.37
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 2.55,
+               "marketPriceHigh": 2.55,
+               "marketPriceAvg": 2.55
+            }
+         ]
+      },
+      {
+         "product_name": "Edge",
+         "rarity": "Legend",
+         "set": 0,
+         "number": 65,
+         "localID": "Re-065L/20-044L",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Legend",
+            "set": 20,
+            "number": 44,
+            "localID": "20-044L"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.4,
+               "marketPriceHigh": 0.4,
+               "marketPriceAvg": 0.4
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 2.1,
+               "marketPriceHigh": 2.1,
+               "marketPriceAvg": 2.1
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 4.59,
+               "marketPriceHigh": 4.59,
+               "marketPriceAvg": 4.59
+            }
+         ]
+      },
+      {
+         "product_name": "Sherlotta",
+         "rarity": "Hero",
+         "set": 0,
+         "number": 66,
+         "localID": "Re-066H/8-053H",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Hero",
+            "set": 8,
+            "number": 53,
+            "localID": "8-053H"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.24,
+               "marketPriceHigh": 0.24,
+               "marketPriceAvg": 0.24
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.58,
+               "marketPriceHigh": 0.58,
+               "marketPriceAvg": 0.58
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 4.38,
+               "marketPriceHigh": 4.38,
+               "marketPriceAvg": 4.38
+            }
+         ]
+      },
+      {
+         "product_name": "Cid Pollendina",
+         "rarity": "Common",
+         "set": 0,
+         "number": 67,
+         "localID": "Re-067C/17-049C",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Common",
+            "set": 17,
+            "number": 49,
+            "localID": "17-049C"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.13,
+               "marketPriceHigh": 0.15,
+               "marketPriceAvg": 0.14
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.39,
+               "marketPriceHigh": 0.39,
+               "marketPriceAvg": 0.39
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 4.77,
+               "marketPriceHigh": 4.77,
+               "marketPriceAvg": 4.77
+            }
+         ]
+      },
+      {
+         "product_name": "Zu",
+         "rarity": "Common",
+         "set": 0,
+         "number": 68,
+         "localID": "Re-068C/7-053C",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Common",
+            "set": 7,
+            "number": 53,
+            "localID": "7-053C"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.15,
+               "marketPriceHigh": 0.15,
+               "marketPriceAvg": 0.15
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.33,
+               "marketPriceHigh": 0.33,
+               "marketPriceAvg": 0.33
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 2.5,
+               "marketPriceHigh": 3,
+               "marketPriceAvg": 2.75
+            }
+         ]
+      },
+      {
+         "product_name": "Stiltzkin",
+         "rarity": "Common",
+         "set": 0,
+         "number": 69,
+         "localID": "Re-069C/13-043C",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Common",
+            "set": 13,
+            "number": 43,
+            "localID": "13-043C"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.14,
+               "marketPriceHigh": 0.14,
+               "marketPriceAvg": 0.14
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.34,
+               "marketPriceHigh": 0.34,
+               "marketPriceAvg": 0.34
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 5.99,
+               "marketPriceHigh": 6.4,
+               "marketPriceAvg": 6.2
+            }
+         ]
+      },
+      {
+         "product_name": "Cecil",
+         "rarity": "Legend",
+         "set": 0,
+         "number": 70,
+         "localID": "Re-070L/16-051L",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Legend",
+            "set": 16,
+            "number": 51,
+            "localID": "16-051L"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 3.54,
+               "marketPriceHigh": 3.54,
+               "marketPriceAvg": 3.54
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 3.08,
+               "marketPriceHigh": 3.08,
+               "marketPriceAvg": 3.08
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 5.25,
+               "marketPriceHigh": 5.25,
+               "marketPriceAvg": 5.25
+            }
+         ]
+      },
+      {
+         "product_name": "King Tycoon",
+         "rarity": "Hero",
+         "set": 0,
+         "number": 71,
+         "localID": "Re-071H/3-059H",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Hero",
+            "set": 3,
+            "number": 59,
+            "localID": "3-059H"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 1.66,
+               "marketPriceHigh": 1.66,
+               "marketPriceAvg": 1.66
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 1.43,
+               "marketPriceHigh": 1.43,
+               "marketPriceAvg": 1.43
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 27,
+               "marketPriceHigh": 27,
+               "marketPriceAvg": 27
+            }
+         ]
+      },
+      {
+         "product_name": "Chocobo",
+         "rarity": "Common",
+         "set": 0,
+         "number": 72,
+         "localID": "Re-072C/4-063C",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Common",
+            "set": 4,
+            "number": 63,
+            "localID": "4-063C"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.21,
+               "marketPriceHigh": 0.21,
+               "marketPriceAvg": 0.21
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.49,
+               "marketPriceHigh": 0.49,
+               "marketPriceAvg": 0.49
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 6.73,
+               "marketPriceHigh": 6.73,
+               "marketPriceAvg": 6.73
+            }
+         ]
+      },
+      {
+         "product_name": "Chocobo (Re-073H/10-055H)",
+         "rarity": "Hero",
+         "set": 0,
+         "number": 73,
+         "localID": "Re-073H/10-055H",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Hero",
+            "set": 10,
+            "number": 55,
+            "localID": "10-055H"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.87,
+               "marketPriceHigh": 0.87,
+               "marketPriceAvg": 0.87
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 1.78,
+               "marketPriceHigh": 1.78,
+               "marketPriceAvg": 1.78
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 21.88,
+               "marketPriceHigh": 21.88,
+               "marketPriceAvg": 21.88
+            }
+         ]
+      },
+      {
+         "product_name": "Choco/Mog EX",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 74,
+         "localID": "Re-074C/6-051C",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Common",
+            "set": 6,
+            "number": 51,
+            "localID": "6-051C"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.46,
+               "marketPriceHigh": 0.75,
+               "marketPriceAvg": 0.61
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 1.66,
+               "marketPriceHigh": 1.66,
+               "marketPriceAvg": 1.66
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 14.43,
+               "marketPriceHigh": 14.43,
+               "marketPriceAvg": 14.43
+            }
+         ]
+      },
+      {
+         "product_name": "Chocolatte",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 75,
+         "localID": "Re-075C/12-048R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 12,
+            "number": 48,
+            "localID": "12-048R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.2,
+               "marketPriceHigh": 0.2,
+               "marketPriceAvg": 0.2
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.49,
+               "marketPriceHigh": 0.49,
+               "marketPriceAvg": 0.49
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 5.82,
+               "marketPriceHigh": 5.82,
+               "marketPriceAvg": 5.82
+            }
+         ]
+      },
+      {
+         "product_name": "Deuce",
+         "rarity": "Common",
+         "set": 0,
+         "number": 76,
+         "localID": "Re-076C/3-062C",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Common",
+            "set": 3,
+            "number": 62,
+            "localID": "3-062C"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.11,
+               "marketPriceHigh": 0.11,
+               "marketPriceAvg": 0.11
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.34,
+               "marketPriceHigh": 0.34,
+               "marketPriceAvg": 0.34
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 4.97,
+               "marketPriceHigh": 4.97,
+               "marketPriceAvg": 4.97
+            }
+         ]
+      },
+      {
+         "product_name": "Norschtalen",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 77,
+         "localID": "Re-077C/8-058R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 8,
+            "number": 58,
+            "localID": "8-058R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.21,
+               "marketPriceHigh": 0.21,
+               "marketPriceAvg": 0.21
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.38,
+               "marketPriceHigh": 0.38,
+               "marketPriceAvg": 0.38
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 3.05,
+               "marketPriceHigh": 3.05,
+               "marketPriceAvg": 3.05
+            }
+         ]
+      },
+      {
+         "product_name": "Bartz",
+         "rarity": "Legend",
+         "set": 0,
+         "number": 78,
+         "localID": "Re-078H/7-059L",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Legend",
+            "set": 7,
+            "number": 59,
+            "localID": "7-059L"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.4,
+               "marketPriceHigh": 0.4,
+               "marketPriceAvg": 0.4
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.46,
+               "marketPriceHigh": 0.46,
+               "marketPriceAvg": 0.46
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 4.24,
+               "marketPriceHigh": 4.24,
+               "marketPriceAvg": 4.24
+            }
+         ]
+      },
+      {
+         "product_name": "Balthier",
+         "rarity": "Hero",
+         "set": 0,
+         "number": 79,
+         "localID": "Re-079H/13-048H",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Hero",
+            "set": 13,
+            "number": 48,
+            "localID": "13-048H"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.45,
+               "marketPriceHigh": 0.45,
+               "marketPriceAvg": 0.45
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 1.2,
+               "marketPriceHigh": 1.2,
+               "marketPriceAvg": 1.2
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 8.91,
+               "marketPriceHigh": 8.91,
+               "marketPriceAvg": 8.91
+            }
+         ]
+      },
+      {
+         "product_name": "Pecciotta EX",
+         "rarity": "Common",
+         "set": 0,
+         "number": 80,
+         "localID": "Re-080C/16-059C",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Common",
+            "set": 16,
+            "number": 59,
+            "localID": "16-059C"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.14,
+               "marketPriceHigh": 0.14,
+               "marketPriceAvg": 0.14
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.42,
+               "marketPriceHigh": 0.42,
+               "marketPriceAvg": 0.42
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 3.68,
+               "marketPriceHigh": 3.68,
+               "marketPriceAvg": 3.68
+            }
+         ]
+      },
+      {
+         "product_name": "Maina EX",
+         "rarity": "Common",
+         "set": 0,
+         "number": 81,
+         "localID": "Re-081C/11-060C",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Common",
+            "set": 11,
+            "number": 60,
+            "localID": "11-060C"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.12,
+               "marketPriceHigh": 0.12,
+               "marketPriceAvg": 0.12
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.5,
+               "marketPriceHigh": 0.5,
+               "marketPriceAvg": 0.5
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 5.27,
+               "marketPriceHigh": 5.27,
+               "marketPriceAvg": 5.27
+            }
+         ]
+      },
+      {
+         "product_name": "Moogle (XI)",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 82,
+         "localID": "Re-082C/6-058R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 6,
+            "number": 58,
+            "localID": "6-058R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.25,
+               "marketPriceHigh": 0.28,
+               "marketPriceAvg": 0.27
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.53,
+               "marketPriceHigh": 0.53,
+               "marketPriceAvg": 0.53
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 12.81,
+               "marketPriceHigh": 12.81,
+               "marketPriceAvg": 12.81
+            }
+         ]
+      },
+      {
+         "product_name": "Yuffie",
+         "rarity": "Legend",
+         "set": 0,
+         "number": 83,
+         "localID": "Re-083L/18-050L",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Legend",
+            "set": 18,
+            "number": 50,
+            "localID": "18-050L"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 4.14,
+               "marketPriceHigh": 4.14,
+               "marketPriceAvg": 4.14
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 4.4,
+               "marketPriceHigh": 4.4,
+               "marketPriceAvg": 4.4
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 38.65,
+               "marketPriceHigh": 38.65,
+               "marketPriceAvg": 38.65
+            }
+         ]
+      },
+      {
+         "product_name": "Luso",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 84,
+         "localID": "Re-084C/17-063R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 17,
+            "number": 63,
+            "localID": "17-063R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.27,
+               "marketPriceHigh": 0.27,
+               "marketPriceAvg": 0.27
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.58,
+               "marketPriceHigh": 0.58,
+               "marketPriceAvg": 0.58
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 12.99,
+               "marketPriceHigh": 12.99,
+               "marketPriceAvg": 12.99
+            }
+         ]
+      },
+      {
+         "product_name": "Lexa",
+         "rarity": "Common",
+         "set": 0,
+         "number": 85,
+         "localID": "Re-085C/16-062C",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Common",
+            "set": 16,
+            "number": 62,
+            "localID": "16-062C"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.13,
+               "marketPriceHigh": 0.13,
+               "marketPriceAvg": 0.13
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 1.16,
+               "marketPriceHigh": 1.16,
+               "marketPriceAvg": 1.16
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 17.12,
+               "marketPriceHigh": 17.12,
+               "marketPriceAvg": 17.12
+            }
+         ]
+      },
+      {
+         "product_name": "Rem EX",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 86,
+         "localID": "Re-086C/3-072R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 3,
+            "number": 72,
+            "localID": "3-072R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.18,
+               "marketPriceHigh": 0.18,
+               "marketPriceAvg": 0.18
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.79,
+               "marketPriceHigh": 0.79,
+               "marketPriceAvg": 0.79
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 8.01,
+               "marketPriceHigh": 8.01,
+               "marketPriceAvg": 8.01
+            }
+         ]
+      },
+      {
+         "product_name": "Rosa",
+         "rarity": "Hero",
+         "set": 0,
+         "number": 87,
+         "localID": "Re-087H/14-057H",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Hero",
+            "set": 14,
+            "number": 57,
+            "localID": "14-057H"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 1.01,
+               "marketPriceHigh": 1.01,
+               "marketPriceAvg": 1.01
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 2.01,
+               "marketPriceHigh": 2.01,
+               "marketPriceAvg": 2.01
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 39.68,
+               "marketPriceHigh": 39.68,
+               "marketPriceAvg": 39.68
+            }
+         ]
+      },
+      {
+         "product_name": "Ahriman",
+         "rarity": "Hero",
+         "set": 0,
+         "number": 88,
+         "localID": "Re-088H/18-052H",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Hero",
+            "set": 18,
+            "number": 52,
+            "localID": "18-052H"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.15,
+               "marketPriceHigh": 0.15,
+               "marketPriceAvg": 0.15
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.36,
+               "marketPriceHigh": 0.36,
+               "marketPriceAvg": 0.36
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 3.25,
+               "marketPriceHigh": 3.25,
+               "marketPriceAvg": 3.25
+            }
+         ]
+      },
+      {
+         "product_name": "Undead Princess",
+         "rarity": "Hero",
+         "set": 0,
+         "number": 89,
+         "localID": "Re-089H/8-071H",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Hero",
+            "set": 8,
+            "number": 71,
+            "localID": "8-071H"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.27,
+               "marketPriceHigh": 0.27,
+               "marketPriceAvg": 0.27
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.25,
+               "marketPriceHigh": 0.25,
+               "marketPriceAvg": 0.25
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 2.85,
+               "marketPriceHigh": 2.85,
+               "marketPriceAvg": 2.85
+            }
+         ]
+      },
+      {
+         "product_name": "Amber EX",
+         "rarity": "Common",
+         "set": 0,
+         "number": 90,
+         "localID": "Re-090C/16-065C",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Common",
+            "set": 16,
+            "number": 65,
+            "localID": "16-065C"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.11,
+               "marketPriceHigh": 0.11,
+               "marketPriceAvg": 0.11
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.3,
+               "marketPriceHigh": 0.3,
+               "marketPriceAvg": 0.3
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 14.6,
+               "marketPriceHigh": 14.6,
+               "marketPriceAvg": 14.6
+            }
+         ]
+      },
+      {
+         "product_name": "Lady of Antiquity",
+         "rarity": "Common",
+         "set": 0,
+         "number": 91,
+         "localID": "Re-091C/13-054C",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Common",
+            "set": 13,
+            "number": 54,
+            "localID": "13-054C"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.16,
+               "marketPriceHigh": 0.16,
+               "marketPriceAvg": 0.16
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.55,
+               "marketPriceHigh": 0.55,
+               "marketPriceAvg": 0.55
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 4.56,
+               "marketPriceHigh": 4.56,
+               "marketPriceAvg": 4.56
+            }
+         ]
+      },
+      {
+         "product_name": "Ingus",
+         "rarity": "Common",
+         "set": 0,
+         "number": 92,
+         "localID": "Re-092C/13-055C",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Common",
+            "set": 13,
+            "number": 55,
+            "localID": "13-055C"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.13,
+               "marketPriceHigh": 0.13,
+               "marketPriceAvg": 0.13
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.28,
+               "marketPriceHigh": 0.28,
+               "marketPriceAvg": 0.28
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 3.65,
+               "marketPriceHigh": 3.65,
+               "marketPriceAvg": 3.65
+            }
+         ]
+      },
+      {
+         "product_name": "Cu Sith EX",
+         "rarity": "Common",
+         "set": 0,
+         "number": 93,
+         "localID": "Re-093C/10-068C",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Common",
+            "set": 10,
+            "number": 68,
+            "localID": "10-068C"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 1.54,
+               "marketPriceHigh": 1.54,
+               "marketPriceAvg": 1.54
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 4.55,
+               "marketPriceHigh": 4.55,
+               "marketPriceAvg": 4.55
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 29.7,
+               "marketPriceHigh": 32.52,
+               "marketPriceAvg": 31.11
+            }
+         ]
+      },
+      {
+         "product_name": "Cloud",
+         "rarity": "Common",
+         "set": 0,
+         "number": 94,
+         "localID": "Re-094C/11-136S",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "S",
+            "set": 11,
+            "number": 136,
+            "localID": "11-136S"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.45,
+               "marketPriceHigh": 0.45,
+               "marketPriceAvg": 0.45
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 2,
+               "marketPriceHigh": 2,
+               "marketPriceAvg": 2
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 8.68,
+               "marketPriceHigh": 8.68,
+               "marketPriceAvg": 8.68
+            }
+         ]
+      },
+      {
+         "product_name": "Krile EX",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 95,
+         "localID": "Re-095C/18-055R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 18,
+            "number": 55,
+            "localID": "18-055R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.21,
+               "marketPriceHigh": 0.21,
+               "marketPriceAvg": 0.21
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.63,
+               "marketPriceHigh": 0.63,
+               "marketPriceAvg": 0.63
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 14.06,
+               "marketPriceHigh": 14.06,
+               "marketPriceAvg": 14.06
+            }
+         ]
+      },
+      {
+         "product_name": "Clarus EX",
+         "rarity": "Common",
+         "set": 0,
+         "number": 96,
+         "localID": "Re-096C/11-068R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 11,
+            "number": 68,
+            "localID": "11-068R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.21,
+               "marketPriceHigh": 0.21,
+               "marketPriceAvg": 0.21
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 1.39,
+               "marketPriceHigh": 1.39,
+               "marketPriceAvg": 1.39
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 16.29,
+               "marketPriceHigh": 16.29,
+               "marketPriceAvg": 16.29
+            }
+         ]
+      },
+      {
+         "product_name": "Kolka",
+         "rarity": "Common",
+         "set": 0,
+         "number": 97,
+         "localID": "Re-097C/7-069C",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Common",
+            "set": 7,
+            "number": 69,
+            "localID": "7-069C"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.1,
+               "marketPriceHigh": 0.1,
+               "marketPriceAvg": 0.1
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.53,
+               "marketPriceHigh": 0.53,
+               "marketPriceAvg": 0.53
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 9.68,
+               "marketPriceHigh": 9.68,
+               "marketPriceAvg": 9.68
+            }
+         ]
+      },
+      {
+         "product_name": "Jessie",
+         "rarity": "Common",
+         "set": 0,
+         "number": 98,
+         "localID": "Re-098C/1-204S",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "S",
+            "set": 1,
+            "number": 204,
+            "localID": "1-204S"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.26,
+               "marketPriceHigh": 0.26,
+               "marketPriceAvg": 0.26
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.79,
+               "marketPriceHigh": 0.79,
+               "marketPriceAvg": 0.79
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 12.7,
+               "marketPriceHigh": 12.7,
+               "marketPriceAvg": 12.7
+            }
+         ]
+      },
+      {
+         "product_name": "Shantotto (Re-099L/1-107L)",
+         "rarity": "Legend",
+         "set": 0,
+         "number": 99,
+         "localID": "Re-099L/1-107L",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Legend",
+            "set": 1,
+            "number": 107,
+            "localID": "1-107L"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 4.2,
+               "marketPriceHigh": 5,
+               "marketPriceAvg": 4.6
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 4.65,
+               "marketPriceHigh": 4.65,
+               "marketPriceAvg": 4.65
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 28.12,
+               "marketPriceHigh": 28.12,
+               "marketPriceAvg": 28.12
+            }
+         ]
+      },
+      {
+         "product_name": "Shinju",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 100,
+         "localID": "Re-100C/16-075R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 16,
+            "number": 75,
+            "localID": "16-075R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.19,
+               "marketPriceHigh": 0.19,
+               "marketPriceAvg": 0.19
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.33,
+               "marketPriceHigh": 0.33,
+               "marketPriceAvg": 0.33
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 19.64,
+               "marketPriceHigh": 19.64,
+               "marketPriceAvg": 19.64
+            }
+         ]
+      },
+      {
+         "product_name": "Cecil (Re-101L/20-075L)",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 101,
+         "localID": "Re-101L/20-075L",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Legend",
+            "set": 20,
+            "number": 75,
+            "localID": "20-075L"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 1.43,
+               "marketPriceHigh": 1.43,
+               "marketPriceAvg": 1.43
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 2.81,
+               "marketPriceHigh": 2.81,
+               "marketPriceAvg": 2.81
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 12.66,
+               "marketPriceHigh": 12.66,
+               "marketPriceAvg": 12.66
+            }
+         ]
+      },
+      {
+         "product_name": "Tifa",
+         "rarity": "Starter",
+         "set": 0,
+         "number": 102,
+         "localID": "Re-102C/8-144S",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "S",
+            "set": 8,
+            "number": 144,
+            "localID": "8-144S"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 1.07,
+               "marketPriceHigh": 1.07,
+               "marketPriceAvg": 1.07
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 1.97,
+               "marketPriceHigh": 1.97,
+               "marketPriceAvg": 1.97
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 8,
+               "marketPriceHigh": 16.86,
+               "marketPriceAvg": 12.43
+            }
+         ]
+      },
+      {
+         "product_name": "Tyro EX",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 103,
+         "localID": "Re-103C/11-072R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 11,
+            "number": 72,
+            "localID": "11-072R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 2.13,
+               "marketPriceHigh": 2.13,
+               "marketPriceAvg": 2.13
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 4.45,
+               "marketPriceHigh": 4.45,
+               "marketPriceAvg": 4.45
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 16.89,
+               "marketPriceHigh": 16.89,
+               "marketPriceAvg": 16.89
+            }
+         ]
+      },
+      {
+         "product_name": "Tilika",
+         "rarity": "Hero",
+         "set": 0,
+         "number": 104,
+         "localID": "Re-104H/11-073H",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Hero",
+            "set": 11,
+            "number": 73,
+            "localID": "11-073H"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.19,
+               "marketPriceHigh": 0.19,
+               "marketPriceAvg": 0.19
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.52,
+               "marketPriceHigh": 0.52,
+               "marketPriceAvg": 0.52
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 2.44,
+               "marketPriceHigh": 2.44,
+               "marketPriceAvg": 2.44
+            }
+         ]
+      },
+      {
+         "product_name": "Mist Dragon",
+         "rarity": "Hero",
+         "set": 0,
+         "number": 105,
+         "localID": "Re-105H/9-068H",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Hero",
+            "set": 9,
+            "number": 68,
+            "localID": "9-068H"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 1.14,
+               "marketPriceHigh": 1.14,
+               "marketPriceAvg": 1.14
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 1.65,
+               "marketPriceHigh": 1.65,
+               "marketPriceAvg": 1.65
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 6,
+               "marketPriceHigh": 6,
+               "marketPriceAvg": 6
+            }
+         ]
+      },
+      {
+         "product_name": "Luminous Puma",
+         "rarity": "Common",
+         "set": 0,
+         "number": 106,
+         "localID": "Re-106C/8-080C",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Common",
+            "set": 8,
+            "number": 80,
+            "localID": "8-080C"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.13,
+               "marketPriceHigh": 0.13,
+               "marketPriceAvg": 0.13
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.25,
+               "marketPriceHigh": 0.38,
+               "marketPriceAvg": 0.32
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 3.76,
+               "marketPriceHigh": 3.76,
+               "marketPriceAvg": 3.76
+            }
+         ]
+      },
+      {
+         "product_name": "Fenrir",
+         "rarity": "Hero",
+         "set": 0,
+         "number": 107,
+         "localID": "Re-107H/12-068H",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Hero",
+            "set": 12,
+            "number": 68,
+            "localID": "12-068H"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.27,
+               "marketPriceHigh": 0.5,
+               "marketPriceAvg": 0.39
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.46,
+               "marketPriceHigh": 0.46,
+               "marketPriceAvg": 0.46
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 3.67,
+               "marketPriceHigh": 3.67,
+               "marketPriceAvg": 3.67
+            }
+         ]
+      },
+      {
+         "product_name": "Flan (Re-108C/7-081C)",
+         "rarity": "Common",
+         "set": 0,
+         "number": 108,
+         "localID": "Re-108C/7-081C",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Common",
+            "set": 7,
+            "number": 81,
+            "localID": "7-081C"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.1,
+               "marketPriceHigh": 0.12,
+               "marketPriceAvg": 0.11
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.61,
+               "marketPriceHigh": 0.61,
+               "marketPriceAvg": 0.61
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 3.77,
+               "marketPriceHigh": 3.77,
+               "marketPriceAvg": 3.77
+            }
+         ]
+      },
+      {
+         "product_name": "Hecatoncheir",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 109,
+         "localID": "Re-109C/1-117R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 1,
+            "number": 117,
+            "localID": "1-117R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.23,
+               "marketPriceHigh": 0.23,
+               "marketPriceAvg": 0.23
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.74,
+               "marketPriceHigh": 0.74,
+               "marketPriceAvg": 0.74
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 13.88,
+               "marketPriceHigh": 13.88,
+               "marketPriceAvg": 13.88
+            }
+         ]
+      },
+      {
+         "product_name": "Hecatoncheir (Re-110H/15-082H)",
+         "rarity": "Hero",
+         "set": 0,
+         "number": 110,
+         "localID": "Re-110H/15-082H",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Hero",
+            "set": 15,
+            "number": 82,
+            "localID": "15-082H"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.58,
+               "marketPriceHigh": 0.58,
+               "marketPriceAvg": 0.58
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.66,
+               "marketPriceHigh": 0.66,
+               "marketPriceAvg": 0.66
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 6.28,
+               "marketPriceHigh": 6.28,
+               "marketPriceAvg": 6.28
+            }
+         ]
+      },
+      {
+         "product_name": "Maat",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 111,
+         "localID": "Re-111C/6-078R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 6,
+            "number": 78,
+            "localID": "6-078R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.17,
+               "marketPriceHigh": 0.17,
+               "marketPriceAvg": 0.17
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 1.1,
+               "marketPriceHigh": 1.1,
+               "marketPriceAvg": 1.1
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 3.9,
+               "marketPriceHigh": 3.9,
+               "marketPriceAvg": 3.9
+            }
+         ]
+      },
+      {
+         "product_name": "Madam Edel",
+         "rarity": "Hero",
+         "set": 0,
+         "number": 112,
+         "localID": "Re-112H/16-080H",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Hero",
+            "set": 16,
+            "number": 80,
+            "localID": "16-080H"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.28,
+               "marketPriceHigh": 0.28,
+               "marketPriceAvg": 0.28
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.41,
+               "marketPriceHigh": 0.41,
+               "marketPriceAvg": 0.41
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 4.66,
+               "marketPriceHigh": 4.66,
+               "marketPriceAvg": 4.66
+            }
+         ]
+      },
+      {
+         "product_name": "Marlene",
+         "rarity": "Common",
+         "set": 0,
+         "number": 113,
+         "localID": "Re-113C/8-085C",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Common",
+            "set": 8,
+            "number": 85,
+            "localID": "8-085C"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.14,
+               "marketPriceHigh": 0.14,
+               "marketPriceAvg": 0.14
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.83,
+               "marketPriceHigh": 0.83,
+               "marketPriceAvg": 0.83
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 11.36,
+               "marketPriceHigh": 11.36,
+               "marketPriceAvg": 11.36
+            }
+         ]
+      },
+      {
+         "product_name": "Shadow Lord",
+         "rarity": "Legend",
+         "set": 0,
+         "number": 114,
+         "localID": "Re-114L/17-079L",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Legend",
+            "set": 17,
+            "number": 79,
+            "localID": "17-079L"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.52,
+               "marketPriceHigh": 0.52,
+               "marketPriceAvg": 0.52
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.63,
+               "marketPriceHigh": 0.63,
+               "marketPriceAvg": 0.63
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 7.67,
+               "marketPriceHigh": 7.67,
+               "marketPriceAvg": 7.67
+            }
+         ]
+      },
+      {
+         "product_name": "Leo",
+         "rarity": "Legend",
+         "set": 0,
+         "number": 115,
+         "localID": "Re-115H/6-084L",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Legend",
+            "set": 6,
+            "number": 84,
+            "localID": "6-084L"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 1.54,
+               "marketPriceHigh": 1.54,
+               "marketPriceAvg": 1.54
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 2.88,
+               "marketPriceHigh": 2.88,
+               "marketPriceAvg": 2.88
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 23.21,
+               "marketPriceHigh": 23.21,
+               "marketPriceAvg": 23.21
+            }
+         ]
+      },
+      {
+         "product_name": "Regis",
+         "rarity": "Common",
+         "set": 0,
+         "number": 116,
+         "localID": "Re-116C/9-080C",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Common",
+            "set": 9,
+            "number": 80,
+            "localID": "9-080C"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.14,
+               "marketPriceHigh": 0.14,
+               "marketPriceAvg": 0.14
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.46,
+               "marketPriceHigh": 0.46,
+               "marketPriceAvg": 0.46
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 2.74,
+               "marketPriceHigh": 2.74,
+               "marketPriceAvg": 2.74
+            }
+         ]
+      },
+      {
+         "product_name": "Axis",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 117,
+         "localID": "Re-117C/15-086R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 15,
+            "number": 86,
+            "localID": "15-086R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.1,
+               "marketPriceHigh": 0.1,
+               "marketPriceAvg": 0.1
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.24,
+               "marketPriceHigh": 0.24,
+               "marketPriceAvg": 0.24
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 4.49,
+               "marketPriceHigh": 4.49,
+               "marketPriceAvg": 4.49
+            }
+         ]
+      },
+      {
+         "product_name": "Alisaie",
+         "rarity": "Hero",
+         "set": 0,
+         "number": 118,
+         "localID": "Re-118H/20-086H",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Hero",
+            "set": 20,
+            "number": 86,
+            "localID": "20-086H"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.42,
+               "marketPriceHigh": 0.42,
+               "marketPriceAvg": 0.42
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.54,
+               "marketPriceHigh": 0.54,
+               "marketPriceAvg": 0.54
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 5.96,
+               "marketPriceHigh": 5.96,
+               "marketPriceAvg": 5.96
+            }
+         ]
+      },
+      {
+         "product_name": "Aldo",
+         "rarity": "Common",
+         "set": 0,
+         "number": 119,
+         "localID": "Re-119C/10-086C",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Common",
+            "set": 10,
+            "number": 86,
+            "localID": "10-086C"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.11,
+               "marketPriceHigh": 0.11,
+               "marketPriceAvg": 0.11
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.33,
+               "marketPriceHigh": 0.33,
+               "marketPriceAvg": 0.33
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 4.74,
+               "marketPriceHigh": 4.74,
+               "marketPriceAvg": 4.74
+            }
+         ]
+      },
+      {
+         "product_name": "Arecia Al-Rashia",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 120,
+         "localID": "Re-120C/3-097R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 3,
+            "number": 97,
+            "localID": "3-097R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.1,
+               "marketPriceHigh": 0.2,
+               "marketPriceAvg": 0.15
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.54,
+               "marketPriceHigh": 0.54,
+               "marketPriceAvg": 0.54
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 7.01,
+               "marketPriceHigh": 7.01,
+               "marketPriceAvg": 7.01
+            }
+         ]
+      },
+      {
+         "product_name": "Ixion",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 121,
+         "localID": "Re-121C/17-090R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 17,
+            "number": 90,
+            "localID": "17-090R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.23,
+               "marketPriceHigh": 0.23,
+               "marketPriceAvg": 0.23
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.82,
+               "marketPriceHigh": 0.82,
+               "marketPriceAvg": 0.82
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 7.21,
+               "marketPriceHigh": 7.21,
+               "marketPriceAvg": 7.21
+            }
+         ]
+      },
+      {
+         "product_name": "Edea EX",
+         "rarity": "Legend",
+         "set": 0,
+         "number": 122,
+         "localID": "Re-122L/2-099L",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Legend",
+            "set": 2,
+            "number": 99,
+            "localID": "2-099L"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.39,
+               "marketPriceHigh": 0.39,
+               "marketPriceAvg": 0.39
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 1.31,
+               "marketPriceHigh": 1.31,
+               "marketPriceAvg": 1.31
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 9.65,
+               "marketPriceHigh": 9.65,
+               "marketPriceAvg": 9.65
+            }
+         ]
+      },
+      {
+         "product_name": "Delusory Warlock",
+         "rarity": "Common",
+         "set": 0,
+         "number": 123,
+         "localID": "Re-123C/13-070C",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Common",
+            "set": 13,
+            "number": 70,
+            "localID": "13-070C"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.15,
+               "marketPriceHigh": 0.15,
+               "marketPriceAvg": 0.15
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.55,
+               "marketPriceHigh": 0.55,
+               "marketPriceAvg": 0.55
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 8.5,
+               "marketPriceHigh": 8.5,
+               "marketPriceAvg": 8.5
+            }
+         ]
+      },
+      {
+         "product_name": "Urianger EX",
+         "rarity": "Starter",
+         "set": 0,
+         "number": 124,
+         "localID": "Re-124C/13-135S",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "S",
+            "set": 13,
+            "number": 135,
+            "localID": "13-135S"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.47,
+               "marketPriceHigh": 0.47,
+               "marketPriceAvg": 0.47
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.85,
+               "marketPriceHigh": 0.85,
+               "marketPriceAvg": 0.85
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 5.64,
+               "marketPriceHigh": 5.64,
+               "marketPriceAvg": 5.64
+            }
+         ]
+      },
+      {
+         "product_name": "Exdeath",
+         "rarity": "Legend",
+         "set": 0,
+         "number": 125,
+         "localID": "Re-125L/17-091L",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Legend",
+            "set": 17,
+            "number": 91,
+            "localID": "17-091L"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.63,
+               "marketPriceHigh": 0.63,
+               "marketPriceAvg": 0.63
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 2.04,
+               "marketPriceHigh": 2.04,
+               "marketPriceAvg": 2.04
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 15.87,
+               "marketPriceHigh": 15.87,
+               "marketPriceAvg": 15.87
+            }
+         ]
+      },
+      {
+         "product_name": "Estinien",
+         "rarity": "Legend",
+         "set": 0,
+         "number": 126,
+         "localID": "Re-126L/20-088L",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Legend",
+            "set": 20,
+            "number": 88,
+            "localID": "20-088L"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 2.99,
+               "marketPriceHigh": 2.99,
+               "marketPriceAvg": 2.99
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 3.43,
+               "marketPriceHigh": 3.43,
+               "marketPriceAvg": 3.43
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 18.78,
+               "marketPriceHigh": 18.78,
+               "marketPriceAvg": 18.78
+            }
+         ]
+      },
+      {
+         "product_name": "Kain",
+         "rarity": "Hero",
+         "set": 0,
+         "number": 127,
+         "localID": "Re-127H/13-073H",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Hero",
+            "set": 13,
+            "number": 73,
+            "localID": "13-073H"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.4,
+               "marketPriceHigh": 0.4,
+               "marketPriceAvg": 0.4
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.56,
+               "marketPriceHigh": 0.56,
+               "marketPriceAvg": 0.56
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 4.72,
+               "marketPriceHigh": 4.72,
+               "marketPriceAvg": 4.72
+            }
+         ]
+      },
+      {
+         "product_name": "Cid of Clan Gully",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 128,
+         "localID": "Re-128C/5-103R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 5,
+            "number": 103,
+            "localID": "5-103R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.1,
+               "marketPriceHigh": 0.19,
+               "marketPriceAvg": 0.15
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.54,
+               "marketPriceHigh": 0.54,
+               "marketPriceAvg": 0.54
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 2.81,
+               "marketPriceHigh": 2.81,
+               "marketPriceAvg": 2.81
+            }
+         ]
+      },
+      {
+         "product_name": "Garuda (III)",
+         "rarity": "Hero",
+         "set": 0,
+         "number": 129,
+         "localID": "Re-129H/18-073H",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Hero",
+            "set": 18,
+            "number": 73,
+            "localID": "18-073H"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.22,
+               "marketPriceHigh": 0.22,
+               "marketPriceAvg": 0.22
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.43,
+               "marketPriceHigh": 0.43,
+               "marketPriceAvg": 0.43
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 2.34,
+               "marketPriceHigh": 2.34,
+               "marketPriceAvg": 2.34
+            }
+         ]
+      },
+      {
+         "product_name": "Coeurl",
+         "rarity": "Common",
+         "set": 0,
+         "number": 130,
+         "localID": "Re-130C/7-089C",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Common",
+            "set": 7,
+            "number": 89,
+            "localID": "7-089C"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.13,
+               "marketPriceHigh": 0.13,
+               "marketPriceAvg": 0.13
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.89,
+               "marketPriceHigh": 0.89,
+               "marketPriceAvg": 0.89
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 5.58,
+               "marketPriceHigh": 5.58,
+               "marketPriceAvg": 5.58
+            }
+         ]
+      },
+      {
+         "product_name": "G'raha Tia",
+         "rarity": "Hero",
+         "set": 0,
+         "number": 131,
+         "localID": "Re-131H/20-090H",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Hero",
+            "set": 20,
+            "number": 90,
+            "localID": "20-090H"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.61,
+               "marketPriceHigh": 0.61,
+               "marketPriceAvg": 0.61
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.99,
+               "marketPriceHigh": 0.99,
+               "marketPriceAvg": 0.99
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 21.75,
+               "marketPriceHigh": 21.75,
+               "marketPriceAvg": 21.75
+            }
+         ]
+      },
+      {
+         "product_name": "Gramis",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 132,
+         "localID": "Re-132C/2-106R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 2,
+            "number": 106,
+            "localID": "2-106R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.15,
+               "marketPriceHigh": 0.15,
+               "marketPriceAvg": 0.15
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.53,
+               "marketPriceHigh": 0.53,
+               "marketPriceAvg": 0.53
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 7.03,
+               "marketPriceHigh": 7.03,
+               "marketPriceAvg": 7.03
+            }
+         ]
+      },
+      {
+         "product_name": "Man in Black",
+         "rarity": "Hero",
+         "set": 0,
+         "number": 133,
+         "localID": "Re-133H/17-096H",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Hero",
+            "set": 17,
+            "number": 96,
+            "localID": "17-096H"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.16,
+               "marketPriceHigh": 0.16,
+               "marketPriceAvg": 0.16
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.63,
+               "marketPriceHigh": 0.63,
+               "marketPriceAvg": 0.63
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 5.82,
+               "marketPriceHigh": 5.82,
+               "marketPriceAvg": 5.82
+            }
+         ]
+      },
+      {
+         "product_name": "Duke Goltanna",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 134,
+         "localID": "Re-134C/1-134R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 1,
+            "number": 134,
+            "localID": "1-134R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.2,
+               "marketPriceHigh": 0.2,
+               "marketPriceAvg": 0.2
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.38,
+               "marketPriceHigh": 0.38,
+               "marketPriceAvg": 0.38
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 3.58,
+               "marketPriceHigh": 3.58,
+               "marketPriceAvg": 3.58
+            }
+         ]
+      },
+      {
+         "product_name": "Zemus",
+         "rarity": "Legend",
+         "set": 0,
+         "number": 135,
+         "localID": "Re-135H/5-108L",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Legend",
+            "set": 5,
+            "number": 108,
+            "localID": "5-108L"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.49,
+               "marketPriceHigh": 0.49,
+               "marketPriceAvg": 0.49
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.44,
+               "marketPriceHigh": 0.44,
+               "marketPriceAvg": 0.44
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 1.7,
+               "marketPriceHigh": 1.7,
+               "marketPriceAvg": 1.7
+            }
+         ]
+      },
+      {
+         "product_name": "Diana EX",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 136,
+         "localID": "Re-136C/12-082R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 12,
+            "number": 82,
+            "localID": "12-082R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.16,
+               "marketPriceHigh": 0.16,
+               "marketPriceAvg": 0.16
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.23,
+               "marketPriceHigh": 0.23,
+               "marketPriceAvg": 0.23
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 4.19,
+               "marketPriceHigh": 4.19,
+               "marketPriceAvg": 4.19
+            }
+         ]
+      },
+      {
+         "product_name": "Merald",
+         "rarity": "Common",
+         "set": 0,
+         "number": 137,
+         "localID": "Re-137C/16-099C",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Common",
+            "set": 16,
+            "number": 99,
+            "localID": "16-099C"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.13,
+               "marketPriceHigh": 0.13,
+               "marketPriceAvg": 0.13
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.53,
+               "marketPriceHigh": 0.53,
+               "marketPriceAvg": 0.53
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 7.63,
+               "marketPriceHigh": 7.63,
+               "marketPriceAvg": 7.63
+            }
+         ]
+      },
+      {
+         "product_name": "Melusine",
+         "rarity": "Hero",
+         "set": 0,
+         "number": 138,
+         "localID": "Re-138H/18-081H",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Hero",
+            "set": 18,
+            "number": 81,
+            "localID": "18-081H"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.22,
+               "marketPriceHigh": 0.25,
+               "marketPriceAvg": 0.24
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.35,
+               "marketPriceHigh": 0.35,
+               "marketPriceAvg": 0.35
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 8.03,
+               "marketPriceHigh": 8.03,
+               "marketPriceAvg": 8.03
+            }
+         ]
+      },
+      {
+         "product_name": "Ranperre",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 139,
+         "localID": "Re-139C/10-104R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 10,
+            "number": 104,
+            "localID": "10-104R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.11,
+               "marketPriceHigh": 0.11,
+               "marketPriceAvg": 0.11
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 1.2,
+               "marketPriceHigh": 1.2,
+               "marketPriceAvg": 1.2
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 3.27,
+               "marketPriceHigh": 3.27,
+               "marketPriceAvg": 3.27
+            }
+         ]
+      },
+      {
+         "product_name": "Reeve EX",
+         "rarity": "Common",
+         "set": 0,
+         "number": 140,
+         "localID": "Re-140C/9-098C",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Common",
+            "set": 9,
+            "number": 98,
+            "localID": "9-098C"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.14,
+               "marketPriceHigh": 0.14,
+               "marketPriceAvg": 0.14
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 1.11,
+               "marketPriceHigh": 1.11,
+               "marketPriceAvg": 1.11
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 19.98,
+               "marketPriceHigh": 19.98,
+               "marketPriceAvg": 19.98
+            }
+         ]
+      },
+      {
+         "product_name": "Ricard",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 141,
+         "localID": "Re-141C/19-084R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 19,
+            "number": 84,
+            "localID": "19-084R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.24,
+               "marketPriceHigh": 0.24,
+               "marketPriceAvg": 0.24
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.45,
+               "marketPriceHigh": 0.45,
+               "marketPriceAvg": 0.45
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 4.52,
+               "marketPriceHigh": 4.52,
+               "marketPriceAvg": 4.52
+            }
+         ]
+      },
+      {
+         "product_name": "Louisoix",
+         "rarity": "Common",
+         "set": 0,
+         "number": 142,
+         "localID": "Re-142C/5-120C",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Common",
+            "set": 5,
+            "number": 120,
+            "localID": "5-120C"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.11,
+               "marketPriceHigh": 0.11,
+               "marketPriceAvg": 0.11
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.52,
+               "marketPriceHigh": 0.52,
+               "marketPriceAvg": 0.52
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 4.35,
+               "marketPriceHigh": 4.35,
+               "marketPriceAvg": 4.35
+            }
+         ]
+      },
+      {
+         "product_name": "Lumina",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 143,
+         "localID": "Re-143C/13-085R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 13,
+            "number": 85,
+            "localID": "13-085R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.3,
+               "marketPriceHigh": 0.3,
+               "marketPriceAvg": 0.3
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 1.45,
+               "marketPriceHigh": 1.45,
+               "marketPriceAvg": 1.45
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 22.23,
+               "marketPriceHigh": 22.23,
+               "marketPriceAvg": 22.23
+            }
+         ]
+      },
+      {
+         "product_name": "Restrictor EX",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 144,
+         "localID": "Re-144C/4-120R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 4,
+            "number": 120,
+            "localID": "4-120R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.27,
+               "marketPriceHigh": 0.27,
+               "marketPriceAvg": 0.27
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.32,
+               "marketPriceHigh": 0.32,
+               "marketPriceAvg": 0.32
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 8.82,
+               "marketPriceHigh": 8.82,
+               "marketPriceAvg": 8.82
+            }
+         ]
+      },
+      {
+         "product_name": "Roche",
+         "rarity": "Hero",
+         "set": 0,
+         "number": 145,
+         "localID": "Re-145H/14-095H",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Hero",
+            "set": 14,
+            "number": 95,
+            "localID": "14-095H"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 1.4,
+               "marketPriceHigh": 1.4,
+               "marketPriceAvg": 1.4
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 1.85,
+               "marketPriceHigh": 1.85,
+               "marketPriceAvg": 1.85
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 14.57,
+               "marketPriceHigh": 14.57,
+               "marketPriceAvg": 14.57
+            }
+         ]
+      },
+      {
+         "product_name": "Ashe EX",
+         "rarity": "Hero",
+         "set": 0,
+         "number": 146,
+         "localID": "Re-146H/18-086H",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Hero",
+            "set": 18,
+            "number": 86,
+            "localID": "18-086H"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.32,
+               "marketPriceHigh": 0.32,
+               "marketPriceAvg": 0.32
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.47,
+               "marketPriceHigh": 0.47,
+               "marketPriceAvg": 0.47
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 3.8,
+               "marketPriceHigh": 3.8,
+               "marketPriceAvg": 3.8
+            }
+         ]
+      },
+      {
+         "product_name": "Thordan VII EX",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 147,
+         "localID": "Re-147C/6-108R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 6,
+            "number": 108,
+            "localID": "6-108R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.44,
+               "marketPriceHigh": 0.5,
+               "marketPriceAvg": 0.47
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 1.85,
+               "marketPriceHigh": 1.85,
+               "marketPriceAvg": 1.85
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 27.09,
+               "marketPriceHigh": 27.09,
+               "marketPriceAvg": 27.09
+            }
+         ]
+      },
+      {
+         "product_name": "Eiko",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 148,
+         "localID": "Re-148C/3-127R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 3,
+            "number": 127,
+            "localID": "3-127R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.1,
+               "marketPriceHigh": 0.1,
+               "marketPriceAvg": 0.1
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.84,
+               "marketPriceHigh": 0.84,
+               "marketPriceAvg": 0.84
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 4.37,
+               "marketPriceHigh": 4.37,
+               "marketPriceAvg": 4.37
+            }
+         ]
+      },
+      {
+         "product_name": "Eiko (Re-149C/14-099C)",
+         "rarity": "Common",
+         "set": 0,
+         "number": 149,
+         "localID": "Re-149C/14-099C",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Common",
+            "set": 14,
+            "number": 99,
+            "localID": "14-099C"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.13,
+               "marketPriceHigh": 0.13,
+               "marketPriceAvg": 0.13
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.53,
+               "marketPriceHigh": 0.53,
+               "marketPriceAvg": 0.53
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 4.19,
+               "marketPriceHigh": 4.19,
+               "marketPriceAvg": 4.19
+            }
+         ]
+      },
+      {
+         "product_name": "Aria (III) EX",
+         "rarity": "Hero",
+         "set": 0,
+         "number": 150,
+         "localID": "Re-150H/5-123H",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Hero",
+            "set": 5,
+            "number": 123,
+            "localID": "5-123H"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.75,
+               "marketPriceHigh": 0.75,
+               "marketPriceAvg": 0.75
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.86,
+               "marketPriceHigh": 0.86,
+               "marketPriceAvg": 0.86
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 8.39,
+               "marketPriceHigh": 8.39,
+               "marketPriceAvg": 8.39
+            }
+         ]
+      },
+      {
+         "product_name": "Glaciela Wezette",
+         "rarity": "Legend",
+         "set": 0,
+         "number": 151,
+         "localID": "Re-151L/17-113L",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Legend",
+            "set": 17,
+            "number": 113,
+            "localID": "17-113L"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 3.97,
+               "marketPriceHigh": 3.97,
+               "marketPriceAvg": 3.97
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 5.52,
+               "marketPriceHigh": 5.52,
+               "marketPriceAvg": 5.52
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 12.19,
+               "marketPriceHigh": 12.19,
+               "marketPriceAvg": 12.19
+            }
+         ]
+      },
+      {
+         "product_name": "PuPu EX",
+         "rarity": "Common",
+         "set": 0,
+         "number": 152,
+         "localID": "Re-152C/4-128C",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Common",
+            "set": 4,
+            "number": 128,
+            "localID": "4-128C"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.38,
+               "marketPriceHigh": 0.38,
+               "marketPriceAvg": 0.38
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.61,
+               "marketPriceHigh": 0.61,
+               "marketPriceAvg": 0.61
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 9.47,
+               "marketPriceHigh": 9.47,
+               "marketPriceAvg": 9.47
+            }
+         ]
+      },
+      {
+         "product_name": "Sahagin",
+         "rarity": "Common",
+         "set": 0,
+         "number": 153,
+         "localID": "Re-153C/7-110C",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Common",
+            "set": 7,
+            "number": 110,
+            "localID": "7-110C"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.11,
+               "marketPriceHigh": 0.11,
+               "marketPriceAvg": 0.11
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.29,
+               "marketPriceHigh": 0.29,
+               "marketPriceAvg": 0.29
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 4.57,
+               "marketPriceHigh": 4.57,
+               "marketPriceAvg": 4.57
+            }
+         ]
+      },
+      {
+         "product_name": "Sahagin Chief",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 154,
+         "localID": "Re-154C/11-114R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 11,
+            "number": 114,
+            "localID": "11-114R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.34,
+               "marketPriceHigh": 0.34,
+               "marketPriceAvg": 0.34
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.49,
+               "marketPriceHigh": 0.49,
+               "marketPriceAvg": 0.49
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 9.18,
+               "marketPriceHigh": 9.18,
+               "marketPriceAvg": 9.18
+            }
+         ]
+      },
+      {
+         "product_name": "Sara",
+         "rarity": "Hero",
+         "set": 0,
+         "number": 155,
+         "localID": "Re-155H/13-093H",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Hero",
+            "set": 13,
+            "number": 93,
+            "localID": "13-093H"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.91,
+               "marketPriceHigh": 0.91,
+               "marketPriceAvg": 0.91
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 2.35,
+               "marketPriceHigh": 2.35,
+               "marketPriceAvg": 2.35
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 39.05,
+               "marketPriceHigh": 39.05,
+               "marketPriceAvg": 39.05
+            }
+         ]
+      },
+      {
+         "product_name": "Strago EX",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 156,
+         "localID": "Re-156H/19-093H",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Hero",
+            "set": 19,
+            "number": 93,
+            "localID": "19-093H"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.26,
+               "marketPriceHigh": 0.26,
+               "marketPriceAvg": 0.26
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.4,
+               "marketPriceHigh": 0.4,
+               "marketPriceAvg": 0.4
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 5.65,
+               "marketPriceHigh": 5.65,
+               "marketPriceAvg": 5.65
+            }
+         ]
+      },
+      {
+         "product_name": "Sarah (FFL)",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 157,
+         "localID": "Re-157C/12-099R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 12,
+            "number": 99,
+            "localID": "12-099R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.32,
+               "marketPriceHigh": 0.32,
+               "marketPriceAvg": 0.32
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 1.14,
+               "marketPriceHigh": 1.14,
+               "marketPriceAvg": 1.14
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 24.97,
+               "marketPriceHigh": 24.97,
+               "marketPriceAvg": 24.97
+            }
+         ]
+      },
+      {
+         "product_name": "Hippokampos",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 158,
+         "localID": "Re-158H/20-110H",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Hero",
+            "set": 20,
+            "number": 110,
+            "localID": "20-110H"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.25,
+               "marketPriceHigh": 0.25,
+               "marketPriceAvg": 0.25
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.51,
+               "marketPriceHigh": 0.51,
+               "marketPriceAvg": 0.51
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 3.47,
+               "marketPriceHigh": 3.47,
+               "marketPriceAvg": 3.47
+            }
+         ]
+      },
+      {
+         "product_name": "Verena EX",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 159,
+         "localID": "Re-159C/10-119R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 10,
+            "number": 119,
+            "localID": "10-119R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.12,
+               "marketPriceHigh": 0.12,
+               "marketPriceAvg": 0.12
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.4,
+               "marketPriceHigh": 0.4,
+               "marketPriceAvg": 0.4
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 3.54,
+               "marketPriceHigh": 3.64,
+               "marketPriceAvg": 3.59
+            }
+         ]
+      },
+      {
+         "product_name": "Cuchulainn, the Impure",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 160,
+         "localID": "Re-160C/9-114C",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Common",
+            "set": 9,
+            "number": 114,
+            "localID": "9-114C"
+         },
+         "variation": [
+            {
+               "type": "Full Art",
+               "marketPriceLow": 11.62,
+               "marketPriceHigh": 11.62,
+               "marketPriceAvg": 11.62
+            }
+         ]
+      },
+      {
+         "product_name": "Cúchulainn, the Impure",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 160,
+         "localID": "Re-160C/9-114C",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Common",
+            "set": 9,
+            "number": 114,
+            "localID": "9-114C"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 1.38,
+               "marketPriceHigh": 1.38,
+               "marketPriceAvg": 1.38
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 3.01,
+               "marketPriceHigh": 3.01,
+               "marketPriceAvg": 3.01
+            }
+         ]
+      },
+      {
+         "product_name": "Beatrix",
+         "rarity": "Hero",
+         "set": 0,
+         "number": 161,
+         "localID": "Re-161H/12-103H",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Hero",
+            "set": 12,
+            "number": 103,
+            "localID": "12-103H"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.99,
+               "marketPriceHigh": 1.08,
+               "marketPriceAvg": 1.04
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 2.07,
+               "marketPriceHigh": 2.07,
+               "marketPriceAvg": 2.07
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 18.08,
+               "marketPriceHigh": 18.08,
+               "marketPriceAvg": 18.08
+            }
+         ]
+      },
+      {
+         "product_name": "Vesvia EX",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 162,
+         "localID": "Re-162C/16-121R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 16,
+            "number": 121,
+            "localID": "16-121R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.14,
+               "marketPriceHigh": 0.14,
+               "marketPriceAvg": 0.14
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.5,
+               "marketPriceHigh": 0.5,
+               "marketPriceAvg": 0.5
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 18.48,
+               "marketPriceHigh": 18.48,
+               "marketPriceAvg": 18.48
+            }
+         ]
+      },
+      {
+         "product_name": "Porom EX",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 163,
+         "localID": "Re-163C/9-115R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 9,
+            "number": 115,
+            "localID": "9-115R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.19,
+               "marketPriceHigh": 0.19,
+               "marketPriceAvg": 0.19
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.68,
+               "marketPriceHigh": 0.68,
+               "marketPriceAvg": 0.68
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 3.15,
+               "marketPriceHigh": 3.15,
+               "marketPriceAvg": 3.15
+            }
+         ]
+      },
+      {
+         "product_name": "Minwu",
+         "rarity": "Legend",
+         "set": 0,
+         "number": 164,
+         "localID": "Re-164H/6-123L",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Legend",
+            "set": 6,
+            "number": 123,
+            "localID": "6-123L"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.31,
+               "marketPriceHigh": 0.31,
+               "marketPriceAvg": 0.31
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.25,
+               "marketPriceHigh": 0.25,
+               "marketPriceAvg": 0.25
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 2.49,
+               "marketPriceHigh": 2.49,
+               "marketPriceAvg": 2.49
+            }
+         ]
+      },
+      {
+         "product_name": "Merlwyb",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 165,
+         "localID": "Re-165C/4-138R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 4,
+            "number": 138,
+            "localID": "4-138R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.23,
+               "marketPriceHigh": 0.23,
+               "marketPriceAvg": 0.23
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 2.46,
+               "marketPriceHigh": 2.46,
+               "marketPriceAvg": 2.46
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 11.75,
+               "marketPriceHigh": 11.75,
+               "marketPriceAvg": 11.75
+            }
+         ]
+      },
+      {
+         "product_name": "Moogle EX",
+         "rarity": "Common",
+         "set": 0,
+         "number": 166,
+         "localID": "Re-166C/1-172C",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Common",
+            "set": 1,
+            "number": 172,
+            "localID": "1-172C"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.41,
+               "marketPriceHigh": 0.41,
+               "marketPriceAvg": 0.41
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.6,
+               "marketPriceHigh": 0.6,
+               "marketPriceAvg": 0.6
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 14.64,
+               "marketPriceHigh": 14.64,
+               "marketPriceAvg": 14.64
+            }
+         ]
+      },
+      {
+         "product_name": "Yaag Rosch",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 167,
+         "localID": "Re-167C/1-174R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 1,
+            "number": 174,
+            "localID": "1-174R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.23,
+               "marketPriceHigh": 0.23,
+               "marketPriceAvg": 0.23
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.65,
+               "marketPriceHigh": 0.65,
+               "marketPriceAvg": 0.65
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 9,
+               "marketPriceHigh": 9,
+               "marketPriceAvg": 9
+            }
+         ]
+      },
+      {
+         "product_name": "Yuna",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 168,
+         "localID": "Re-168C/1-177R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 1,
+            "number": 177,
+            "localID": "1-177R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.43,
+               "marketPriceHigh": 0.43,
+               "marketPriceAvg": 0.43
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 1.26,
+               "marketPriceHigh": 1.26,
+               "marketPriceAvg": 1.26
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 11.14,
+               "marketPriceHigh": 11.14,
+               "marketPriceAvg": 11.14
+            }
+         ]
+      },
+      {
+         "product_name": "Yuna (Re-169L/12-105L)",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 169,
+         "localID": "Re-169L/12-105L",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Legend",
+            "set": 12,
+            "number": 105,
+            "localID": "12-105L"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.72,
+               "marketPriceHigh": 0.72,
+               "marketPriceAvg": 0.72
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 1.65,
+               "marketPriceHigh": 1.65,
+               "marketPriceAvg": 1.65
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 13.11,
+               "marketPriceHigh": 13.11,
+               "marketPriceAvg": 13.11
+            },
+            {
+               "type": "Full Art Signature",
+               "marketPriceLow": 510.19,
+               "marketPriceHigh": 510.19,
+               "marketPriceAvg": 510.19
+            }
+         ]
+      },
+      {
+         "product_name": "Lightning",
+         "rarity": "Hero",
+         "set": 0,
+         "number": 170,
+         "localID": "Re-170H/16-124H",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Hero",
+            "set": 16,
+            "number": 124,
+            "localID": "16-124H"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.41,
+               "marketPriceHigh": 0.5,
+               "marketPriceAvg": 0.45
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 1.33,
+               "marketPriceHigh": 1.33,
+               "marketPriceAvg": 1.33
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 15.74,
+               "marketPriceHigh": 17.79,
+               "marketPriceAvg": 16.77
+            }
+         ]
+      },
+      {
+         "product_name": "Leviathan",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 171,
+         "localID": "Re-171C/14-113R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 14,
+            "number": 113,
+            "localID": "14-113R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.51,
+               "marketPriceHigh": 0.51,
+               "marketPriceAvg": 0.51
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 3.21,
+               "marketPriceHigh": 3.21,
+               "marketPriceAvg": 3.21
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 42.81,
+               "marketPriceHigh": 42.81,
+               "marketPriceAvg": 42.81
+            }
+         ]
+      },
+      {
+         "product_name": "Leonora EX",
+         "rarity": "Common",
+         "set": 0,
+         "number": 172,
+         "localID": "Re-172C/3-143C",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Common",
+            "set": 3,
+            "number": 143,
+            "localID": "3-143C"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.15,
+               "marketPriceHigh": 0.15,
+               "marketPriceAvg": 0.15
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.25,
+               "marketPriceHigh": 0.59,
+               "marketPriceAvg": 0.42
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 9.14,
+               "marketPriceHigh": 9.14,
+               "marketPriceAvg": 9.14
+            }
+         ]
+      },
+      {
+         "product_name": "Lenna",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 173,
+         "localID": "Re-173C/15-126R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 15,
+            "number": 126,
+            "localID": "15-126R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.16,
+               "marketPriceHigh": 0.16,
+               "marketPriceAvg": 0.16
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.43,
+               "marketPriceHigh": 0.43,
+               "marketPriceAvg": 0.43
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 3.79,
+               "marketPriceHigh": 4.74,
+               "marketPriceAvg": 4.27
+            }
+         ]
+      },
+      {
+         "product_name": "Refia",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 174,
+         "localID": "Re-174L/19-102L",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Legend",
+            "set": 19,
+            "number": 102,
+            "localID": "19-102L"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 1.62,
+               "marketPriceHigh": 1.62,
+               "marketPriceAvg": 1.62
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 1.33,
+               "marketPriceHigh": 1.33,
+               "marketPriceAvg": 1.33
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 15.45,
+               "marketPriceHigh": 15.45,
+               "marketPriceAvg": 15.45
+            }
+         ]
+      },
+      {
+         "product_name": "Aerith",
+         "rarity": "Starter",
+         "set": 0,
+         "number": 175,
+         "localID": "Re-175C/11-139S",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "S",
+            "set": 11,
+            "number": 139,
+            "localID": "11-139S"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.52,
+               "marketPriceHigh": 0.52,
+               "marketPriceAvg": 0.52
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 1.11,
+               "marketPriceHigh": 1.11,
+               "marketPriceAvg": 1.11
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 10.66,
+               "marketPriceHigh": 10.66,
+               "marketPriceAvg": 10.66
+            }
+         ]
+      },
+      {
+         "product_name": "Shinryu",
+         "rarity": "Legend",
+         "set": 0,
+         "number": 176,
+         "localID": "Re-176L/20-127L",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Legend",
+            "set": 20,
+            "number": 127,
+            "localID": "20-127L"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 1.67,
+               "marketPriceHigh": 2,
+               "marketPriceAvg": 1.84
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 1.64,
+               "marketPriceHigh": 1.64,
+               "marketPriceAvg": 1.64
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 12.19,
+               "marketPriceHigh": 12.19,
+               "marketPriceAvg": 12.19
+            }
+         ]
+      },
+      {
+         "product_name": "Tidus EX",
+         "rarity": "Hero",
+         "set": 0,
+         "number": 177,
+         "localID": "Re-177H/19-103H",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Hero",
+            "set": 19,
+            "number": 103,
+            "localID": "19-103H"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.25,
+               "marketPriceHigh": 0.34,
+               "marketPriceAvg": 0.3
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.82,
+               "marketPriceHigh": 0.82,
+               "marketPriceAvg": 0.82
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 12.27,
+               "marketPriceHigh": 12.27,
+               "marketPriceAvg": 12.27
+            }
+         ]
+      },
+      {
+         "product_name": "Ark",
+         "rarity": "Hero",
+         "set": 0,
+         "number": 178,
+         "localID": "Re-178H/19-105H",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Hero",
+            "set": 19,
+            "number": 105,
+            "localID": "19-105H"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.27,
+               "marketPriceHigh": 0.27,
+               "marketPriceAvg": 0.27
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.49,
+               "marketPriceHigh": 0.49,
+               "marketPriceAvg": 0.49
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 4.2,
+               "marketPriceHigh": 4.2,
+               "marketPriceAvg": 4.2
+            }
+         ]
+      },
+      {
+         "product_name": "Chaos",
+         "rarity": "Legend",
+         "set": 0,
+         "number": 179,
+         "localID": "Re-179L/16-129L",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Legend",
+            "set": 16,
+            "number": 129,
+            "localID": "16-129L"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 1.34,
+               "marketPriceHigh": 1.99,
+               "marketPriceAvg": 1.67
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 2.85,
+               "marketPriceHigh": 2.85,
+               "marketPriceAvg": 2.85
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 13.54,
+               "marketPriceHigh": 13.54,
+               "marketPriceAvg": 13.54
+            }
+         ]
+      },
+      {
+         "product_name": "Kadaj EX",
+         "rarity": "Starter",
+         "set": 0,
+         "number": 180,
+         "localID": "Re-180C/11-140S",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "S",
+            "set": 11,
+            "number": 140,
+            "localID": "11-140S"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.19,
+               "marketPriceHigh": 0.19,
+               "marketPriceAvg": 0.19
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.73,
+               "marketPriceHigh": 0.73,
+               "marketPriceAvg": 0.73
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 3.48,
+               "marketPriceHigh": 3.48,
+               "marketPriceAvg": 3.48
+            }
+         ]
+      },
+      {
+         "product_name": "Vaan EX",
+         "rarity": "Common",
+         "set": 0,
+         "number": 181,
+         "localID": "Re-181C/19-107C",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Common",
+            "set": 19,
+            "number": 107,
+            "localID": "19-107C"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.11,
+               "marketPriceHigh": 0.11,
+               "marketPriceAvg": 0.11
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.29,
+               "marketPriceHigh": 0.29,
+               "marketPriceAvg": 0.29
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 2.89,
+               "marketPriceHigh": 2.89,
+               "marketPriceAvg": 2.89
+            }
+         ]
+      },
+      {
+         "product_name": "Zidane",
+         "rarity": "Legend",
+         "set": 0,
+         "number": 182,
+         "localID": "Re-182L/19-108L",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Legend",
+            "set": 19,
+            "number": 108,
+            "localID": "19-108L"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 2.9,
+               "marketPriceHigh": 2.9,
+               "marketPriceAvg": 2.9
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 4.94,
+               "marketPriceHigh": 4.94,
+               "marketPriceAvg": 4.94
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 18.45,
+               "marketPriceHigh": 18.45,
+               "marketPriceAvg": 18.45
+            }
+         ]
+      },
+      {
+         "product_name": "Tifa (Re-183H/14-120H)",
+         "rarity": "Hero",
+         "set": 0,
+         "number": 183,
+         "localID": "Re-183H/14-120H",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Hero",
+            "set": 14,
+            "number": 120,
+            "localID": "14-120H"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 1.59,
+               "marketPriceHigh": 1.59,
+               "marketPriceAvg": 1.59
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 2.93,
+               "marketPriceHigh": 2.93,
+               "marketPriceAvg": 2.93
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 29.29,
+               "marketPriceHigh": 29.29,
+               "marketPriceAvg": 29.29
+            }
+         ]
+      },
+      {
+         "product_name": "Basch",
+         "rarity": "Legend",
+         "set": 0,
+         "number": 184,
+         "localID": "Re-184L/18-111L",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Legend",
+            "set": 18,
+            "number": 111,
+            "localID": "18-111L"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.94,
+               "marketPriceHigh": 0.94,
+               "marketPriceAvg": 0.94
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 1.73,
+               "marketPriceHigh": 1.73,
+               "marketPriceAvg": 1.73
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 8.75,
+               "marketPriceHigh": 8.75,
+               "marketPriceAvg": 8.75
+            }
+         ]
+      },
+      {
+         "product_name": "Cid Haze",
+         "rarity": "Hero",
+         "set": 0,
+         "number": 185,
+         "localID": "Re-185H/18-113H",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Hero",
+            "set": 18,
+            "number": 113,
+            "localID": "18-113H"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.29,
+               "marketPriceHigh": 0.29,
+               "marketPriceAvg": 0.29
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.73,
+               "marketPriceHigh": 0.73,
+               "marketPriceAvg": 0.73
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 5.83,
+               "marketPriceHigh": 5.83,
+               "marketPriceAvg": 5.83
+            }
+         ]
+      },
+      {
+         "product_name": "The Emperor",
+         "rarity": "Hero",
+         "set": 0,
+         "number": 186,
+         "localID": "Re-186H/19-110H",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Hero",
+            "set": 19,
+            "number": 110,
+            "localID": "19-110H"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.36,
+               "marketPriceHigh": 0.36,
+               "marketPriceAvg": 0.36
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.64,
+               "marketPriceHigh": 0.64,
+               "marketPriceAvg": 0.64
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 4.27,
+               "marketPriceHigh": 4.27,
+               "marketPriceAvg": 4.27
+            }
+         ]
+      },
+      {
+         "product_name": "Sephiroth",
+         "rarity": "Legend",
+         "set": 0,
+         "number": 187,
+         "localID": "Re-187L/18-116L",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Legend",
+            "set": 18,
+            "number": 116,
+            "localID": "18-116L"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 2.05,
+               "marketPriceHigh": 2.05,
+               "marketPriceAvg": 2.05
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 2.98,
+               "marketPriceHigh": 2.98,
+               "marketPriceAvg": 2.98
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 8.57,
+               "marketPriceHigh": 8.57,
+               "marketPriceAvg": 8.57
+            }
+         ]
+      },
+      {
+         "product_name": "Lightning (Hero)",
+         "rarity": "Hero",
+         "set": 0,
+         "number": 188,
+         "localID": "Re-188H/18-117H",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Hero",
+            "set": 18,
+            "number": 117,
+            "localID": "18-117H"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.53,
+               "marketPriceHigh": 0.53,
+               "marketPriceAvg": 0.53
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 1.02,
+               "marketPriceHigh": 1.02,
+               "marketPriceAvg": 1.02
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 11.28,
+               "marketPriceHigh": 11.28,
+               "marketPriceAvg": 11.28
+            }
+         ]
+      },
+      {
+         "product_name": "Y'shtola",
+         "rarity": "Legend",
+         "set": 0,
+         "number": 189,
+         "localID": "Re-189L/12-119L",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Legend",
+            "set": 12,
+            "number": 119,
+            "localID": "12-119L"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.65,
+               "marketPriceHigh": 0.65,
+               "marketPriceAvg": 0.65
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.95,
+               "marketPriceHigh": 0.95,
+               "marketPriceAvg": 0.95
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 10.03,
+               "marketPriceHigh": 10.03,
+               "marketPriceAvg": 10.03
+            }
+         ]
+      },
+      {
+         "product_name": "Cloud (Re-190L/19-114L)",
+         "rarity": "Legend",
+         "set": 0,
+         "number": 190,
+         "localID": "Re-190L/19-114L",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Legend",
+            "set": 19,
+            "number": 114,
+            "localID": "19-114L"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 1.65,
+               "marketPriceHigh": 1.65,
+               "marketPriceAvg": 1.65
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 4.71,
+               "marketPriceHigh": 4.71,
+               "marketPriceAvg": 4.71
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 32.58,
+               "marketPriceHigh": 32.58,
+               "marketPriceAvg": 32.58
+            }
+         ]
+      },
+      {
+         "product_name": "Noctis",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 191,
+         "localID": "Re-191C/12-121R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 12,
+            "number": 121,
+            "localID": "12-121R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.27,
+               "marketPriceHigh": 0.27,
+               "marketPriceAvg": 0.27
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.6,
+               "marketPriceHigh": 0.6,
+               "marketPriceAvg": 0.6
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 12.37,
+               "marketPriceHigh": 12.37,
+               "marketPriceAvg": 12.37
+            }
+         ]
+      },
+      {
+         "product_name": "Garnet",
+         "rarity": "Common",
+         "set": 0,
+         "number": 192,
+         "localID": "Re-192C/19-120C",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Common",
+            "set": 19,
+            "number": 120,
+            "localID": "19-120C"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.15,
+               "marketPriceHigh": 0.15,
+               "marketPriceAvg": 0.15
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.65,
+               "marketPriceHigh": 0.65,
+               "marketPriceAvg": 0.65
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 16.59,
+               "marketPriceHigh": 16.59,
+               "marketPriceAvg": 16.59
+            }
+         ]
+      },
+      {
+         "product_name": "Nine",
+         "rarity": "Legend",
+         "set": 0,
+         "number": 193,
+         "localID": "Re-193L/13-123L",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Legend",
+            "set": 13,
+            "number": 123,
+            "localID": "13-123L"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.57,
+               "marketPriceHigh": 0.57,
+               "marketPriceAvg": 0.57
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 1.75,
+               "marketPriceHigh": 1.75,
+               "marketPriceAvg": 1.75
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 6.6,
+               "marketPriceHigh": 6.6,
+               "marketPriceAvg": 6.6
+            }
+         ]
+      },
+      {
+         "product_name": "Onion Knight",
+         "rarity": "Hero",
+         "set": 0,
+         "number": 194,
+         "localID": "Re-194H/18-125H",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Hero",
+            "set": 18,
+            "number": 125,
+            "localID": "18-125H"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.22,
+               "marketPriceHigh": 0.22,
+               "marketPriceAvg": 0.22
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.28,
+               "marketPriceHigh": 0.28,
+               "marketPriceAvg": 0.28
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 5.67,
+               "marketPriceHigh": 5.67,
+               "marketPriceAvg": 5.67
+            }
+         ]
+      },
+      {
+         "product_name": "Gawain",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 195,
+         "localID": "Re-195C/12-126R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 12,
+            "number": 126,
+            "localID": "12-126R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.21,
+               "marketPriceHigh": 0.21,
+               "marketPriceAvg": 0.21
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.72,
+               "marketPriceHigh": 0.72,
+               "marketPriceAvg": 0.72
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 14.87,
+               "marketPriceHigh": 14.87,
+               "marketPriceAvg": 14.87
+            }
+         ]
+      },
+      {
+         "product_name": "Steiner",
+         "rarity": "Common",
+         "set": 0,
+         "number": 196,
+         "localID": "Re-196C/12-127C",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Common",
+            "set": 12,
+            "number": 127,
+            "localID": "12-127C"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.23,
+               "marketPriceHigh": 0.23,
+               "marketPriceAvg": 0.23
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 1.38,
+               "marketPriceHigh": 1.38,
+               "marketPriceAvg": 1.38
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 12,
+               "marketPriceHigh": 12,
+               "marketPriceAvg": 12
+            }
+         ]
+      },
+      {
+         "product_name": "Yuzuki",
+         "rarity": "Rare",
+         "set": 0,
+         "number": 197,
+         "localID": "Re-197C/13-125R",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Rare",
+            "set": 13,
+            "number": 125,
+            "localID": "13-125R"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.23,
+               "marketPriceHigh": 0.23,
+               "marketPriceAvg": 0.23
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.81,
+               "marketPriceHigh": 0.81,
+               "marketPriceAvg": 0.81
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 23.47,
+               "marketPriceHigh": 23.47,
+               "marketPriceAvg": 23.47
+            }
+         ]
+      },
+      {
+         "product_name": "Chime",
+         "rarity": "Hero",
+         "set": 0,
+         "number": 198,
+         "localID": "Re-198H/13-127H",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Hero",
+            "set": 13,
+            "number": 127,
+            "localID": "13-127H"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.35,
+               "marketPriceHigh": 0.35,
+               "marketPriceAvg": 0.35
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.42,
+               "marketPriceHigh": 0.42,
+               "marketPriceAvg": 0.42
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 3.42,
+               "marketPriceHigh": 3.42,
+               "marketPriceAvg": 3.42
+            }
+         ]
+      },
+      {
+         "product_name": "Mog (VI)",
+         "rarity": "Hero",
+         "set": 0,
+         "number": 199,
+         "localID": "Re-199H/19-125H",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Hero",
+            "set": 19,
+            "number": 125,
+            "localID": "19-125H"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 0.23,
+               "marketPriceHigh": 0.25,
+               "marketPriceAvg": 0.24
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 0.45,
+               "marketPriceHigh": 0.45,
+               "marketPriceAvg": 0.45
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 11.59,
+               "marketPriceHigh": 11.59,
+               "marketPriceAvg": 11.59
+            }
+         ]
+      },
+      {
+         "product_name": "Warrior of Light",
+         "rarity": "Legend",
+         "set": 0,
+         "number": 200,
+         "localID": "Re-200L/19-128L",
+         "isReprint": true,
+         "originalSetData": {
+            "rarity": "Legend",
+            "set": 19,
+            "number": 128,
+            "localID": "19-128L"
+         },
+         "variation": [
+            {
+               "type": "Normal",
+               "marketPriceLow": 2.49,
+               "marketPriceHigh": 7.73,
+               "marketPriceAvg": 5.11
+            },
+            {
+               "type": "Foil",
+               "marketPriceLow": 12.94,
+               "marketPriceHigh": 12.94,
+               "marketPriceAvg": 12.94
+            },
+            {
+               "type": "Full Art",
+               "marketPriceLow": 34.85,
+               "marketPriceHigh": 34.85,
+               "marketPriceAvg": 34.85
+            },
+            {
+               "type": "Full Art Signature",
+               "marketPriceLow": 599.04,
+               "marketPriceHigh": 599.04,
+               "marketPriceAvg": 599.04
+            }
+         ]
+      }
+   ]
+}

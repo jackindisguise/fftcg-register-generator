@@ -76,6 +76,7 @@ function expandRarity(rarityCode) {
 function getBaseProductName(productName) {
   return productName
     .replace(/\s*\(Full Art Signature\)\s*$/, '')
+    .replace(/\s*\(Signed\)\s*$/, '')
     .replace(/\s*\(Full Art Reprint\)\s*$/, '')
     .replace(/\s*\(Full Art\)\s*$/, '')
     .trim();
@@ -83,7 +84,7 @@ function getBaseProductName(productName) {
 
 // Helper function to determine variation type
 function getVariationType(productName, printing) {
-  if (productName.includes('Full Art Signature')) {
+  if (productName.includes('Full Art Signature') || productName.includes('(Signed)')) {
     return 'Full Art Signature';
   }
   if (productName.includes('Full Art')) {
@@ -111,9 +112,22 @@ function parseSingleNumber(numberStr) {
   return null;
 }
 
+// Helper function to parse legacy collection format (Re-XXXC)
+function parseLegacyNumber(numberStr) {
+  const match = numberStr.match(/^Re-(\d+)([A-Z]+)$/);
+  if (match) {
+    return {
+      number: parseInt(match[1], 10),
+      rarity: match[2],
+      localID: numberStr
+    };
+  }
+  return null;
+}
+
 // Helper function to extract set and card number from Number field
 // Returns: { set, number, localID, originalSetData (if reprint), isPromo }
-function parseNumber(numberStr, productName, rarity) {
+function parseNumber(numberStr, productName, rarity, currentSetNumber) {
   let result = {
     set: null,
     number: null,
@@ -137,23 +151,42 @@ function parseNumber(numberStr, productName, rarity) {
       }
     }
   }
-  // Check for reprint format (26-093C/15-095C)
+  // Check for reprint format (26-093C/15-095C or Re-175C/11-139S for legacy collection)
   else if (numberStr.includes('/')) {
     const parts = numberStr.split('/');
     if (parts.length === 2) {
-      const currentPart = parseSingleNumber(parts[0]);
-      const originalPart = parseSingleNumber(parts[1]);
-      
-      if (currentPart && originalPart) {
-        result.set = currentPart.set;
-        result.number = currentPart.number;
-        result.localID = numberStr;
-        result.originalSetData = {
-          rarity: expandRarity(originalPart.rarity),
-          set: originalPart.set,
-          number: originalPart.number,
-          localID: originalPart.localID
-        };
+      // Check if this is a legacy collection format (Re-XXXC/YY-ZZZS)
+      if (currentSetNumber === 0 && parts[0].startsWith('Re-')) {
+        const legacyPart = parseLegacyNumber(parts[0]);
+        const originalPart = parseSingleNumber(parts[1]);
+        
+        if (legacyPart && originalPart) {
+          result.set = 0; // Legacy collection uses set 0
+          result.number = legacyPart.number;
+          result.localID = numberStr;
+          result.originalSetData = {
+            rarity: expandRarity(originalPart.rarity),
+            set: originalPart.set,
+            number: originalPart.number,
+            localID: originalPart.localID
+          };
+        }
+      } else {
+        // Standard reprint format
+        const currentPart = parseSingleNumber(parts[0]);
+        const originalPart = parseSingleNumber(parts[1]);
+        
+        if (currentPart && originalPart) {
+          result.set = currentPart.set;
+          result.number = currentPart.number;
+          result.localID = numberStr;
+          result.originalSetData = {
+            rarity: expandRarity(originalPart.rarity),
+            set: originalPart.set,
+            number: originalPart.number,
+            localID: originalPart.localID
+          };
+        }
       }
     }
   }
@@ -225,9 +258,9 @@ dataLines.forEach(line => {
   const baseName = getBaseProductName(productName);
   const variationType = getVariationType(productName, printing);
   const price = parsePrice(marketPrice);
-  const numberInfo = parseNumber(number, productName, rarity);
+  const numberInfo = parseNumber(number, productName, rarity, currentSetNumber);
   
-  if (!numberInfo.set || numberInfo.number === null) return; // Skip if we can't parse the number
+  if (numberInfo.set === null || numberInfo.set === undefined || numberInfo.number === null) return; // Skip if we can't parse the number
   
   // Determine card type flags
   const isReprint = numberInfo.originalSetData !== null;

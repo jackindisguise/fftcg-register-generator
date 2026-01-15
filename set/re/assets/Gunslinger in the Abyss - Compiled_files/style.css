@@ -13,17 +13,21 @@ body {
 }
 
 .container {
-
+    max-width: 1400px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
 }
 
 header {
-    margin:5px;
     padding: 15px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     gap: 30px;
-    border-bottom:3px solid #000;
+    border:1px solid #000;
     border-radius:10px;
 }
 
@@ -88,6 +92,7 @@ header .variant-key-symbol {
     max-height: 45vh;
     border-radius: 20px;
     overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
     margin-bottom: 30px;
 }
 
@@ -119,6 +124,7 @@ header .variant-key-symbol {
     gap: 30px;
     justify-content: center;
     flex-wrap: wrap;
+    max-width: 900px;
 }
 
 .cover-stat-box {
@@ -126,8 +132,11 @@ header .variant-key-symbol {
     border: 2px solid #e9ecef;
     border-radius: 16px;
     padding: 30px 40px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     text-align: center;
+    min-width: 200px;
     flex: 1;
+    max-width: 250px;
 }
 
 .cover-stat-value {
@@ -244,128 +253,16 @@ header .variant-key-symbol {
     break-inside: avoid;
 }
 
-/* Checklist view styles */
-.checklist-container {
-    max-width: 100%;
-    padding: 10px;
-}
-
-.checklist-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2px;
-    padding: 5px;
-}
-
-.checklist-item {
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    padding: 2px 4px;
-    font-size: 0.7em;
-    border-bottom: 1px solid #e0e0e0;
-    min-height: 18px;
-}
-
-.checklist-id {
-    font-weight: 600;
-    color: #666;
-    min-width: 35px;
-    flex-shrink: 0;
-    font-size: 0.85em;
-}
-
-.checklist-number {
-    font-family: 'Courier New', monospace;
-    font-size: 0.85em;
-    color: #666;
-    min-width: 80px;
-    flex-shrink: 0;
-}
-
-.checklist-name {
-    flex-grow: 1;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    display: inline-flex;
-    align-items: center;
-    gap: 4px;
-}
-
-.checklist-variant {
-    flex-shrink: 0;
-    font-size: 1em;
-}
-
-.checklist-checkbox {
-    flex-shrink: 0;
-    width: 14px;
-    height: 14px;
-    cursor: pointer;
-    margin-left: auto;
-}
-
-@media print {
-    .checklist-container {
-        padding: 0;
-    }
-    
-    .checklist-container header {
-        padding: 5px 10px;
-        margin-bottom: 5px;
-    }
-    
-    .checklist-container header h1 {
-        font-size: 1.5em;
-        margin-bottom: 2px;
-    }
-    
-    .checklist-container header p {
-        font-size: 0.9em;
-    }
-    
-    .checklist-grid {
-        gap: 0;
-        padding: 0;
-    }
-    
-    .checklist-item {
-        padding: 0 3px;
-        font-size: 0.6em;
-        min-height: 12px;
-        line-height: 1.2;
-        page-break-inside: avoid;
-        break-inside: avoid;
-        margin:1px;
-    }
-    
-    .checklist-id {
-        font-size: 0.75em;
-        min-width: 28px;
-    }
-    
-    .checklist-number {
-        font-size: 0.75em;
-        min-width: 65px;
-    }
-    
-    .checklist-checkbox {
-        width: 16px;
-        height: 16px;
-    }
-}
-
 @page {
-    margin:0.5in 0.5in 0.5in 0.5in;
+    margin:0.25in 0.25in 0.25in 0.25in;
         
     /* Alternative: page numbers at bottom right with "Page X" format */
     @bottom-right {
-        content: "[ " counter(page) " / " counter(pages) " ]";
-        font-size: 9px;
-        font-family:"PT Mono";
-        font-weight:bold;
-        color: #999;
+        content: "[ Page " counter(page) " of " counter(pages) " ]";
+        font-size: 10pt;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: #666;
+        text-decoration:uppercase;
     }
     
     /* Alternative: page numbers at top right */
@@ -399,20 +296,14 @@ header .variant-key-symbol {
     }
     
     .card-entry {
-        page-break-inside: avoid !important;
-        break-inside: avoid !important;
-        -webkit-break-inside: avoid !important;
-        orphans: 3;
-        widows: 3;
-    }
-    
-    .cards-grid {
-        page-break-inside: auto;
+        page-break-inside: avoid;
+        break-inside: avoid;
     }
 }
 
 .card-entry {
-    border: 2px solid #000;
+    background: #f8f9fa;
+    border: 2px solid #e9ecef;
     border-radius: 8px;
     padding: 3px 8px;
     transition: all 0.3s ease;
@@ -423,9 +314,6 @@ header .variant-key-symbol {
     min-height: auto;
     margin-bottom:2px;
     margin-right:5px;
-    page-break-inside: avoid;
-    break-inside: avoid;
-    -webkit-break-inside: avoid;
 }
 
 .binder-page.card-entry:last-child {
@@ -447,28 +335,12 @@ header .variant-key-symbol {
 }
 
 .card-id {
+    background: #667eea;
     color: white;
     font-size: 0.75em;
     padding: 4px 8px;
     border-radius: 4px;
     font-weight: 600;
-}
-
-.card-id-rarity-common {
-    background: #fd7e14; /* Orange */
-}
-
-.card-id-rarity-rare {
-    background: #0d6efd; /* Blue */
-}
-
-.card-id-rarity-hero {
-    background: #28a745; /* Green */
-}
-
-.card-id-rarity-legend {
-    background: #ffc107; /* Yellow */
-    color: #212529; /* Dark text for yellow background */
 }
 
 .card-number {
@@ -562,7 +434,7 @@ header .variant-key-symbol {
     padding: 20px 30px;
     font-size: 0.8em;
     line-height: 1.1;
-    border-radius:5px;
+    color: #212529;
 }
 
 .index-entry {
@@ -570,8 +442,10 @@ header .variant-key-symbol {
 }
 
 .index-entry::before{
+    content:"> ";
     font-weight:bold;
 }
 
 .index-variant{
+    text-shadow: 0 0 1px black;
 }

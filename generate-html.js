@@ -25,6 +25,7 @@ const compiledHtmlPath = path.join(wwwDir, 'compiled.html');
 const assetsDir = path.join(setDir, 'assets');
 const coverPngPath = path.join(assetsDir, 'cover.png');
 const coverJpgPath = path.join(assetsDir, 'cover.jpg');
+const coverWebpPath = path.join(assetsDir, 'cover.webp');
 
 // Check if files exist
 if (!fs.existsSync(outputJsonPath)) {
@@ -326,7 +327,8 @@ header p {
 
 // Check for cover image
 const coverImagePath = fs.existsSync(coverPngPath) ? '../assets/cover.png' : 
-                       fs.existsSync(coverJpgPath) ? '../assets/cover.jpg' : null;
+                       fs.existsSync(coverJpgPath) ? '../assets/cover.jpg' : 
+                       fs.existsSync(coverWebpPath) ? '../assets/cover.webp' : null;
 
 // Generate HTML
 const setTitle = setMetadata.title || setMetadata.alternateTitle || setName.toUpperCase();
@@ -379,6 +381,17 @@ const html = `<!DOCTYPE html>
         
         <div class="cards-grid">
 ${(() => {
+  // Helper function to get rarity class name
+  function getRarityClass(rarity) {
+    if (!rarity) return 'card-id-rarity-common'; // Default to common if no rarity
+    const rarityLower = rarity.toLowerCase();
+    if (rarityLower.includes('common')) return 'card-id-rarity-common';
+    if (rarityLower.includes('rare')) return 'card-id-rarity-rare';
+    if (rarityLower.includes('hero')) return 'card-id-rarity-hero';
+    if (rarityLower.includes('legend')) return 'card-id-rarity-legend';
+    return 'card-id-rarity-common'; // Default fallback
+  }
+  
   // Emoji mapping for variants
   const variantEmoji = {
     'Normal': '⚪',
@@ -407,10 +420,11 @@ ${(() => {
       if (entry.isPromo) tags.push('🎁');
       const tagsHtml = tags.length > 0 ? `<span class="card-tags">${tags.join('')}</span>` : '';
       const variantHtml = variantSymbol ? `<div class="card-variant">${variantSymbol}</div>` : '';
+      const rarityClass = getRarityClass(entry.rarity);
       
       return `                <div class="card-entry">
                     <div class="card-header">
-                        <span class="card-id">#${entry.id}</span>
+                        <span class="card-id ${rarityClass}">#${entry.id}</span>
                         <div class="card-number">${entry.cardNumber}</div>
                     </div>
                     <div class="card-name">${entry.cardName}</div>
@@ -492,6 +506,17 @@ ${coverHtmlContent}
   console.log(`Successfully generated ${coverHtmlPath}`);
 }
 
+// Helper function to get rarity class name
+function getRarityClass(rarity) {
+  if (!rarity) return 'card-id-rarity-common'; // Default to common if no rarity
+  const rarityLower = rarity.toLowerCase();
+  if (rarityLower.includes('common')) return 'card-id-rarity-common';
+  if (rarityLower.includes('rare')) return 'card-id-rarity-rare';
+  if (rarityLower.includes('hero')) return 'card-id-rarity-hero';
+  if (rarityLower.includes('legend')) return 'card-id-rarity-legend';
+  return 'card-id-rarity-common'; // Default fallback
+}
+
 // Helper function to generate card grid HTML
 function generateCardGridHtml(entries) {
   const variantEmoji = {
@@ -519,10 +544,11 @@ function generateCardGridHtml(entries) {
       if (entry.isPromo) tags.push('🎁');
       const tagsHtml = tags.length > 0 ? `<span class="card-tags">${tags.join('')}</span>` : '';
       const variantHtml = variantSymbol ? `<div class="card-variant">${variantSymbol}</div>` : '';
+      const rarityClass = getRarityClass(entry.rarity);
       
       return `                <div class="card-entry">
                     <div class="card-header">
-                        <span class="card-id">#${entry.id}</span>
+                        <span class="card-id ${rarityClass}">#${entry.id}</span>
                         <div class="card-number">${entry.cardNumber}</div>
                     </div>
                     <div class="card-name">${entry.cardName}</div>
@@ -537,14 +563,49 @@ function generateCardGridHtml(entries) {
 }
 
 // Prepare data for compiled views
-const top30Entries = [...entries].sort((a, b) => b.averagePrice - a.averagePrice).slice(0, 30);
+const top54Entries = [...entries].sort((a, b) => b.averagePrice - a.averagePrice).slice(0, 54);
 const rarities = [...new Set(entries.map(e => e.rarity))].sort();
 const normalEntries = entries.filter(e => e.variantType === 'Normal');
-const top30Normal = [...normalEntries].sort((a, b) => b.averagePrice - a.averagePrice).slice(0, 30);
+const top54Normal = [...normalEntries].sort((a, b) => b.averagePrice - a.averagePrice).slice(0, 54);
 const foilEntries = entries.filter(e => e.variantType === 'Foil');
-const topFoil = [...foilEntries].sort((a, b) => b.averagePrice - a.averagePrice).slice(0, 30);
-const fullArtEntries = entries.filter(e => e.variantType === 'Full Art');
+const topFoil = [...foilEntries].sort((a, b) => b.averagePrice - a.averagePrice).slice(0, 54);
+const fullArtEntries = entries.filter(e => 
+  e.variantType === 'Full Art' || 
+  e.variantType === 'Full Art Signature' || 
+  e.isLegacy === true
+);
 const fullArtCards = [...fullArtEntries].sort((a, b) => b.averagePrice - a.averagePrice);
+
+// Variant key HTML (reusable across all headers)
+const variantKeyHtml = `
+                <div class="header-right">
+                    <div class="variant-key">
+                        <div class="variant-key-item">
+                            <span>Foil</span>
+                            <span class="variant-key-symbol">✨</span>
+                        </div>
+                        <div class="variant-key-item">
+                            <span>Full Art</span>
+                            <span class="variant-key-symbol">⭐</span>
+                        </div>
+                        <div class="variant-key-item">
+                            <span>Full Art Signature</span>
+                            <span class="variant-key-symbol">💎</span>
+                        </div>
+                        <div class="variant-key-item">
+                            <span>Legacy</span>
+                            <span class="variant-key-symbol">👑</span>
+                        </div>
+                        <div class="variant-key-item">
+                            <span>Reprint</span>
+                            <span class="variant-key-symbol">♻️</span>
+                        </div>
+                        <div class="variant-key-item">
+                            <span>Promo</span>
+                            <span class="variant-key-symbol">🎁</span>
+                        </div>
+                    </div>
+                </div>`;
 
 // Generate compiled.html that combines cover and cards
 const compiledHtml = `<!DOCTYPE html>
@@ -558,7 +619,7 @@ const compiledHtml = `<!DOCTYPE html>
 <body>
     <div class="container">
 ${coverImagePath ? coverHtmlContent : ''}
-        <div class="cards-page">
+        <div class="cards-page" id="card-collection-checklist">
             <header>
                 <div class="header-left">
                     <h1>${setTitle}</h1>
@@ -598,32 +659,33 @@ ${coverImagePath ? coverHtmlContent : ''}
 ${generateCardGridHtml(entries)}
             </div>
         </div>
-        <div class="cards-page">
+        <div class="cards-page" id="top-54-most-valuable">
             <header>
                 <div class="header-left">
                     <h1>${setTitle}</h1>
-                    <p>Top 30 Most Valuable Cards</p>
-                </div>
+                    <p>Top 54 Most Valuable Cards</p>
+                </div>${variantKeyHtml}
             </header>
             <div class="cards-grid">
-${generateCardGridHtml(top30Entries)}
+${generateCardGridHtml(top54Entries)}
             </div>
         </div>
 ${(() => {
   let html = '';
   rarities.forEach(rarity => {
     const rarityEntries = entries.filter(e => e.rarity === rarity);
-    const top30 = [...rarityEntries].sort((a, b) => b.averagePrice - a.averagePrice).slice(0, 30);
-    if (top30.length > 0) {
-      html += `        <div class="cards-page">
+    const top54 = [...rarityEntries].sort((a, b) => b.averagePrice - a.averagePrice).slice(0, 54);
+    if (top54.length > 0) {
+      const rarityId = `top-54-${rarity.toLowerCase().replace(/\s+/g, '-')}`;
+      html += `        <div class="cards-page" id="${rarityId}">
             <header>
                 <div class="header-left">
                     <h1>${setTitle}</h1>
-                    <p>Top 30 Most Valuable ${rarity} Cards</p>
-                </div>
+                    <p>Top 54 Most Valuable ${rarity} Cards</p>
+                </div>${variantKeyHtml}
             </header>
             <div class="cards-grid">
-${generateCardGridHtml(top30)}
+${generateCardGridHtml(top54)}
             </div>
         </div>
 `;
@@ -631,37 +693,48 @@ ${generateCardGridHtml(top30)}
   });
   return html;
 })()}
-        <div class="cards-page">
+        <div class="cards-page" id="top-54-normal">
             <header>
                 <div class="header-left">
                     <h1>${setTitle}</h1>
-                    <p>Top 30 Most Valuable Normal Cards</p>
-                </div>
+                    <p>Top 54 Most Valuable Normal Cards</p>
+                </div>${variantKeyHtml}
             </header>
             <div class="cards-grid">
-${generateCardGridHtml(top30Normal)}
+${generateCardGridHtml(top54Normal)}
             </div>
         </div>
-        <div class="cards-page">
+        <div class="cards-page" id="top-54-foil">
             <header>
                 <div class="header-left">
                     <h1>${setTitle}</h1>
-                    <p>Top 30 Most Valuable Foil Cards (Non-Full Art)</p>
-                </div>
+                    <p>Top 54 Most Valuable Foil Cards (Non-Full Art)</p>
+                </div>${variantKeyHtml}
             </header>
             <div class="cards-grid">
 ${generateCardGridHtml(topFoil)}
             </div>
         </div>
-        <div class="cards-page">
+        <div class="cards-page" id="full-art-cards">
             <header>
                 <div class="header-left">
                     <h1>${setTitle}</h1>
                     <p>All Full Art Cards (Sorted by Value)</p>
-                </div>
+                </div>${variantKeyHtml}
             </header>
             <div class="cards-grid">
 ${generateCardGridHtml(fullArtCards)}
+            </div>
+        </div>
+        <div class="cards-page" id="card-index">
+            <header>
+                <div class="header-left">
+                    <h1>${setTitle}</h1>
+                    <p>Card Index</p>
+                </div>${variantKeyHtml}
+            </header>
+            <div class="card-index">
+                ${generateCardIndexHtml(entries)}
             </div>
         </div>
     </div>
@@ -671,13 +744,13 @@ ${generateCardGridHtml(fullArtCards)}
 fs.writeFileSync(compiledHtmlPath, compiledHtml, 'utf-8');
 console.log(`Successfully generated ${compiledHtmlPath}`);
 
-// Generate Top 30 Most Valuable Cards
-const top30Html = `<!DOCTYPE html>
+// Generate Top 54 Most Valuable Cards
+const top54Html = `<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>${setTitle} - Top 30 Most Valuable</title>
+    <title>${setTitle} - Top 54 Most Valuable</title>
     <link rel="stylesheet" href="../../../assets/style.css">
 </head>
 <body>
@@ -685,25 +758,25 @@ const top30Html = `<!DOCTYPE html>
         <header>
             <div class="header-left">
                 <h1>${setTitle}</h1>
-                <p>Top 50 Most Valuable Cards</p>
+                <p>Top 54 Most Valuable Cards</p>
             </div>
         </header>
         <div class="cards-grid">
-${generateCardGridHtml(top30Entries)}
+${generateCardGridHtml(top54Entries)}
         </div>
     </div>
 </body>
 </html>`;
-fs.writeFileSync(path.join(wwwDir, 'top30.html'), top30Html, 'utf-8');
-console.log(`Successfully generated ${path.join(wwwDir, 'top30.html')}`);
+fs.writeFileSync(path.join(wwwDir, 'top54.html'), top54Html, 'utf-8');
+console.log(`Successfully generated ${path.join(wwwDir, 'top54.html')}`);
 
-// Generate Top 30 per Rarity (using data already prepared above)
-let top30PerRarityHtml = `<!DOCTYPE html>
+// Generate Top 54 per Rarity (using data already prepared above)
+let top54PerRarityHtml = `<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>${setTitle} - Top 30 Per Rarity</title>
+    <title>${setTitle} - Top 54 Per Rarity</title>
     <link rel="stylesheet" href="../../../assets/style.css">
 </head>
 <body>
@@ -711,35 +784,35 @@ let top30PerRarityHtml = `<!DOCTYPE html>
         <header>
             <div class="header-left">
                 <h1>${setTitle}</h1>
-                <p>Top 10 Most Valuable Cards Per Rarity</p>
+                <p>Top 54 Most Valuable Cards Per Rarity</p>
             </div>
         </header>
         <div class="cards-grid">
 `;
 
 rarities.forEach(rarity => {
-  const rarityEntries = entries.filter(e => e.rarity === rarity);
-  const top30 = [...rarityEntries].sort((a, b) => b.averagePrice - a.averagePrice).slice(0, 30);
-  if (top30.length > 0) {
-    top30PerRarityHtml += `            <h2 style="grid-column: 1 / -1; margin: 30px 0 20px 0; padding-bottom: 10px; border-bottom: 2px solid #e9ecef; font-size: 1.5em; color: #667eea;">${rarity}</h2>\n`;
-    top30PerRarityHtml += generateCardGridHtml(top30);
+  const rarityEntries = entries.filter(e => e.rarity === rarity && e.variantType === 'Normal');
+  const top54 = [...rarityEntries].sort((a, b) => b.averagePrice - a.averagePrice).slice(0, 54);
+  if (top54.length > 0) {
+    top54PerRarityHtml += `            <h2 style="grid-column: 1 / -1; margin: 30px 0 20px 0; padding-bottom: 10px; border-bottom: 2px solid #e9ecef; font-size: 1.5em; color: #667eea;">${rarity}</h2>\n`;
+    top54PerRarityHtml += generateCardGridHtml(top54);
   }
 });
 
-top30PerRarityHtml += `        </div>
+top54PerRarityHtml += `        </div>
     </div>
 </body>
 </html>`;
-fs.writeFileSync(path.join(wwwDir, 'top30-per-rarity.html'), top30PerRarityHtml, 'utf-8');
-console.log(`Successfully generated ${path.join(wwwDir, 'top30-per-rarity.html')}`);
+fs.writeFileSync(path.join(wwwDir, 'top54-per-rarity.html'), top54PerRarityHtml, 'utf-8');
+console.log(`Successfully generated ${path.join(wwwDir, 'top54-per-rarity.html')}`);
 
-// Generate Top 30 NORMAL Cards (using data already prepared above)
-const top30NormalHtml = `<!DOCTYPE html>
+// Generate Top 54 NORMAL Cards (using data already prepared above)
+const top54NormalHtml = `<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>${setTitle} - Top 30 Normal Cards</title>
+    <title>${setTitle} - Top 54 Normal Cards</title>
     <link rel="stylesheet" href="../../../assets/style.css">
 </head>
 <body>
@@ -747,17 +820,17 @@ const top30NormalHtml = `<!DOCTYPE html>
         <header>
             <div class="header-left">
                 <h1>${setTitle}</h1>
-                <p>Top 50 Most Valuable Normal Cards</p>
+                <p>Top 54 Most Valuable Normal Cards</p>
             </div>
         </header>
         <div class="cards-grid">
-${generateCardGridHtml(top30Normal)}
+${generateCardGridHtml(top54Normal)}
         </div>
     </div>
 </body>
 </html>`;
-fs.writeFileSync(path.join(wwwDir, 'top30-normal.html'), top30NormalHtml, 'utf-8');
-console.log(`Successfully generated ${path.join(wwwDir, 'top30-normal.html')}`);
+fs.writeFileSync(path.join(wwwDir, 'top54-normal.html'), top54NormalHtml, 'utf-8');
+console.log(`Successfully generated ${path.join(wwwDir, 'top54-normal.html')}`);
 
 // Generate Top Foil Non-Full Art Cards (using data already prepared above)
 const topFoilHtml = `<!DOCTYPE html>
@@ -810,3 +883,102 @@ ${generateCardGridHtml(fullArtCards)}
 </html>`;
 fs.writeFileSync(path.join(wwwDir, 'full-art.html'), fullArtHtml, 'utf-8');
 console.log(`Successfully generated ${path.join(wwwDir, 'full-art.html')}`);
+
+// Helper function to generate card index inline HTML
+function generateCardIndexHtml(entries) {
+  const variantEmoji = {
+    'Normal': '',
+    'Foil': '✨',
+    'Full Art': '⭐',
+    'Full Art Signature': '💎'
+  };
+  
+  return entries.map(entry => {
+    const variantSymbol = entry.isLegacy ? '👑' : (variantEmoji[entry.variantType] || '');
+    const price = entry.averagePrice.toFixed(2);
+    return `<span class="index-entry"><span class="index-name"><strong>${entry.cardName}</strong></span> <span class="index-variant">${variantSymbol}</span> <span class="index-number">(#${entry.id}, ${entry.cardNumber})</span> <span class="index-price">$${price}</span></span>`;
+  }).join(', ');
+}
+
+// Generate Card Index (hyper-compressed inline view)
+const cardIndexHtml = `<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>${setTitle} - Card Index</title>
+    <link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-left">
+                <h1>${setTitle}</h1>
+                <p>Card Index</p>
+            </div>
+        </header>
+        <div class="card-index">
+            ${generateCardIndexHtml(entries)}
+        </div>
+    </div>
+</body>
+</html>`;
+fs.writeFileSync(path.join(wwwDir, 'index.html'), cardIndexHtml, 'utf-8');
+console.log(`Successfully generated ${path.join(wwwDir, 'index.html')}`);
+
+// Generate Checklist (compact checklist view)
+const sortedEntriesForChecklist = [...entries].sort((a, b) => {
+  // Sort by card number
+  if (a.cardNumber !== b.cardNumber) {
+    return a.cardNumber.localeCompare(b.cardNumber);
+  }
+  // Then by variant type order
+  const variantOrder = { 'Normal': 0, 'Foil': 1, 'Full Art': 2, 'Full Art Signature': 3 };
+  const orderA = variantOrder[a.variantType] ?? 999;
+  const orderB = variantOrder[b.variantType] ?? 999;
+  return orderA - orderB;
+});
+
+const checklistHtml = `<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>${setTitle} - Checklist</title>
+    <link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+    <div class="checklist-container">
+        <header>
+            <div class="header-left">
+                <h1>${setTitle}</h1>
+                <p>Card Checklist</p>
+            </div>
+        </header>
+        <div class="checklist-grid">
+${(() => {
+  const variantEmoji = {
+    'Normal': '',
+    'Foil': '✨',
+    'Full Art': '⭐',
+    'Full Art Signature': '💎'
+  };
+  
+  return sortedEntriesForChecklist.map(entry => {
+    const variantSymbol = entry.isLegacy ? '👑' : (variantEmoji[entry.variantType] || '');
+    const variantHtml = variantSymbol ? `<span class="checklist-variant">${variantSymbol}</span>` : '';
+    
+    return `            <div class="checklist-item">
+                <span class="checklist-id">#${entry.id}</span>
+                <span class="checklist-number">${entry.cardNumber}</span>
+                <span class="checklist-name">${entry.cardName}${variantHtml}</span>
+                <input type="checkbox" class="checklist-checkbox">
+            </div>`;
+  }).join('\n');
+})()}
+        </div>
+    </div>
+</body>
+</html>`;
+fs.writeFileSync(path.join(wwwDir, 'checklist.html'), checklistHtml, 'utf-8');
+console.log(`Successfully generated ${path.join(wwwDir, 'checklist.html')}`);
