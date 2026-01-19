@@ -93,7 +93,7 @@ function getRarityCode(localID) {
 
 // Flatten cards so each variation is a separate entry
 const entries = [];
-let id = 0;
+let id = 1;
 
 cards.forEach(card => {
   card.variation.forEach(variant => {
@@ -748,6 +748,7 @@ ${generateCardGridHtml(top54Normal)}
 ${generateCardGridHtml(topFoil)}
             </div>
         </div>
+${fullArtCards.length > 0 ? `
         <div class="cards-page" id="full-art-cards">
             <header>
                 <div class="header-left">
@@ -758,7 +759,7 @@ ${generateCardGridHtml(topFoil)}
             <div class="cards-grid">
 ${generateCardGridHtml(fullArtCards)}
             </div>
-        </div>
+        </div>` : ''}
         <div class="cards-page" id="card-index">
             <header>
                 <div class="header-left">

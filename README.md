@@ -1,25 +1,25 @@
-# 🎴 TCG Player Set Compiler
+# TCG Player Set Compiler
 
-A powerful tool for compiling and generating beautiful HTML collections from TCG Player card data. Transform your raw card CSV exports into organized, printable collection checklists and value trackers.
+A tool for compiling and generating HTML collections from TCG Player card data. Converts card CSV exports into collection checklists and value trackers.
 
 ![Hidden Legends - Opus XXIV](set/xxiv/assets/cover.png)
 
-## ✨ Features
+## Features
 
-- **📊 CSV to JSON Compilation** - Process card data from TCG Player exports
-- **🎨 Beautiful HTML Generation** - Create multiple views of your collection:
+- CSV to JSON compilation - Process card data from TCG Player exports
+- HTML generation - Create multiple views of your collection:
   - Full collection checklist with binder-style pages
   - Top 54 most valuable cards
   - Top cards by rarity
   - Full Art card collections
   - Compact checklist view
   - Card index
-- **💰 Market Price Tracking** - Uses lowest market price for accurate valuations
-- **🏷️ Variant Support** - Handles Normal, Foil, Full Art, Full Art Signature, Legacy, Reprint, and Promo cards
-- **📄 Print-Ready** - Optimized for printing with proper page breaks
-- **🎯 Multiple Set Support** - Build all sets at once or individually
+- Market price tracking - Uses lowest market price for valuations
+- Variant support - Handles Normal, Foil, Full Art, Full Art Signature, Legacy, Reprint, and Promo cards
+- Print-ready - Optimized for printing with proper page breaks
+- Multiple set support - Build all sets at once or individually
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -62,7 +62,7 @@ node build-all.js
 
 This will automatically compile and generate HTML for all sets that have a `cards.csv` file.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 tcgplayer-set-compiler/
@@ -87,7 +87,7 @@ tcgplayer-set-compiler/
             └── ...
 ```
 
-## 📝 CSV Format
+## CSV Format
 
 Your `cards.csv` file should have the following columns:
 
@@ -104,7 +104,7 @@ Product Name,Printing,Condition,Rarity,Number,Market Price
 "Lightning (Full Art)",Normal,Near Mint,Rare,"24-045R","$12.99"
 ```
 
-## 🎨 Generated Views
+## Generated Views
 
 ### Cards.html
 The main collection view with all cards organized in binder-style pages (9 cards per page).
@@ -121,7 +121,7 @@ A comprehensive document combining:
 - Card index
 
 ### Checklist.html
-A compact checklist view perfect for tracking your collection.
+A compact checklist view for tracking your collection.
 
 ### Top54.html
 The 54 most valuable cards in the set, sorted by market price.
@@ -129,7 +129,7 @@ The 54 most valuable cards in the set, sorted by market price.
 ### Full-Art.html
 All Full Art, Full Art Signature, and Legacy cards sorted by value.
 
-## ⚙️ Configuration
+## Configuration
 
 ### Set Metadata (`set.json`)
 
@@ -161,19 +161,19 @@ Customize the symbols used for different card variants:
 }
 ```
 
-## 🎯 Features in Detail
+## Features in Detail
 
 ### Market Price Calculation
-The compiler uses the **lowest market price** from all available listings for each card variant, providing a conservative valuation of your collection.
+The compiler uses the lowest market price from all available listings for each card variant, providing a conservative valuation of your collection.
 
 ### Card Variants
 - **Normal** - Standard cards (no symbol displayed)
-- **Foil** ✨ - Foil printing
-- **Full Art** ⭐ - Full art variant
-- **Full Art Signature** 💎 - Signed full art cards
-- **Legacy** 👑 - Legacy collection cards
-- **Reprint** ♻️ - Reprints from other sets
-- **Promo** 🎁 - Promotional cards
+- **Foil** - Foil printing
+- **Full Art** - Full art variant
+- **Full Art Signature** - Signed full art cards
+- **Legacy** - Legacy collection cards
+- **Reprint** - Reprints from other sets
+- **Promo** - Promotional cards
 
 ### Sorting & Organization
 Cards are automatically sorted by:
@@ -181,14 +181,10 @@ Cards are automatically sorted by:
 2. Card number
 3. Variant type (Normal → Foil → Full Art → Full Art Signature)
 
-## 📄 License
+## License
 
 This project is open source and available for personal use.
 
-## 🤝 Contributing
+## Contributing
 
-Feel free to submit issues or pull requests if you'd like to improve the compiler!
-
----
-
-**Happy Collecting!** 🎴✨
+Feel free to submit issues or pull requests if you'd like to improve the compiler.
