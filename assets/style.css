@@ -235,13 +235,23 @@ header .variant-key-symbol {
 }
 
 .binder-page {
+    background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAALklEQVR4AayLuQkAAAgDNUuJ+xfiVD6diKVpjoQcqOLmUaBJdBEV3sQ19unRSAAAAP//io2UjQAAAAZJREFUAwAKQkYVYT/ezAAAAABJRU5ErkJggg==");
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 0px;
+    gap: 3px;
     width: 100%;
     margin-bottom: 0px;
     page-break-inside: avoid;
     break-inside: avoid;
+    margin-bottom:10px;
+    border-radius:8px;
+}
+
+.binder-page .card-entry:first-child {
+}
+
+.binder-page .card-entry:first-child .card-id {
+    color: black;
 }
 
 /* Checklist view styles */
@@ -395,7 +405,6 @@ header .variant-key-symbol {
     .binder-page {
         page-break-inside: avoid;
         break-inside: avoid;
-        margin-bottom: 0;
     }
     
     .card-entry {
@@ -412,7 +421,6 @@ header .variant-key-symbol {
 }
 
 .card-entry {
-    border: 2px solid #000;
     border-radius: 8px;
     padding: 3px 8px;
     transition: all 0.3s ease;

@@ -8,6 +8,34 @@ import { execSync } from 'child_process';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+// Color utilities for prettier output
+const colors = {
+  reset: '\x1b[0m',
+  bright: '\x1b[1m',
+  dim: '\x1b[2m',
+  red: '\x1b[31m',
+  green: '\x1b[32m',
+  yellow: '\x1b[33m',
+  blue: '\x1b[34m',
+  magenta: '\x1b[35m',
+  cyan: '\x1b[36m',
+  white: '\x1b[37m',
+  gray: '\x1b[90m'
+};
+
+const symbols = {
+  success: '✓',
+  error: '✗',
+  warning: '⚠',
+  info: 'ℹ',
+  arrow: '→',
+  star: '★',
+  dot: '•',
+  rocket: '🚀',
+  package: '📦',
+  sparkles: '✨'
+};
+
 // Get the sets directory
 const setsDir = path.join(__dirname, 'set');
 
@@ -23,11 +51,9 @@ const sets = fs.readdirSync(setsDir, { withFileTypes: true })
   .sort();
 
 if (sets.length === 0) {
-  console.error('No sets found with cards.csv files');
+  console.error(`${colors.red}${symbols.error}${colors.reset} No sets found with cards.csv files`);
   process.exit(1);
 }
-
-console.log(`Found ${sets.length} set(s): ${sets.join(', ')}\n`);
 
 // Build each set
 let successCount = 0;
@@ -35,64 +61,44 @@ let failCount = 0;
 const failures = [];
 
 for (const setName of sets) {
-  console.log(`\n${'='.repeat(60)}`);
-  console.log(`Processing set: ${setName}`);
-  console.log('='.repeat(60));
+  console.log(`building ${setName}...`);
   
   try {
     // Step 1: Compile
-    console.log(`\n[1/2] Compiling ${setName}...`);
     try {
       execSync(`node compile.js ${setName}`, {
         cwd: __dirname,
         stdio: 'inherit',
         encoding: 'utf-8'
       });
-      console.log(`✓ Compiled ${setName} successfully`);
     } catch (error) {
-      console.error(`✗ Failed to compile ${setName}`);
       failures.push({ setName, step: 'compile', error: error.message });
       failCount++;
       continue;
     }
     
     // Step 2: Generate HTML
-    console.log(`\n[2/2] Generating HTML for ${setName}...`);
     try {
       execSync(`node generate-html.js ${setName}`, {
         cwd: __dirname,
         stdio: 'inherit',
         encoding: 'utf-8'
       });
-      console.log(`✓ Generated HTML for ${setName} successfully`);
       successCount++;
     } catch (error) {
-      console.error(`✗ Failed to generate HTML for ${setName}`);
       failures.push({ setName, step: 'generate-html', error: error.message });
       failCount++;
     }
   } catch (error) {
-    console.error(`✗ Unexpected error processing ${setName}:`, error.message);
     failures.push({ setName, step: 'unknown', error: error.message });
     failCount++;
   }
 }
 
 // Summary
-console.log(`\n${'='.repeat(60)}`);
-console.log('BUILD SUMMARY');
-console.log('='.repeat(60));
-console.log(`Total sets: ${sets.length}`);
-console.log(`Successful: ${successCount}`);
-console.log(`Failed: ${failCount}`);
-
 if (failures.length > 0) {
-  console.log(`\nFailures:`);
-  failures.forEach(({ setName, step, error }) => {
-    console.log(`  - ${setName} (${step}): ${error}`);
+  failures.forEach(({ setName, step }) => {
+    console.error(`${colors.red}${symbols.error}${colors.reset} ${setName} (${step})`);
   });
   process.exit(1);
-} else {
-  console.log(`\n✓ All sets built successfully!`);
-  process.exit(0);
 }

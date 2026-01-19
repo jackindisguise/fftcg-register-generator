@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "Normal": "⚪",
+    "Foil": "✨",
+    "Full Art": "⭐",
+    "Full Art Signature": "💎"
+  },
+  "special": {
+    "Legacy": "👑",
+    "Reprint": "♻️",
+    "Promo": "🎁"
+  },
+  "order": {
+    "Normal": 0,
+    "Foil": 1,
+    "Full Art": 2,
+    "Full Art Signature": 3
+  }
+}

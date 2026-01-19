@@ -7,12 +7,44 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+// Load variant symbols from JSON file
+const variantSymbolsPath = path.join(__dirname, 'variant-symbols.json');
+const variantSymbols = JSON.parse(fs.readFileSync(variantSymbolsPath, 'utf-8'));
+const variantEmoji = variantSymbols.variants;
+const specialSymbols = variantSymbols.special;
+const variantOrder = variantSymbols.order;
+
+// Color utilities for prettier output
+const colors = {
+  reset: '\x1b[0m',
+  bright: '\x1b[1m',
+  dim: '\x1b[2m',
+  red: '\x1b[31m',
+  green: '\x1b[32m',
+  yellow: '\x1b[33m',
+  blue: '\x1b[34m',
+  magenta: '\x1b[35m',
+  cyan: '\x1b[36m',
+  white: '\x1b[37m',
+  gray: '\x1b[90m'
+};
+
+const symbols = {
+  success: '✓',
+  error: '✗',
+  warning: '⚠',
+  info: 'ℹ',
+  arrow: '→',
+  star: '★',
+  dot: '•'
+};
+
 // Get set name from command line arguments
 const setName = process.argv[2];
 
 if (!setName) {
-  console.error('Usage: node generate-html.js <setName>');
-  console.error('Example: node generate-html.js xxvi');
+  console.error(`${colors.red}${symbols.error}${colors.reset} Usage: node generate-html.js <setName>`);
+  console.error(`Example: node generate-html.js xxvi`);
   process.exit(1);
 }
 
@@ -31,8 +63,8 @@ const coverWebpPath = path.join(assetsDir, 'cover.webp');
 
 // Check if files exist
 if (!fs.existsSync(outputJsonPath)) {
-  console.error(`Error: Output JSON file "${outputJsonPath}" does not exist`);
-  console.error('Run compile.js first to generate the output.json file');
+  console.error(`${colors.red}${symbols.error}${colors.reset} Output JSON file not found: ${outputJsonPath}`);
+  console.error(`Run compile.js first to generate the output.json file`);
   process.exit(1);
 }
 
@@ -45,7 +77,7 @@ if (fs.existsSync(setJsonPath)) {
   try {
     setMetadata = JSON.parse(fs.readFileSync(setJsonPath, 'utf-8'));
   } catch (error) {
-    console.warn(`Warning: Could not parse set.json: ${error.message}`);
+    // Silently fail - missing or invalid set.json is not critical
   }
 }
 
@@ -79,7 +111,6 @@ cards.forEach(card => {
 });
 
 // Sort entries by card number, then by variant type order
-const variantOrder = { 'Normal': 0, 'Foil': 1, 'Full Art': 2, 'Full Art Signature': 3 };
 entries.sort((a, b) => {
   // First sort by card number
   const numA = a.cardNumber.match(/(\d+)-(\d+)/);
@@ -355,27 +386,27 @@ const html = `<!DOCTYPE html>
                 <div class="variant-key">
                     <div class="variant-key-item">
                         <span>Foil</span>
-                        <span class="variant-key-symbol">✨</span>
+                        <span class="variant-key-symbol">${variantEmoji.Foil}</span>
                     </div>
                     <div class="variant-key-item">
                         <span>Full Art</span>
-                        <span class="variant-key-symbol">⭐</span>
+                        <span class="variant-key-symbol">${variantEmoji['Full Art']}</span>
                     </div>
                     <div class="variant-key-item">
                         <span>Full Art Signature</span>
-                        <span class="variant-key-symbol">💎</span>
+                        <span class="variant-key-symbol">${variantEmoji['Full Art Signature']}</span>
                     </div>
                     <div class="variant-key-item">
                         <span>Legacy</span>
-                        <span class="variant-key-symbol">👑</span>
+                        <span class="variant-key-symbol">${specialSymbols.Legacy}</span>
                     </div>
                     <div class="variant-key-item">
                         <span>Reprint</span>
-                        <span class="variant-key-symbol">♻️</span>
+                        <span class="variant-key-symbol">${specialSymbols.Reprint}</span>
                     </div>
                     <div class="variant-key-item">
                         <span>Promo</span>
-                        <span class="variant-key-symbol">🎁</span>
+                        <span class="variant-key-symbol">${specialSymbols.Promo}</span>
                     </div>
                 </div>
             </div>
@@ -394,14 +425,6 @@ ${(() => {
     return 'card-id-rarity-common'; // Default fallback
   }
   
-  // Emoji mapping for variants
-  const variantEmoji = {
-    'Normal': '⚪',
-    'Foil': '✨',
-    'Full Art': '⭐',
-    'Full Art Signature': '💎'
-  };
-  
   let html = '';
   for (let i = 0; i < entries.length; i += 9) {
     const pageEntries = entries.slice(i, i + 9);
@@ -412,14 +435,14 @@ ${(() => {
       
       if (entry.isLegacy) {
         // Legacy cards get a single symbol, replacing variant + reprint tags
-        variantSymbol = '👑';
+        variantSymbol = specialSymbols.Legacy;
       } else {
         // Don't show symbol for Normal cards
         variantSymbol = entry.variantType === 'Normal' ? '' : (variantEmoji[entry.variantType] || '');
-        if (entry.isReprint) tags.push('♻️');
+        if (entry.isReprint) tags.push(specialSymbols.Reprint);
       }
       
-      if (entry.isPromo) tags.push('🎁');
+      if (entry.isPromo) tags.push(specialSymbols.Promo);
       const tagsHtml = tags.length > 0 ? `<span class="card-tags">${tags.join('')}</span>` : '';
       const variantHtml = variantSymbol ? `<div class="card-variant">${variantSymbol}</div>` : '';
       const rarityClass = getRarityClass(entry.rarity);
@@ -451,8 +474,7 @@ if (!fs.existsSync(wwwDir)) {
 
 // Write cards HTML file
 fs.writeFileSync(cardsHtmlPath, html, 'utf-8');
-console.log(`Successfully generated ${cardsHtmlPath}`);
-console.log(`Total entries: ${entries.length}`);
+process.stdout.write(`generating cards.html for ${setName}... ${colors.green}${symbols.success}${colors.reset}\n`);
 
 // Generate cover.html if cover image exists
 const generatedDate = new Date().toLocaleDateString('en-US', { 
@@ -505,7 +527,7 @@ ${coverHtmlContent}
 </html>`;
   
   fs.writeFileSync(coverHtmlPath, coverHtml, 'utf-8');
-  console.log(`Successfully generated ${coverHtmlPath}`);
+  process.stdout.write(`generating cover.html for ${setName}... ${colors.green}${symbols.success}${colors.reset}\n`);
 }
 
 // Helper function to get rarity class name
@@ -521,13 +543,6 @@ function getRarityClass(rarity) {
 
 // Helper function to generate card grid HTML
 function generateCardGridHtml(entries) {
-  const variantEmoji = {
-    'Normal': '⚪',
-    'Foil': '✨',
-    'Full Art': '⭐',
-    'Full Art Signature': '💎'
-  };
-  
   let html = '';
   for (let i = 0; i < entries.length; i += 9) {
     const pageEntries = entries.slice(i, i + 9);
@@ -537,13 +552,13 @@ function generateCardGridHtml(entries) {
       const tags = [];
       
       if (entry.isLegacy) {
-        variantSymbol = '👑';
+        variantSymbol = specialSymbols.Legacy;
       } else {
         variantSymbol = entry.variantType === 'Normal' ? '' : (variantEmoji[entry.variantType] || '');
-        if (entry.isReprint) tags.push('♻️');
+        if (entry.isReprint) tags.push(specialSymbols.Reprint);
       }
       
-      if (entry.isPromo) tags.push('🎁');
+      if (entry.isPromo) tags.push(specialSymbols.Promo);
       const tagsHtml = tags.length > 0 ? `<span class="card-tags">${tags.join('')}</span>` : '';
       const variantHtml = variantSymbol ? `<div class="card-variant">${variantSymbol}</div>` : '';
       const rarityClass = getRarityClass(entry.rarity);
@@ -584,27 +599,27 @@ const variantKeyHtml = `
                     <div class="variant-key">
                         <div class="variant-key-item">
                             <span>Foil</span>
-                            <span class="variant-key-symbol">✨</span>
+                            <span class="variant-key-symbol">${variantEmoji.Foil}</span>
                         </div>
                         <div class="variant-key-item">
                             <span>Full Art</span>
-                            <span class="variant-key-symbol">⭐</span>
+                            <span class="variant-key-symbol">${variantEmoji['Full Art']}</span>
                         </div>
                         <div class="variant-key-item">
                             <span>Full Art Signature</span>
-                            <span class="variant-key-symbol">💎</span>
+                            <span class="variant-key-symbol">${variantEmoji['Full Art Signature']}</span>
                         </div>
                         <div class="variant-key-item">
                             <span>Legacy</span>
-                            <span class="variant-key-symbol">👑</span>
+                            <span class="variant-key-symbol">${specialSymbols.Legacy}</span>
                         </div>
                         <div class="variant-key-item">
                             <span>Reprint</span>
-                            <span class="variant-key-symbol">♻️</span>
+                            <span class="variant-key-symbol">${specialSymbols.Reprint}</span>
                         </div>
                         <div class="variant-key-item">
                             <span>Promo</span>
-                            <span class="variant-key-symbol">🎁</span>
+                            <span class="variant-key-symbol">${specialSymbols.Promo}</span>
                         </div>
                     </div>
                 </div>`;
@@ -631,27 +646,27 @@ ${coverImagePath ? coverHtmlContent : ''}
                     <div class="variant-key">
                         <div class="variant-key-item">
                             <span>Foil</span>
-                            <span class="variant-key-symbol">✨</span>
+                            <span class="variant-key-symbol">${variantEmoji.Foil}</span>
                         </div>
                         <div class="variant-key-item">
                             <span>Full Art</span>
-                            <span class="variant-key-symbol">⭐</span>
+                            <span class="variant-key-symbol">${variantEmoji['Full Art']}</span>
                         </div>
                         <div class="variant-key-item">
                             <span>Full Art Signature</span>
-                            <span class="variant-key-symbol">💎</span>
+                            <span class="variant-key-symbol">${variantEmoji['Full Art Signature']}</span>
                         </div>
                         <div class="variant-key-item">
                             <span>Legacy</span>
-                            <span class="variant-key-symbol">👑</span>
+                            <span class="variant-key-symbol">${specialSymbols.Legacy}</span>
                         </div>
                         <div class="variant-key-item">
                             <span>Reprint</span>
-                            <span class="variant-key-symbol">♻️</span>
+                            <span class="variant-key-symbol">${specialSymbols.Reprint}</span>
                         </div>
                         <div class="variant-key-item">
                             <span>Promo</span>
-                            <span class="variant-key-symbol">🎁</span>
+                            <span class="variant-key-symbol">${specialSymbols.Promo}</span>
                         </div>
                     </div>
                 </div>
@@ -744,7 +759,7 @@ ${generateCardGridHtml(fullArtCards)}
 </html>`;
 
 fs.writeFileSync(compiledHtmlPath, compiledHtml, 'utf-8');
-console.log(`Successfully generated ${compiledHtmlPath}`);
+process.stdout.write(`generating compiled.html for ${setName}... ${colors.green}${symbols.success}${colors.reset}\n`);
 
 // Generate Top 54 Most Valuable Cards
 const top54Html = `<!DOCTYPE html>
@@ -770,7 +785,7 @@ ${generateCardGridHtml(top54Entries)}
 </body>
 </html>`;
 fs.writeFileSync(path.join(wwwDir, 'top54.html'), top54Html, 'utf-8');
-console.log(`Successfully generated ${path.join(wwwDir, 'top54.html')}`);
+process.stdout.write(`generating top54.html for ${setName}... ${colors.green}${symbols.success}${colors.reset}\n`);
 
 // Generate Top 54 per Rarity (using data already prepared above)
 let top54PerRarityHtml = `<!DOCTYPE html>
@@ -806,7 +821,7 @@ top54PerRarityHtml += `        </div>
 </body>
 </html>`;
 fs.writeFileSync(path.join(wwwDir, 'top54-per-rarity.html'), top54PerRarityHtml, 'utf-8');
-console.log(`Successfully generated ${path.join(wwwDir, 'top54-per-rarity.html')}`);
+process.stdout.write(`generating top54-per-rarity.html for ${setName}... ${colors.green}${symbols.success}${colors.reset}\n`);
 
 // Generate Top 54 NORMAL Cards (using data already prepared above)
 const top54NormalHtml = `<!DOCTYPE html>
@@ -832,7 +847,7 @@ ${generateCardGridHtml(top54Normal)}
 </body>
 </html>`;
 fs.writeFileSync(path.join(wwwDir, 'top54-normal.html'), top54NormalHtml, 'utf-8');
-console.log(`Successfully generated ${path.join(wwwDir, 'top54-normal.html')}`);
+process.stdout.write(`generating top54-normal.html for ${setName}... ${colors.green}${symbols.success}${colors.reset}\n`);
 
 // Generate Top Foil Non-Full Art Cards (using data already prepared above)
 const topFoilHtml = `<!DOCTYPE html>
@@ -858,7 +873,7 @@ ${generateCardGridHtml(topFoil)}
 </body>
 </html>`;
 fs.writeFileSync(path.join(wwwDir, 'top-foil.html'), topFoilHtml, 'utf-8');
-console.log(`Successfully generated ${path.join(wwwDir, 'top-foil.html')}`);
+process.stdout.write(`generating top-foil.html for ${setName}... ${colors.green}${symbols.success}${colors.reset}\n`);
 
 // Generate All Full Art Cards (using data already prepared above)
 const fullArtHtml = `<!DOCTYPE html>
@@ -884,19 +899,12 @@ ${generateCardGridHtml(fullArtCards)}
 </body>
 </html>`;
 fs.writeFileSync(path.join(wwwDir, 'full-art.html'), fullArtHtml, 'utf-8');
-console.log(`Successfully generated ${path.join(wwwDir, 'full-art.html')}`);
+process.stdout.write(`generating full-art.html for ${setName}... ${colors.green}${symbols.success}${colors.reset}\n`);
 
 // Helper function to generate card index inline HTML
 function generateCardIndexHtml(entries) {
-  const variantEmoji = {
-    'Normal': '',
-    'Foil': '✨',
-    'Full Art': '⭐',
-    'Full Art Signature': '💎'
-  };
-  
   return entries.map(entry => {
-    const variantSymbol = entry.isLegacy ? '👑' : (variantEmoji[entry.variantType] || '');
+    const variantSymbol = entry.isLegacy ? specialSymbols.Legacy : (variantEmoji[entry.variantType] || '');
     const price = entry.averagePrice.toFixed(2);
     return `<span class="index-entry"><span class="index-name"><strong>${entry.cardName}</strong></span> <span class="index-variant">${variantSymbol}</span> <span class="index-number">(#${entry.id}, ${entry.cardNumber})</span> <span class="index-price">$${price}</span></span>`;
   }).join(', ');
@@ -926,7 +934,7 @@ const cardIndexHtml = `<!DOCTYPE html>
 </body>
 </html>`;
 fs.writeFileSync(path.join(wwwDir, 'index.html'), cardIndexHtml, 'utf-8');
-console.log(`Successfully generated ${path.join(wwwDir, 'index.html')}`);
+process.stdout.write(`generating index.html for ${setName}... ${colors.green}${symbols.success}${colors.reset}\n`);
 
 // Generate Checklist (compact checklist view)
 const sortedEntriesForChecklist = [...entries].sort((a, b) => {
@@ -935,7 +943,6 @@ const sortedEntriesForChecklist = [...entries].sort((a, b) => {
     return a.cardNumber.localeCompare(b.cardNumber);
   }
   // Then by variant type order
-  const variantOrder = { 'Normal': 0, 'Foil': 1, 'Full Art': 2, 'Full Art Signature': 3 };
   const orderA = variantOrder[a.variantType] ?? 999;
   const orderB = variantOrder[b.variantType] ?? 999;
   return orderA - orderB;
@@ -959,15 +966,8 @@ const checklistHtml = `<!DOCTYPE html>
         </header>
         <div class="checklist-grid">
 ${(() => {
-  const variantEmoji = {
-    'Normal': '',
-    'Foil': '✨',
-    'Full Art': '⭐',
-    'Full Art Signature': '💎'
-  };
-  
   return sortedEntriesForChecklist.map(entry => {
-    const variantSymbol = entry.isLegacy ? '👑' : (variantEmoji[entry.variantType] || '');
+    const variantSymbol = entry.isLegacy ? specialSymbols.Legacy : (entry.variantType === 'Normal' ? '' : (variantEmoji[entry.variantType] || ''));
     const variantHtml = variantSymbol ? `<span class="checklist-variant">${variantSymbol}</span>` : '';
     
     return `            <div class="checklist-item">
@@ -983,4 +983,5 @@ ${(() => {
 </body>
 </html>`;
 fs.writeFileSync(path.join(wwwDir, 'checklist.html'), checklistHtml, 'utf-8');
-console.log(`Successfully generated ${path.join(wwwDir, 'checklist.html')}`);
+process.stdout.write(`generating checklist.html for ${setName}... ${colors.green}${symbols.success}${colors.reset}\n`);
+process.stdout.write(`generated pages for ${setName} ${colors.green}${symbols.success}${colors.reset}\n`);

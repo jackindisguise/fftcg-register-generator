@@ -7,12 +7,37 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+// Color utilities for prettier output
+const colors = {
+  reset: '\x1b[0m',
+  bright: '\x1b[1m',
+  dim: '\x1b[2m',
+  red: '\x1b[31m',
+  green: '\x1b[32m',
+  yellow: '\x1b[33m',
+  blue: '\x1b[34m',
+  magenta: '\x1b[35m',
+  cyan: '\x1b[36m',
+  white: '\x1b[37m',
+  gray: '\x1b[90m'
+};
+
+const symbols = {
+  success: '✓',
+  error: '✗',
+  warning: '⚠',
+  info: 'ℹ',
+  arrow: '→',
+  star: '★',
+  dot: '•'
+};
+
 // Get set name from command line arguments
 const setName = process.argv[2];
 
 if (!setName) {
-  console.error('Usage: node compile.js <setName>');
-  console.error('Example: node compile.js xxvi');
+  console.error(`${colors.red}${symbols.error}${colors.reset} Usage: node compile.js <setName>`);
+  console.error(`Example: node compile.js xxvi`);
   process.exit(1);
 }
 
@@ -23,12 +48,12 @@ const setJsonPath = path.join(setDir, 'set.json');
 
 // Check if set directory and CSV file exist
 if (!fs.existsSync(setDir)) {
-  console.error(`Error: Set directory "${setDir}" does not exist`);
+  console.error(`${colors.red}${symbols.error}${colors.reset} Set directory not found: ${setDir}`);
   process.exit(1);
 }
 
 if (!fs.existsSync(cardsCsvPath)) {
-  console.error(`Error: Cards CSV file "${cardsCsvPath}" does not exist`);
+  console.error(`${colors.red}${symbols.error}${colors.reset} Cards CSV file not found: ${cardsCsvPath}`);
   process.exit(1);
 }
 
@@ -45,7 +70,7 @@ if (fs.existsSync(setJsonPath)) {
       setMetadata = metadata;
     }
   } catch (error) {
-    console.warn(`Warning: Could not parse existing set.json: ${error.message}`);
+    // Silently fail - missing or invalid set.json is not critical
   }
 }
 
@@ -306,7 +331,7 @@ const cards = Array.from(cardsMap.values()).map(card => {
     const prices = variation.prices;
     const marketPriceLow = Math.min(...prices);
     const marketPriceHigh = Math.max(...prices);
-    const marketPriceAvg = prices.reduce((sum, p) => sum + p, 0) / prices.length;
+    const marketPriceAvg = marketPriceLow; // Use lowest price as market value instead of average
     
     return {
       type: variation.type,
@@ -378,4 +403,4 @@ fs.writeFileSync(outputJsonPath, outputJson, 'utf-8');
 const setJson = JSON.stringify(setMetadata, null, 3);
 fs.writeFileSync(setJsonPath, setJson, 'utf-8');
 
-console.log(`Successfully compiled ${cards.length} cards to ${outputJsonPath}`);
+process.stdout.write(`compiling ${setName}... ${colors.green}${symbols.success}${colors.reset}\n`);

@@ -30,7 +30,7 @@
                "type": "Full Art",
                "marketPriceLow": 10,
                "marketPriceHigh": 13.83,
-               "marketPriceAvg": 11.92
+               "marketPriceAvg": 10
             }
          ]
       },
@@ -98,7 +98,7 @@
                "type": "Full Art",
                "marketPriceLow": 7.11,
                "marketPriceHigh": 8,
-               "marketPriceAvg": 7.56
+               "marketPriceAvg": 7.11
             }
          ]
       },
@@ -200,7 +200,7 @@
                "type": "Full Art",
                "marketPriceLow": 1.49,
                "marketPriceHigh": 1.78,
-               "marketPriceAvg": 1.64
+               "marketPriceAvg": 1.49
             }
          ]
       },
@@ -732,7 +732,7 @@
                "type": "Normal",
                "marketPriceLow": 0.1,
                "marketPriceHigh": 0.12,
-               "marketPriceAvg": 0.11
+               "marketPriceAvg": 0.1
             },
             {
                "type": "Foil",
@@ -846,7 +846,7 @@
                "type": "Full Art",
                "marketPriceLow": 4.47,
                "marketPriceHigh": 5,
-               "marketPriceAvg": 4.73
+               "marketPriceAvg": 4.47
             }
          ]
       },
@@ -1016,7 +1016,7 @@
                "type": "Full Art",
                "marketPriceLow": 2.99,
                "marketPriceHigh": 3.73,
-               "marketPriceAvg": 3.36
+               "marketPriceAvg": 2.99
             }
          ]
       },
@@ -1118,7 +1118,7 @@
                "type": "Full Art",
                "marketPriceLow": 4.36,
                "marketPriceHigh": 6.98,
-               "marketPriceAvg": 5.67
+               "marketPriceAvg": 4.36
             }
          ]
       },
@@ -1174,7 +1174,7 @@
                "type": "Normal",
                "marketPriceLow": 0.5,
                "marketPriceHigh": 0.6,
-               "marketPriceAvg": 0.55
+               "marketPriceAvg": 0.5
             },
             {
                "type": "Foil",
@@ -1186,7 +1186,7 @@
                "type": "Full Art",
                "marketPriceLow": 8.99,
                "marketPriceHigh": 9.2,
-               "marketPriceAvg": 9.09
+               "marketPriceAvg": 8.99
             }
          ]
       },
@@ -1254,7 +1254,7 @@
                "type": "Full Art",
                "marketPriceLow": 12,
                "marketPriceHigh": 16.11,
-               "marketPriceAvg": 14.06
+               "marketPriceAvg": 12
             }
          ]
       },
@@ -1276,7 +1276,7 @@
                "type": "Normal",
                "marketPriceLow": 0.1,
                "marketPriceHigh": 0.14,
-               "marketPriceAvg": 0.12
+               "marketPriceAvg": 0.1
             },
             {
                "type": "Foil",
@@ -1418,7 +1418,7 @@
                "type": "Foil",
                "marketPriceLow": 0.68,
                "marketPriceHigh": 0.94,
-               "marketPriceAvg": 0.81
+               "marketPriceAvg": 0.68
             },
             {
                "type": "Full Art",
@@ -2228,7 +2228,7 @@
                "type": "Normal",
                "marketPriceLow": 0.13,
                "marketPriceHigh": 0.15,
-               "marketPriceAvg": 0.14
+               "marketPriceAvg": 0.13
             },
             {
                "type": "Foil",
@@ -2274,7 +2274,7 @@
                "type": "Full Art",
                "marketPriceLow": 2.5,
                "marketPriceHigh": 3,
-               "marketPriceAvg": 2.75
+               "marketPriceAvg": 2.5
             }
          ]
       },
@@ -2308,7 +2308,7 @@
                "type": "Full Art",
                "marketPriceLow": 5.99,
                "marketPriceHigh": 6.4,
-               "marketPriceAvg": 6.2
+               "marketPriceAvg": 5.99
             }
          ]
       },
@@ -2466,7 +2466,7 @@
                "type": "Normal",
                "marketPriceLow": 0.46,
                "marketPriceHigh": 0.75,
-               "marketPriceAvg": 0.61
+               "marketPriceAvg": 0.46
             },
             {
                "type": "Foil",
@@ -2738,7 +2738,7 @@
                "type": "Normal",
                "marketPriceLow": 0.25,
                "marketPriceHigh": 0.28,
-               "marketPriceAvg": 0.27
+               "marketPriceAvg": 0.25
             },
             {
                "type": "Foil",
@@ -3124,7 +3124,7 @@
                "type": "Full Art",
                "marketPriceLow": 29.7,
                "marketPriceHigh": 32.52,
-               "marketPriceAvg": 31.11
+               "marketPriceAvg": 29.7
             }
          ]
       },
@@ -3316,7 +3316,7 @@
                "type": "Normal",
                "marketPriceLow": 4.2,
                "marketPriceHigh": 5,
-               "marketPriceAvg": 4.6
+               "marketPriceAvg": 4.2
             },
             {
                "type": "Foil",
@@ -3430,7 +3430,7 @@
                "type": "Full Art",
                "marketPriceLow": 8,
                "marketPriceHigh": 16.86,
-               "marketPriceAvg": 12.43
+               "marketPriceAvg": 8
             }
          ]
       },
@@ -3560,7 +3560,7 @@
                "type": "Foil",
                "marketPriceLow": 0.25,
                "marketPriceHigh": 0.38,
-               "marketPriceAvg": 0.32
+               "marketPriceAvg": 0.25
             },
             {
                "type": "Full Art",
@@ -3588,7 +3588,7 @@
                "type": "Normal",
                "marketPriceLow": 0.27,
                "marketPriceHigh": 0.5,
-               "marketPriceAvg": 0.39
+               "marketPriceAvg": 0.27
             },
             {
                "type": "Foil",
@@ -3622,7 +3622,7 @@
                "type": "Normal",
                "marketPriceLow": 0.1,
                "marketPriceHigh": 0.12,
-               "marketPriceAvg": 0.11
+               "marketPriceAvg": 0.1
             },
             {
                "type": "Foil",
@@ -4030,7 +4030,7 @@
                "type": "Normal",
                "marketPriceLow": 0.1,
                "marketPriceHigh": 0.2,
-               "marketPriceAvg": 0.15
+               "marketPriceAvg": 0.1
             },
             {
                "type": "Foil",
@@ -4302,7 +4302,7 @@
                "type": "Normal",
                "marketPriceLow": 0.1,
                "marketPriceHigh": 0.19,
-               "marketPriceAvg": 0.15
+               "marketPriceAvg": 0.1
             },
             {
                "type": "Foil",
@@ -4642,7 +4642,7 @@
                "type": "Normal",
                "marketPriceLow": 0.22,
                "marketPriceHigh": 0.25,
-               "marketPriceAvg": 0.24
+               "marketPriceAvg": 0.22
             },
             {
                "type": "Foil",
@@ -4948,7 +4948,7 @@
                "type": "Normal",
                "marketPriceLow": 0.44,
                "marketPriceHigh": 0.5,
-               "marketPriceAvg": 0.47
+               "marketPriceAvg": 0.44
             },
             {
                "type": "Foil",
@@ -5368,7 +5368,7 @@
                "type": "Full Art",
                "marketPriceLow": 3.54,
                "marketPriceHigh": 3.64,
-               "marketPriceAvg": 3.59
+               "marketPriceAvg": 3.54
             }
          ]
       },
@@ -5440,7 +5440,7 @@
                "type": "Normal",
                "marketPriceLow": 0.99,
                "marketPriceHigh": 1.08,
-               "marketPriceAvg": 1.04
+               "marketPriceAvg": 0.99
             },
             {
                "type": "Foil",
@@ -5752,7 +5752,7 @@
                "type": "Normal",
                "marketPriceLow": 0.41,
                "marketPriceHigh": 0.5,
-               "marketPriceAvg": 0.45
+               "marketPriceAvg": 0.41
             },
             {
                "type": "Foil",
@@ -5764,7 +5764,7 @@
                "type": "Full Art",
                "marketPriceLow": 15.74,
                "marketPriceHigh": 17.79,
-               "marketPriceAvg": 16.77
+               "marketPriceAvg": 15.74
             }
          ]
       },
@@ -5826,7 +5826,7 @@
                "type": "Foil",
                "marketPriceLow": 0.25,
                "marketPriceHigh": 0.59,
-               "marketPriceAvg": 0.42
+               "marketPriceAvg": 0.25
             },
             {
                "type": "Full Art",
@@ -5866,7 +5866,7 @@
                "type": "Full Art",
                "marketPriceLow": 3.79,
                "marketPriceHigh": 4.74,
-               "marketPriceAvg": 4.27
+               "marketPriceAvg": 3.79
             }
          ]
       },
@@ -5956,7 +5956,7 @@
                "type": "Normal",
                "marketPriceLow": 1.67,
                "marketPriceHigh": 2,
-               "marketPriceAvg": 1.84
+               "marketPriceAvg": 1.67
             },
             {
                "type": "Foil",
@@ -5990,7 +5990,7 @@
                "type": "Normal",
                "marketPriceLow": 0.25,
                "marketPriceHigh": 0.34,
-               "marketPriceAvg": 0.3
+               "marketPriceAvg": 0.25
             },
             {
                "type": "Foil",
@@ -6058,7 +6058,7 @@
                "type": "Normal",
                "marketPriceLow": 1.34,
                "marketPriceHigh": 1.99,
-               "marketPriceAvg": 1.67
+               "marketPriceAvg": 1.34
             },
             {
                "type": "Foil",
@@ -6738,7 +6738,7 @@
                "type": "Normal",
                "marketPriceLow": 0.23,
                "marketPriceHigh": 0.25,
-               "marketPriceAvg": 0.24
+               "marketPriceAvg": 0.23
             },
             {
                "type": "Foil",
@@ -6772,7 +6772,7 @@
                "type": "Normal",
                "marketPriceLow": 2.49,
                "marketPriceHigh": 7.73,
-               "marketPriceAvg": 5.11
+               "marketPriceAvg": 2.49
             },
             {
                "type": "Foil",
