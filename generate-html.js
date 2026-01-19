@@ -14,6 +14,10 @@ const variantEmoji = variantSymbols.variants;
 const specialSymbols = variantSymbols.special;
 const variantOrder = variantSymbols.order;
 
+// Load rarity colors from JSON file
+const rarityColorsPath = path.join(__dirname, 'rarity-colors.json');
+const rarityColors = JSON.parse(fs.readFileSync(rarityColorsPath, 'utf-8'));
+
 // Color utilities for prettier output
 const colors = {
   reset: '\x1b[0m',
@@ -128,6 +132,22 @@ entries.sort((a, b) => {
   const orderB = variantOrder[b.variantType] ?? 999;
   return orderA - orderB;
 });
+
+// Generate rarity CSS from JSON
+function generateRarityCSS() {
+  let css = '';
+  for (const [key, value] of Object.entries(rarityColors)) {
+    css += `.card-id-rarity-${key} {\n`;
+    css += `    background: ${value.background};\n`;
+    if (value.color) {
+      css += `    color: ${value.color};\n`;
+    }
+    css += `}\n\n`;
+  }
+  return css;
+}
+
+const rarityCSS = generateRarityCSS();
 
 // CSS content
 const cssContent = `* {
@@ -374,6 +394,9 @@ const html = `<!DOCTYPE html>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>${setTitle} - Card Collection</title>
     <link rel="stylesheet" href="../../../assets/style.css">
+    <style>
+${rarityCSS}
+    </style>
 </head>
 <body>
     <div class="container">
@@ -382,34 +405,7 @@ const html = `<!DOCTYPE html>
                 <h1>${setTitle}</h1>
                 <p>Card Collection Checklist</p>
             </div>
-            <div class="header-right">
-                <div class="variant-key">
-                    <div class="variant-key-item">
-                        <span>Foil</span>
-                        <span class="variant-key-symbol">${variantEmoji.Foil}</span>
-                    </div>
-                    <div class="variant-key-item">
-                        <span>Full Art</span>
-                        <span class="variant-key-symbol">${variantEmoji['Full Art']}</span>
-                    </div>
-                    <div class="variant-key-item">
-                        <span>Full Art Signature</span>
-                        <span class="variant-key-symbol">${variantEmoji['Full Art Signature']}</span>
-                    </div>
-                    <div class="variant-key-item">
-                        <span>Legacy</span>
-                        <span class="variant-key-symbol">${specialSymbols.Legacy}</span>
-                    </div>
-                    <div class="variant-key-item">
-                        <span>Reprint</span>
-                        <span class="variant-key-symbol">${specialSymbols.Reprint}</span>
-                    </div>
-                    <div class="variant-key-item">
-                        <span>Promo</span>
-                        <span class="variant-key-symbol">${specialSymbols.Promo}</span>
-                    </div>
-                </div>
-            </div>
+${generateVariantKeyHtml(entries)}
         </header>
         
         <div class="cards-grid">
@@ -418,10 +414,12 @@ ${(() => {
   function getRarityClass(rarity) {
     if (!rarity) return 'card-id-rarity-common'; // Default to common if no rarity
     const rarityLower = rarity.toLowerCase();
-    if (rarityLower.includes('common')) return 'card-id-rarity-common';
-    if (rarityLower.includes('rare')) return 'card-id-rarity-rare';
-    if (rarityLower.includes('hero')) return 'card-id-rarity-hero';
-    if (rarityLower.includes('legend')) return 'card-id-rarity-legend';
+    // Check each rarity in the JSON file
+    for (const [key, value] of Object.entries(rarityColors)) {
+      if (rarityLower.includes(key)) {
+        return `card-id-rarity-${key}`;
+      }
+    }
     return 'card-id-rarity-common'; // Default fallback
   }
   
@@ -534,10 +532,12 @@ ${coverHtmlContent}
 function getRarityClass(rarity) {
   if (!rarity) return 'card-id-rarity-common'; // Default to common if no rarity
   const rarityLower = rarity.toLowerCase();
-  if (rarityLower.includes('common')) return 'card-id-rarity-common';
-  if (rarityLower.includes('rare')) return 'card-id-rarity-rare';
-  if (rarityLower.includes('hero')) return 'card-id-rarity-hero';
-  if (rarityLower.includes('legend')) return 'card-id-rarity-legend';
+  // Check each rarity in the JSON file
+  for (const [key, value] of Object.entries(rarityColors)) {
+    if (rarityLower.includes(key)) {
+      return `card-id-rarity-${key}`;
+    }
+  }
   return 'card-id-rarity-common'; // Default fallback
 }
 
@@ -592,37 +592,80 @@ const fullArtEntries = entries.filter(e =>
   e.isLegacy === true
 );
 const fullArtCards = [...fullArtEntries].sort((a, b) => b.averagePrice - a.averagePrice);
+const sortedEntriesForChecklist = [...entries].sort((a, b) => {
+  // Sort by card number
+  if (a.cardNumber !== b.cardNumber) {
+    return a.cardNumber.localeCompare(b.cardNumber);
+  }
+  // Then by variant type order
+  const orderA = variantOrder[a.variantType] ?? 999;
+  const orderB = variantOrder[b.variantType] ?? 999;
+  return orderA - orderB;
+});
 
-// Variant key HTML (reusable across all headers)
-const variantKeyHtml = `
-                <div class="header-right">
-                    <div class="variant-key">
-                        <div class="variant-key-item">
+// Helper function to generate variant key HTML based on what exists in entries
+function generateVariantKeyHtml(entries) {
+  // Check which variants exist
+  const hasFoil = entries.some(e => e.variantType === 'Foil');
+  const hasFullArt = entries.some(e => e.variantType === 'Full Art');
+  const hasFullArtSignature = entries.some(e => e.variantType === 'Full Art Signature');
+  const hasLegacy = entries.some(e => e.isLegacy);
+  const hasReprint = entries.some(e => e.isReprint);
+  const hasPromo = entries.some(e => e.isPromo);
+  
+  const items = [];
+  
+  if (hasFoil) {
+    items.push(`                        <div class="variant-key-item">
                             <span>Foil</span>
                             <span class="variant-key-symbol">${variantEmoji.Foil}</span>
-                        </div>
-                        <div class="variant-key-item">
+                        </div>`);
+  }
+  if (hasFullArt) {
+    items.push(`                        <div class="variant-key-item">
                             <span>Full Art</span>
                             <span class="variant-key-symbol">${variantEmoji['Full Art']}</span>
-                        </div>
-                        <div class="variant-key-item">
+                        </div>`);
+  }
+  if (hasFullArtSignature) {
+    items.push(`                        <div class="variant-key-item">
                             <span>Full Art Signature</span>
                             <span class="variant-key-symbol">${variantEmoji['Full Art Signature']}</span>
-                        </div>
-                        <div class="variant-key-item">
+                        </div>`);
+  }
+  if (hasLegacy) {
+    items.push(`                        <div class="variant-key-item">
                             <span>Legacy</span>
                             <span class="variant-key-symbol">${specialSymbols.Legacy}</span>
-                        </div>
-                        <div class="variant-key-item">
+                        </div>`);
+  }
+  if (hasReprint) {
+    items.push(`                        <div class="variant-key-item">
                             <span>Reprint</span>
                             <span class="variant-key-symbol">${specialSymbols.Reprint}</span>
-                        </div>
-                        <div class="variant-key-item">
+                        </div>`);
+  }
+  if (hasPromo) {
+    items.push(`                        <div class="variant-key-item">
                             <span>Promo</span>
                             <span class="variant-key-symbol">${specialSymbols.Promo}</span>
-                        </div>
+                        </div>`);
+  }
+  
+  if (items.length === 0) {
+    return '';
+  }
+  
+  return `
+                <div class="header-right">
+                    <div class="variant-key">
+${items.join('\n')}
                     </div>
                 </div>`;
+}
+
+// Variant key HTML (reusable across all headers)
+const variantKeyHtml = generateVariantKeyHtml(entries);
 
 // Generate compiled.html that combines cover and cards
 const compiledHtml = `<!DOCTYPE html>
@@ -642,34 +685,7 @@ ${coverImagePath ? coverHtmlContent : ''}
                     <h1>${setTitle}</h1>
                     <p>Card Collection Checklist</p>
                 </div>
-                <div class="header-right">
-                    <div class="variant-key">
-                        <div class="variant-key-item">
-                            <span>Foil</span>
-                            <span class="variant-key-symbol">${variantEmoji.Foil}</span>
-                        </div>
-                        <div class="variant-key-item">
-                            <span>Full Art</span>
-                            <span class="variant-key-symbol">${variantEmoji['Full Art']}</span>
-                        </div>
-                        <div class="variant-key-item">
-                            <span>Full Art Signature</span>
-                            <span class="variant-key-symbol">${variantEmoji['Full Art Signature']}</span>
-                        </div>
-                        <div class="variant-key-item">
-                            <span>Legacy</span>
-                            <span class="variant-key-symbol">${specialSymbols.Legacy}</span>
-                        </div>
-                        <div class="variant-key-item">
-                            <span>Reprint</span>
-                            <span class="variant-key-symbol">${specialSymbols.Reprint}</span>
-                        </div>
-                        <div class="variant-key-item">
-                            <span>Promo</span>
-                            <span class="variant-key-symbol">${specialSymbols.Promo}</span>
-                        </div>
-                    </div>
-                </div>
+${generateVariantKeyHtml(entries)}
             </header>
             
             <div class="cards-grid">
@@ -752,6 +768,17 @@ ${generateCardGridHtml(fullArtCards)}
             </header>
             <div class="card-index">
                 ${generateCardIndexHtml(entries)}
+            </div>
+        </div>
+        <div class="cards-page" id="checklist">
+            <header>
+                <div class="header-left">
+                    <h1>${setTitle}</h1>
+                    <p>Card Checklist</p>
+                </div>${variantKeyHtml}
+            </header>
+            <div class="checklist-grid">
+${generateChecklistHtml(sortedEntriesForChecklist)}
             </div>
         </div>
     </div>
@@ -904,10 +931,33 @@ process.stdout.write(`generating full-art.html for ${setName}... ${colors.green}
 // Helper function to generate card index inline HTML
 function generateCardIndexHtml(entries) {
   return entries.map(entry => {
-    const variantSymbol = entry.isLegacy ? specialSymbols.Legacy : (variantEmoji[entry.variantType] || '');
+    const variantSymbol = entry.isLegacy ? specialSymbols.Legacy : (entry.variantType === 'Normal' ? '' : (variantEmoji[entry.variantType] || ''));
     const price = entry.averagePrice.toFixed(2);
-    return `<span class="index-entry"><span class="index-name"><strong>${entry.cardName}</strong></span> <span class="index-variant">${variantSymbol}</span> <span class="index-number">(#${entry.id}, ${entry.cardNumber})</span> <span class="index-price">$${price}</span></span>`;
+    const variantHtml = variantSymbol ? ` <span class="index-variant">${variantSymbol}</span>` : '';
+    return `<span class="index-entry"><span class="index-name"><strong>${entry.cardName}</strong></span>${variantHtml} <span class="index-number">(#${entry.id}, ${entry.cardNumber})</span> <span class="index-price">$${price}</span></span>`;
   }).join(', ');
+}
+
+// Helper function to generate checklist HTML
+function generateChecklistHtml(entries) {
+  let html = '';
+  for (let i = 0; i < entries.length; i += 9) {
+    const pageEntries = entries.slice(i, i + 9);
+    html += '            <div class="binder-page">\n';
+    html += pageEntries.map(entry => {
+      const variantSymbol = entry.isLegacy ? specialSymbols.Legacy : (entry.variantType === 'Normal' ? '' : (variantEmoji[entry.variantType] || ''));
+      const variantHtml = variantSymbol ? `<span class="checklist-variant">${variantSymbol}</span>` : '';
+      
+      return `                <div class="checklist-item">
+                    <span class="checklist-id">#${entry.id}</span>
+                    <span class="checklist-number">${entry.cardNumber}</span>
+                    <input type="checkbox" class="checklist-checkbox">
+                    <span class="checklist-name">${entry.cardName}${variantHtml}</span>
+                </div>`;
+    }).join('\n');
+    html += '\n            </div>\n';
+  }
+  return html;
 }
 
 // Generate Card Index (hyper-compressed inline view)
@@ -937,17 +987,6 @@ fs.writeFileSync(path.join(wwwDir, 'index.html'), cardIndexHtml, 'utf-8');
 process.stdout.write(`generating index.html for ${setName}... ${colors.green}${symbols.success}${colors.reset}\n`);
 
 // Generate Checklist (compact checklist view)
-const sortedEntriesForChecklist = [...entries].sort((a, b) => {
-  // Sort by card number
-  if (a.cardNumber !== b.cardNumber) {
-    return a.cardNumber.localeCompare(b.cardNumber);
-  }
-  // Then by variant type order
-  const orderA = variantOrder[a.variantType] ?? 999;
-  const orderB = variantOrder[b.variantType] ?? 999;
-  return orderA - orderB;
-});
-
 const checklistHtml = `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -964,21 +1003,9 @@ const checklistHtml = `<!DOCTYPE html>
                 <p>Card Checklist</p>
             </div>
         </header>
-        <div class="checklist-grid">
-${(() => {
-  return sortedEntriesForChecklist.map(entry => {
-    const variantSymbol = entry.isLegacy ? specialSymbols.Legacy : (entry.variantType === 'Normal' ? '' : (variantEmoji[entry.variantType] || ''));
-    const variantHtml = variantSymbol ? `<span class="checklist-variant">${variantSymbol}</span>` : '';
-    
-    return `            <div class="checklist-item">
-                <span class="checklist-id">#${entry.id}</span>
-                <span class="checklist-number">${entry.cardNumber}</span>
-                <span class="checklist-name">${entry.cardName}${variantHtml}</span>
-                <input type="checkbox" class="checklist-checkbox">
-            </div>`;
-  }).join('\n');
-})()}
-        </div>
+            <div class="checklist-grid">
+${generateChecklistHtml(sortedEntriesForChecklist)}
+            </div>
     </div>
 </body>
 </html>`;

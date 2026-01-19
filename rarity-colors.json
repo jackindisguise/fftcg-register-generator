@@ -1,0 +1,27 @@
+{
+  "common": {
+    "background": "#fd7e14",
+    "color": "#ffffff",
+    "label": "Common"
+  },
+  "rare": {
+    "background": "#0d6efd",
+    "color": "#ffffff",
+    "label": "Rare"
+  },
+  "hero": {
+    "background": "#28a745",
+    "color": "#ffffff",
+    "label": "Hero"
+  },
+  "legend": {
+    "background": "#ffc107",
+    "color": "#212529",
+    "label": "Legend"
+  },
+  "starter": {
+    "background": "#6f42c1",
+    "color": "#ffffff",
+    "label": "Starter"
+  }
+}
